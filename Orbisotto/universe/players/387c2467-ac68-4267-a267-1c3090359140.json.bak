@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1229.5821533203125,
+        "X": -1231.319580078125,
         "Y": 124.0,
-        "Z": 504.6749267578125
+        "Z": 506.71917724609375
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 14.307011604309082,
+        "Yaw": 5.97903299331665,
         "Roll": 0.0
       }
     },
@@ -35,35 +35,251 @@
       "Memories": [
         {
           "Id": "NPC",
-          "NPCRole": "Goblin_Scrapper",
-          "TranslationKey": "server.npcRoles.Goblin_Scrapper.name",
-          "IsMemoriesNameOverridden": true,
-          "CapturedTimestamp": 1768332487179,
-          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
-        },
-        {
-          "Id": "NPC",
-          "NPCRole": "Molerat",
-          "TranslationKey": "server.npcRoles.Molerat.name",
+          "NPCRole": "Cow_Calf",
+          "TranslationKey": "server.npcRoles.Cow_Calf.name",
           "IsMemoriesNameOverridden": false,
-          "CapturedTimestamp": 1768332488044,
-          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+          "CapturedTimestamp": 1768410585196,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
         },
         {
           "Id": "NPC",
-          "NPCRole": "Pike",
-          "TranslationKey": "server.npcRoles.Pike.name",
-          "IsMemoriesNameOverridden": false,
-          "CapturedTimestamp": 1768332535806,
-          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
-        },
-        {
-          "Id": "NPC",
-          "NPCRole": "Mosshorn",
-          "TranslationKey": "server.npcRoles.Mosshorn.name",
+          "NPCRole": "Wolf_White",
+          "TranslationKey": "server.npcRoles.Wolf_White.name",
           "IsMemoriesNameOverridden": true,
-          "CapturedTimestamp": 1768332568477,
+          "CapturedTimestamp": 1768410663004,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Trork_Shaman",
+          "TranslationKey": "server.npcRoles.Trork_Shaman.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768410663971,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Trork_Mauler",
+          "TranslationKey": "server.npcRoles.Trork_Mauler.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768410875621,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Trork_Hunter",
+          "TranslationKey": "server.npcRoles.Trork_Hunter.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768410905351,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Horse_Foal",
+          "TranslationKey": "server.npcRoles.Horse_Foal.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411331500,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Horse",
+          "TranslationKey": "server.npcRoles.Horse.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411332135,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Cow",
+          "TranslationKey": "server.npcRoles.Cow.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411517496,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Crawler_Void",
+          "TranslationKey": "server.npcRoles.Crawler_Void.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411645645,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Eye_Void",
+          "TranslationKey": "server.npcRoles.Eye_Void.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411669551,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Snake_Marsh",
+          "TranslationKey": "server.npcRoles.Snake_Marsh.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411799045,
           "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Turkey",
+          "TranslationKey": "server.npcRoles.Turkey.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411835741,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Snake_Cobra",
+          "TranslationKey": "server.npcRoles.Snake_Cobra.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411885503,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Outlander_Hunter",
+          "TranslationKey": "server.npcRoles.Outlander_Hunter.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411906867,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Outlander_Berserker",
+          "TranslationKey": "server.npcRoles.Outlander_Berserker.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411909146,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Salmon",
+          "TranslationKey": "server.npcRoles.Salmon.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768411951063,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Kweebec_Sproutling",
+          "TranslationKey": "server.npcRoles.Kweebec_Sproutling.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768411993029,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Sheep_Lamb",
+          "TranslationKey": "server.npcRoles.Sheep_Lamb.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768412114484,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Bluegill",
+          "TranslationKey": "server.npcRoles.Bluegill.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768412441087,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Skeleton_Scout",
+          "TranslationKey": "server.npcRoles.Skeleton_Scout.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768412447924,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Snapjaw",
+          "TranslationKey": "server.npcRoles.Snapjaw.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768412872242,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Moose_Bull",
+          "TranslationKey": "server.npcRoles.Moose_Bull.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768412892940,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Outlander_Stalker",
+          "TranslationKey": "server.npcRoles.Outlander_Stalker.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768413082049,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Outlander_Marauder",
+          "TranslationKey": "server.npcRoles.Outlander_Marauder.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768413088476,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Mouflon",
+          "TranslationKey": "server.npcRoles.Mouflon.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768413189117,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Moose_Cow",
+          "TranslationKey": "server.npcRoles.Moose_Cow.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768413311663,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Penguin",
+          "TranslationKey": "server.npcRoles.Penguin.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768413338081,
+          "FoundLocationNameKey": "server.map.region.Zone3_Shallow_Ocean_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Shark_Hammerhead",
+          "TranslationKey": "server.npcRoles.Shark_Hammerhead.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768413379389,
+          "FoundLocationNameKey": "server.map.region.Oceans"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Bear_Polar",
+          "TranslationKey": "server.npcRoles.Bear_Polar.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768414346898,
+          "FoundLocationNameKey": "server.map.region.Zone3_Shallow_Ocean_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Trilobite",
+          "TranslationKey": "server.npcRoles.Trilobite.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768415119489,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Woodpecker",
+          "TranslationKey": "server.npcRoles.Woodpecker.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768415243824,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier1"
         }
       ]
     },
@@ -72,9 +288,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.9594707833130268,
+        "X": 0.20873982690397913,
         "Y": 0.0,
-        "Z": -0.15838592129117715
+        "Z": 0.8944684687946824
       }
     },
     "Player": {
@@ -89,107 +305,30 @@
           "Id": "Simple",
           "Capacity": 36,
           "Items": {
-            "0": {
-              "Id": "Weapon_Arrow_Crude",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "2": {
-              "Id": "Ingredient_Flour",
+              "Id": "Ingredient_Charcoal",
               "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Weapon_Mace_Scrap",
-              "Quantity": 1,
-              "Durability": 45.0,
-              "MaxDurability": 50.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "4": {
-              "Id": "Food_Vegetable_Cooked",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "12": {
-              "Id": "Plant_Crop_Pumpkin_Item",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "13": {
-              "Id": "Plant_Crop_Mushroom_Glowing_Blue",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "9": {
-              "Id": "Weapon_Shortbow_Crude",
-              "Quantity": 1,
-              "Durability": 60.52000000000001,
-              "MaxDurability": 80.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "Ingredient_Life_Essence",
-              "Quantity": 45,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "10": {
-              "Id": "Weapon_Sword_Scrap",
-              "Quantity": 1,
-              "Durability": 45.0,
-              "MaxDurability": 50.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "28": {
-              "Id": "Tool_Pickaxe_Crude",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 150.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "30": {
-              "Id": "Food_Fish_Grilled",
-              "Quantity": 5,
+            "8": {
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 87,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Plant_Fruit_Berries_Red",
-              "Quantity": 6,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Plant_Crop_Wheat_Item",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "18": {
-              "Id": "Weapon_Daggers_Crude",
+              "Id": "*Container_Bucket_State_Filled_Water",
               "Quantity": 1,
-              "Durability": 55.30000000000004,
-              "MaxDurability": 80.0,
+              "Durability": 1.0,
+              "MaxDurability": 1.0,
               "OverrideDroppedItemAnimation": false
             },
-            "21": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 8,
+            "19": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -201,30 +340,30 @@
           "Capacity": 4,
           "Items": {
             "0": {
-              "Id": "Armor_Copper_Head",
+              "Id": "Armor_Iron_Head",
               "Quantity": 1,
-              "Durability": 68.5,
-              "MaxDurability": 80.0,
+              "Durability": 97.5,
+              "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
-              "Id": "Armor_Copper_Hands",
+              "Id": "Armor_Steel_Ancient_Hands",
               "Quantity": 1,
-              "Durability": 70.0,
-              "MaxDurability": 80.0,
+              "Durability": 47.5,
+              "MaxDurability": 75.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Armor_Copper_Chest",
+              "Id": "Armor_Thorium_Chest",
               "Quantity": 1,
-              "Durability": 68.5,
-              "MaxDurability": 80.0,
+              "Durability": 79.0,
+              "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Armor_Copper_Legs",
               "Quantity": 1,
-              "Durability": 69.5,
+              "Durability": 45.5,
               "MaxDurability": 80.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -235,56 +374,42 @@
           "Capacity": 9,
           "Items": {
             "0": {
-              "Id": "Weapon_Daggers_Copper",
+              "Id": "Weapon_Daggers_Thorium",
               "Quantity": 1,
-              "Durability": 87.90000000000012,
-              "MaxDurability": 100.0,
+              "Durability": 99.80000000000115,
+              "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
-              "Id": "Tool_Hatchet_Crude",
+              "Id": "Tool_Hatchet_Thorium",
               "Quantity": 1,
-              "Durability": 101.5,
-              "MaxDurability": 150.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "6": {
-              "Id": "Rock_Marble_Cobble",
-              "Quantity": 47,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Durability": 313.5,
+              "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
-              "Id": "Tool_Hoe_Crude",
-              "Quantity": 1,
-              "Durability": 64.0,
-              "MaxDurability": 100.0,
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 13,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Tool_Pickaxe_Crude",
+              "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
-              "Durability": 88.25,
-              "MaxDurability": 150.0,
+              "Durability": 289.0,
+              "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Plant_Fruit_Azure",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Id": "Weapon_Shortbow_Thorium",
+              "Quantity": 1,
+              "Durability": 93.8999999999999,
+              "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "7": {
-              "Id": "Container_Bucket",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Tool_Shears_Basic",
+              "Id": "Plant_Seeds_Onion",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -298,13 +423,13 @@
           "Items": {
             "0": {
               "Id": "Furniture_Crude_Torch",
-              "Quantity": 8,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Weapon_Shield_Copper",
+              "Id": "Weapon_Shield_Iron",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -365,7 +490,7 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": -1,
+        "ActiveUtilitySlot": 2,
         "SortType": "Type"
       },
       "PlayerData": {
@@ -375,11 +500,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1234.902099609375,
-              "Y": 124.0,
-              "Z": 505.5556945800781,
-              "Pitch": -0.03959830105304718,
-              "Yaw": -0.5412121415138245,
+              "X": -1228.50048828125,
+              "Y": 110.4500961303711,
+              "Z": 433.7497253417969,
+              "Pitch": -0.20430441200733185,
+              "Yaw": -2.995358943939209,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -389,16 +514,42 @@
             "RespawnPoints": [
               {
                 "BlockPosition": {
-                  "X": -1237,
+                  "X": -1235,
                   "Y": 124,
                   "Z": 507
                 },
                 "RespawnPosition": {
-                  "X": -1236.5,
-                  "Y": 124.15000000596046,
-                  "Z": 507.02499997615814
+                  "X": -1235.0250000357628,
+                  "Y": 125.5,
+                  "Z": 506.7500000447035
                 },
-                "Name": "Hybed"
+                "Name": "Hy bed 2"
+              },
+              {
+                "BlockPosition": {
+                  "X": -2085,
+                  "Y": 148,
+                  "Z": 1144
+                },
+                "RespawnPosition": {
+                  "X": -2083.8250000476837,
+                  "Y": 149.04999995231628,
+                  "Z": 1144.0
+                },
+                "Name": "caca"
+              },
+              {
+                "BlockPosition": {
+                  "X": -718,
+                  "Y": 133,
+                  "Z": -1010
+                },
+                "RespawnPosition": {
+                  "X": -717.8999999761581,
+                  "Y": 134.04999995231628,
+                  "Z": -1009.5
+                },
+                "Name": "Mon lit chez les elfes"
               }
             ],
             "DeathPositions": [
@@ -415,41 +566,89 @@
                 "Day": 0
               },
               {
-                "MarkerId": "death-marker-0ce3e4f3-9894-47be-8cf5-9bd9b102cfcc",
+                "MarkerId": "death-marker-82bb4408-92a9-49d3-ba02-aac27bbbe188",
                 "Transform": {
-                  "X": -1130.5233154296875,
-                  "Y": 121.0,
-                  "Z": 575.4234008789062,
+                  "X": -2210.508056640625,
+                  "Y": 140.0,
+                  "Z": 1191.0614013671875,
                   "Pitch": 0.0,
                   "Yaw": 0.0,
                   "Roll": 0.0
                 },
-                "Day": 1
+                "Day": 7
               },
               {
-                "MarkerId": "death-marker-e9b0b5ce-4bd8-4eb8-87cb-7d4b2f93f4ac",
+                "MarkerId": "death-marker-7b61ee43-b3c6-4673-9325-79bc3ba5bb4e",
                 "Transform": {
-                  "X": -1133.563720703125,
-                  "Y": 120.77361297607422,
-                  "Z": 587.8222045898438,
+                  "X": -702.4821166992188,
+                  "Y": 133.0,
+                  "Z": -1080.7081298828125,
                   "Pitch": 0.0,
                   "Yaw": 0.0,
                   "Roll": 0.0
                 },
-                "Day": 3
+                "Day": 10
               }
             ]
+          },
+          "instance-Forgotten_Temple-3ec6d2a7-b579-4981-9f89-050b8e369e66": {
+            "LastPosition": {
+              "X": 5096.35693359375,
+              "Y": 169.45010375976562,
+              "Z": 4983.35498046875,
+              "Pitch": -0.19559867680072784,
+              "Yaw": -1.6256053447723389,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": false
+            },
+            "FirstSpawn": false,
+            "DeathPositions": []
+          },
+          "instance-Forgotten_Temple-68d0a33b-cc15-4ba2-b59a-8fbf9652ad2d": {
+            "LastPosition": {
+              "X": 5098.849609375,
+              "Y": 169.4499969482422,
+              "Z": 4983.6328125,
+              "Pitch": -0.28236454725265503,
+              "Yaw": -1.3749654293060303,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": false
+            },
+            "FirstSpawn": false,
+            "DeathPositions": []
           }
         },
         "DiscoveredZones": [
-          "Zone1_Tier2",
-          "Zone1_Tier1",
-          "ForgottenTemple",
-          "Zone1_Spawn",
+          "Oceans",
           "Zone1_Temple",
-          "Zone1_Tier3"
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Shallow_Ocean",
+          "ForgottenTemple",
+          "Zone1_Tier3",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone1_Tier2",
+          "Zone3_Shallow_Ocean_Tier3",
+          "Zone1_Tier1",
+          "Zone1_Spawn",
+          "Zone4_Shore_Tier4",
+          "Zone3_Tier2",
+          "Zone3_Shore_Tier2",
+          "Zone4_Tier5",
+          "Zone4_Shore_Tier5",
+          "Zone4_Tier4",
+          "Zone4_Shallow_Ocean_Tier4",
+          "Zone1_Shore",
+          "Zone3_Tier1"
         ],
         "DiscoveredInstances": [
+          {
+            "$binary": "yUtYskETRfWlSwKer6QCrw==",
+            "$type": "04"
+          },
           {
             "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
             "$type": "04"
@@ -459,7 +658,11 @@
             "$type": "04"
           },
           {
-            "$binary": "yUtYskETRfWlSwKer6QCrw==",
+            "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "PsbSp7V5SYGfiQULjjaeZg==",
             "$type": "04"
           }
         ],
@@ -510,12 +713,12 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 125.0,
+          "Value": 145.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
-              "Amount": 25.0
+              "Amount": 45.0
             }
           }
         },
@@ -533,7 +736,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 9.499993324279785
+          "Value": 9.299997329711914
         },
         "Ammo": {
           "Id": "Ammo",
@@ -553,7 +756,7 @@
         },
         "StaminaRegenDelay": {
           "Id": "StaminaRegenDelay",
-          "Value": 0.0
+          "Value": -0.34999996423721313
         },
         "MagicCharges": {
           "Id": "MagicCharges",
@@ -563,8 +766,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.34834024310112,
-        "Yaw": 1.740671157836914,
+        "Pitch": -0.18892669677734375,
+        "Yaw": -0.8005877733230591,
         "Roll": 0.0
       }
     }
