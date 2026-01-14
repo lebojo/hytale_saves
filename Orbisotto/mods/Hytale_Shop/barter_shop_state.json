@@ -1,0 +1,26 @@
+{
+  "Shops": {
+    "Kweebec_Merchant": {
+      "Stock": [
+        10,
+        10,
+        10,
+        15,
+        5,
+        8,
+        1,
+        1,
+        1
+      ],
+      "NextRefresh": "0001-01-04T06:00:00Z",
+      "ResolveSeed": -34489187770399952
+    },
+    "Klops_Merchant": {
+      "Stock": [
+        1
+      ],
+      "NextRefresh": "0001-01-02T06:00:00Z",
+      "ResolveSeed": 4677461385904771748
+    }
+  }
+}
