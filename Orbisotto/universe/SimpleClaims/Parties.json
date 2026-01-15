@@ -4,7 +4,7 @@
       "Id": "d43ffb58-86df-4467-b237-6576ec19d0fd",
       "Owner": "387c2467-ac68-4267-a267-1c3090359140",
       "Name": "LeBojo's Party",
-      "Description": "LeBojo's Party Description",
+      "Description": "C'est la fête",
       "Color": -16718849,
       "Members": [
         "387c2467-ac68-4267-a267-1c3090359140",
@@ -19,13 +19,6 @@
           }
         },
         {
-          "Type": "simpleclaims.party.protection.place_blocks",
-          "Value": {
-            "Type": "bool",
-            "Value": "false"
-          }
-        },
-        {
           "Type": "simpleclaims.party.protection.break_blocks",
           "Value": {
             "Type": "bool",
@@ -34,6 +27,13 @@
         },
         {
           "Type": "simpleclaims.party.protection.interact",
+          "Value": {
+            "Type": "bool",
+            "Value": "false"
+          }
+        },
+        {
+          "Type": "simpleclaims.party.protection.place_blocks",
           "Value": {
             "Type": "bool",
             "Value": "false"
