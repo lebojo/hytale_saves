@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -716.42236328125,
+        "X": -715.8289794921875,
         "Y": 133.0,
-        "Z": -1008.4821166992188
+        "Z": -1009.2107543945312
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -6.236240386962891,
+        "Yaw": -0.29369616508483887,
         "Roll": 0.0
       }
     },
@@ -272,7 +272,7 @@
             "2": {
               "Id": "Tool_Hatchet_Thorium",
               "Quantity": 1,
-              "Durability": 275.5,
+              "Durability": 275.25,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -434,11 +434,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -711.4107055664062,
+              "X": -714.4984741210938,
               "Y": 133.0,
-              "Z": -1005.4833374023438,
-              "Pitch": -0.13647563755512238,
-              "Yaw": 1.7651751041412354,
+              "Z": -1012.3086547851562,
+              "Pitch": -0.2525928020477295,
+              "Yaw": 2.9078381061553955,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -515,30 +515,30 @@
           }
         },
         "DiscoveredZones": [
-          "Zone4_Tier4",
-          "Zone4_Tier5",
-          "Zone3_Shallow_Ocean_Tier3",
-          "Zone3_Shore_Tier2",
-          "Zone1_Temple",
-          "Oceans",
-          "Zone1_Shallow_Ocean",
-          "Zone1_Spawn",
           "Zone1_Shore",
-          "Zone1_Tier1",
-          "Zone1_Tier2",
-          "Zone1_Tier3",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone4_Shore_Tier4",
-          "Zone3_Tier2",
-          "Zone4_Shallow_Ocean_Tier4",
-          "Zone3_Shallow_Ocean_Tier2",
-          "Zone3_Tier1",
+          "Zone1_Spawn",
+          "Zone1_Shallow_Ocean",
+          "Oceans",
+          "Zone4_Shore_Tier5",
           "ForgottenTemple",
-          "Zone4_Shore_Tier5"
+          "Zone3_Tier1",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone4_Shallow_Ocean_Tier4",
+          "Zone1_Temple",
+          "Zone3_Shore_Tier2",
+          "Zone3_Shallow_Ocean_Tier3",
+          "Zone4_Tier5",
+          "Zone4_Tier4",
+          "Zone3_Tier2",
+          "Zone4_Shore_Tier4",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Tier3",
+          "Zone1_Tier2",
+          "Zone1_Tier1"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
+            "$binary": "PsbSp7V5SYGfiQULjjaeZg==",
             "$type": "04"
           },
           {
@@ -546,11 +546,11 @@
             "$type": "04"
           },
           {
-            "$binary": "PsbSp7V5SYGfiQULjjaeZg==",
+            "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
             "$type": "04"
           },
           {
-            "$binary": "yUtYskETRfWlSwKer6QCrw==",
+            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
             "$type": "04"
           },
           {
@@ -558,7 +558,7 @@
             "$type": "04"
           },
           {
-            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
+            "$binary": "yUtYskETRfWlSwKer6QCrw==",
             "$type": "04"
           }
         ],
@@ -664,8 +664,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.3177928924560547,
-        "Yaw": -0.3405631184577942,
+        "Pitch": -0.22419114410877228,
+        "Yaw": -0.6349600553512573,
         "Roll": 0.0
       }
     }
