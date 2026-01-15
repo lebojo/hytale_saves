@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -693.1964721679688,
-        "Y": 114.0,
-        "Z": -957.8627319335938
+        "X": -694.9249267578125,
+        "Y": 148.0,
+        "Z": -990.0209350585938
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 32.009666442871094,
+        "Yaw": 2.053460121154785,
         "Roll": 0.0
       }
     },
@@ -296,9 +296,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
+        "X": -0.02746577283695863,
         "Y": 0.0,
-        "Z": 0.0
+        "Z": 0.01647946370217518
       }
     },
     "Player": {
@@ -313,9 +313,9 @@
           "Id": "Simple",
           "Capacity": 36,
           "Items": {
-            "0": {
-              "Id": "Furniture_Construction_Sign",
-              "Quantity": 1,
+            "33": {
+              "Id": "Furniture_Temple_Dark_Sign",
+              "Quantity": 10,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -328,22 +328,50 @@
               "OverrideDroppedItemAnimation": false
             },
             "29": {
-              "Id": "Rock_Shale_Brick",
-              "Quantity": 11,
+              "Id": "Rock_Shale_Brick_Roof",
+              "Quantity": 10,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
+            "2": {
               "Id": "Rock_Shale_Cobble_Wall",
-              "Quantity": 30,
+              "Quantity": 34,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "28": {
+            "25": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "32": {
               "Id": "Furniture_Temple_Dark_Shelf",
-              "Quantity": 1,
+              "Quantity": 10,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "30": {
+              "Id": "Rubble_Stone",
+              "Quantity": 9,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Furniture_Temple_Dark_Platform",
+              "Quantity": 32,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "34": {
+              "Id": "Wood_Redwood_Stairs",
+              "Quantity": 6,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -351,6 +379,13 @@
             "26": {
               "Id": "Ingredient_Stick",
               "Quantity": 89,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Furniture_Temple_Dark_Door",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -376,13 +411,20 @@
             "2": {
               "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
-              "Durability": 76.25,
+              "Durability": 37.75,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
+            "6": {
+              "Id": "Rock_Shale_Brick_Pillar_Middle",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "4": {
-              "Id": "Rock_Shale_Cobble",
-              "Quantity": 100,
+              "Id": "Wood_Redwood_Trunk",
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -402,15 +444,22 @@
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Rubble_Stone",
-              "Quantity": 9,
+              "Id": "Rock_Shale_Brick_Half",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Rock_Shale_Brick",
+              "Quantity": 73,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
-              "Id": "Rock_Shale_Cobble",
-              "Quantity": 66,
+              "Id": "Rock_Shale_Brick_Pillar_Base",
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -514,11 +563,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -698.7387084960938,
-              "Y": 140.0,
-              "Z": -991.5868530273438,
-              "Pitch": -0.1445533037185669,
-              "Yaw": 0.46392199397087097,
+              "X": -701.6748657226562,
+              "Y": 127.0,
+              "Z": -993.6748657226562,
+              "Pitch": -0.3804587721824646,
+              "Yaw": -0.8272265791893005,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -695,7 +744,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 67.0
+          "Value": 56.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -741,8 +790,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.3158031404018402,
-        "Yaw": -0.19165866076946259,
+        "Pitch": -0.35547199845314026,
+        "Yaw": 1.9354002475738525,
         "Roll": 0.0
       }
     }
