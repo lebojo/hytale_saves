@@ -66,6 +66,14 @@
     },
     {
       "Id": "NPC",
+      "NPCRole": "Trork_Chieftain",
+      "TranslationKey": "server.npcRoles.Trork_Chieftain.name",
+      "IsMemoriesNameOverridden": true,
+      "CapturedTimestamp": 1768507435885,
+      "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+    },
+    {
+      "Id": "NPC",
       "NPCRole": "Boar",
       "TranslationKey": "server.npcRoles.Boar.name",
       "IsMemoriesNameOverridden": false,
@@ -79,6 +87,14 @@
       "IsMemoriesNameOverridden": true,
       "CapturedTimestamp": 1768507811125,
       "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+    },
+    {
+      "Id": "NPC",
+      "NPCRole": "Raven",
+      "TranslationKey": "server.npcRoles.Raven.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768506189067,
+      "FoundLocationNameKey": "server.portals.hederas_lair"
     },
     {
       "Id": "NPC",
@@ -114,6 +130,14 @@
     },
     {
       "Id": "NPC",
+      "NPCRole": "Skeleton_Incandescent_Head",
+      "TranslationKey": "server.npcRoles.Skeleton_Incandescent_Head.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768410156072,
+      "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+    },
+    {
+      "Id": "NPC",
       "NPCRole": "Emberwulf",
       "TranslationKey": "server.npcRoles.Emberwulf.name",
       "IsMemoriesNameOverridden": false,
@@ -127,6 +151,14 @@
       "IsMemoriesNameOverridden": true,
       "CapturedTimestamp": 1768449659985,
       "FoundLocationNameKey": "server.map.region.Zone3_Tier2"
+    },
+    {
+      "Id": "NPC",
+      "NPCRole": "Lobster",
+      "TranslationKey": "server.npcRoles.Lobster.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768509537151,
+      "FoundLocationNameKey": "server.map.region.Zone1_Shore"
     },
     {
       "Id": "NPC",
@@ -186,6 +218,14 @@
     },
     {
       "Id": "NPC",
+      "NPCRole": "Skeleton_Incandescent_Fighter",
+      "TranslationKey": "server.npcRoles.Skeleton_Incandescent_Fighter.name",
+      "IsMemoriesNameOverridden": true,
+      "CapturedTimestamp": 1768410236702,
+      "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+    },
+    {
+      "Id": "NPC",
       "NPCRole": "Moose_Bull",
       "TranslationKey": "server.npcRoles.Moose_Bull.name",
       "IsMemoriesNameOverridden": false,
@@ -206,6 +246,14 @@
       "TranslationKey": "server.npcRoles.Hound_Bleached.name",
       "IsMemoriesNameOverridden": false,
       "CapturedTimestamp": 1768408126298,
+      "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+    },
+    {
+      "Id": "NPC",
+      "NPCRole": "Slug_Magma",
+      "TranslationKey": "server.npcRoles.Slug_Magma.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768511369727,
       "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
     },
     {
@@ -247,6 +295,14 @@
       "IsMemoriesNameOverridden": false,
       "CapturedTimestamp": 1768505951667,
       "FoundLocationNameKey": "server.portals.hederas_lair"
+    },
+    {
+      "Id": "NPC",
+      "NPCRole": "Eel_Moray",
+      "TranslationKey": "server.npcRoles.Eel_Moray.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768504420811,
+      "FoundLocationNameKey": "server.map.region.Zone3_Tier1"
     },
     {
       "Id": "NPC",
@@ -514,6 +570,14 @@
     },
     {
       "Id": "NPC",
+      "NPCRole": "Skeleton_Frost_Archer",
+      "TranslationKey": "server.npcRoles.Skeleton_Frost_Archer.name",
+      "IsMemoriesNameOverridden": true,
+      "CapturedTimestamp": 1768505176716,
+      "FoundLocationNameKey": "server.map.region.Zone3_Tier2"
+    },
+    {
+      "Id": "NPC",
       "NPCRole": "Skeleton_Soldier",
       "TranslationKey": "server.npcRoles.Skeleton_Soldier.name",
       "IsMemoriesNameOverridden": true,
@@ -546,11 +610,27 @@
     },
     {
       "Id": "NPC",
+      "NPCRole": "Clownfish",
+      "TranslationKey": "server.npcRoles.Clownfish.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768509545395,
+      "FoundLocationNameKey": "server.map.region.Zone1_Shore"
+    },
+    {
+      "Id": "NPC",
       "NPCRole": "Bear_Grizzly",
       "TranslationKey": "server.npcRoles.Bear_Grizzly.name",
       "IsMemoriesNameOverridden": false,
       "CapturedTimestamp": 1768325890149,
       "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+    },
+    {
+      "Id": "NPC",
+      "NPCRole": "Crab",
+      "TranslationKey": "server.npcRoles.Crab.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768509545462,
+      "FoundLocationNameKey": "server.map.region.Zone1_Shore"
     },
     {
       "Id": "NPC",
@@ -679,6 +759,14 @@
       "IsMemoriesNameOverridden": false,
       "CapturedTimestamp": 1768406701385,
       "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+    },
+    {
+      "Id": "NPC",
+      "NPCRole": "Crow",
+      "TranslationKey": "server.npcRoles.Crow.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768480729770,
+      "FoundLocationNameKey": "server.map.region.Zone3_Tier1"
     },
     {
       "Id": "NPC",
@@ -887,6 +975,14 @@
       "IsMemoriesNameOverridden": false,
       "CapturedTimestamp": 1768399891702,
       "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+    },
+    {
+      "Id": "NPC",
+      "NPCRole": "Golem_Crystal_Flame",
+      "TranslationKey": "server.npcRoles.Golem_Crystal_Flame.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768512719416,
+      "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
     },
     {
       "Id": "NPC",
