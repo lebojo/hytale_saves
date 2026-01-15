@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -703.5160522460938,
-        "Y": 139.0,
-        "Z": -991.8298950195312
+        "X": -702.3251342773438,
+        "Y": 133.27247619628906,
+        "Z": -994.0556640625
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 4.7732319831848145,
+        "Yaw": 3.268643856048584,
         "Roll": 0.0
       }
     },
@@ -297,8 +297,8 @@
     "Velocity": {
       "Velocity": {
         "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
+        "Y": 2.0072922504890838,
+        "Z": -2.427976760910855
       }
     },
     "Player": {
@@ -329,7 +329,7 @@
             },
             "4": {
               "Id": "Plant_Moss_Green",
-              "Quantity": 15,
+              "Quantity": 19,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -508,7 +508,7 @@
             },
             "4": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 31,
+              "Quantity": 36,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -566,7 +566,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 3,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -823,7 +823,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 10.0
+          "Value": 6.699994087219238
         },
         "Ammo": {
           "Id": "Ammo",
@@ -853,8 +853,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 1.3229539394378662,
-        "Yaw": -1.7242587804794312,
+        "Pitch": -0.2208026945590973,
+        "Yaw": -2.9805097579956055,
         "Roll": 0.0
       }
     }

@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -703.90576171875,
-        "Y": 134.0,
-        "Z": -991.4990844726562
+        "X": -698.7387084960938,
+        "Y": 140.0,
+        "Z": -991.5868530273438
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 4.4940361976623535,
+        "Yaw": 0.7955830693244934,
         "Roll": 0.0
       }
     },
@@ -297,7 +297,7 @@
     "Velocity": {
       "Velocity": {
         "X": 0.0,
-        "Y": 5.733488409675128,
+        "Y": 0.0,
         "Z": 0.0
       }
     },
@@ -508,7 +508,7 @@
             },
             "4": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 34,
+              "Quantity": 36,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -566,7 +566,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 1,
+        "ActiveHotbarSlot": 3,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -626,11 +626,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -730.3251342773438,
-              "Y": 160.0,
-              "Z": -1014.79443359375,
-              "Pitch": -0.646056592464447,
-              "Yaw": 0.5890635848045349,
+              "X": -698.7387084960938,
+              "Y": 140.0,
+              "Z": -991.5868530273438,
+              "Pitch": -0.1445533037185669,
+              "Yaw": 0.46392199397087097,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -853,8 +853,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -1.345801830291748,
-        "Yaw": -1.7192621231079102,
+        "Pitch": -0.1445533037185669,
+        "Yaw": 0.46392199397087097,
         "Roll": 0.0
       }
     }
