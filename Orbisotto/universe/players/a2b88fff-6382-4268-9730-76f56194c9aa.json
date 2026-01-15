@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -696.9450073242188,
-        "Y": 152.0,
-        "Z": -1002.1113891601562
+        "X": -703.90576171875,
+        "Y": 134.0,
+        "Z": -991.4990844726562
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -4.486935615539551,
+        "Yaw": 4.4940361976623535,
         "Roll": 0.0
       }
     },
@@ -296,9 +296,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.05310054162695511,
-        "Y": 0.0,
-        "Z": 0.00915526579775088
+        "X": 0.0,
+        "Y": 5.733488409675128,
+        "Z": 0.0
       }
     },
     "Player": {
@@ -329,7 +329,7 @@
             },
             "4": {
               "Id": "Plant_Moss_Green",
-              "Quantity": 15,
+              "Quantity": 19,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -501,14 +501,14 @@
             },
             "6": {
               "Id": "Wood_Redwood_Stairs",
-              "Quantity": 1,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 97,
+              "Quantity": 34,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -523,7 +523,7 @@
             "1": {
               "Id": "Tool_Hatchet_Thorium",
               "Quantity": 1,
-              "Durability": 231.0,
+              "Durability": 230.75,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -566,7 +566,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 1,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -853,8 +853,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.10954978317022324,
-        "Yaw": 1.9719879627227783,
+        "Pitch": -1.345801830291748,
+        "Yaw": -1.7192621231079102,
         "Roll": 0.0
       }
     }

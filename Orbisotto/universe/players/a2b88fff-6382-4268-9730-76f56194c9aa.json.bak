@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -697.2478637695312,
-        "Y": 151.0,
-        "Z": -999.6856689453125
+        "X": -703.5160522460938,
+        "Y": 139.0,
+        "Z": -991.8298950195312
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -6.140755653381348,
+        "Yaw": 4.7732319831848145,
         "Roll": 0.0
       }
     },
@@ -296,9 +296,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.06957998118209481,
+        "X": 0.0,
         "Y": 0.0,
-        "Z": -0.47973565972918
+        "Z": 0.0
       }
     },
     "Player": {
@@ -501,14 +501,14 @@
             },
             "6": {
               "Id": "Wood_Redwood_Stairs",
-              "Quantity": 1,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 94,
+              "Quantity": 31,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -523,7 +523,7 @@
             "1": {
               "Id": "Tool_Hatchet_Thorium",
               "Quantity": 1,
-              "Durability": 231.0,
+              "Durability": 230.75,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -566,7 +566,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 3,
+        "ActiveHotbarSlot": 4,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -853,8 +853,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.4195503890514374,
-        "Yaw": 0.160739928483963,
+        "Pitch": 1.3229539394378662,
+        "Yaw": -1.7242587804794312,
         "Roll": 0.0
       }
     }
