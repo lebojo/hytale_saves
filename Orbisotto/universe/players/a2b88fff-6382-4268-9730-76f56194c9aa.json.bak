@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -699.0256958007812,
-        "Y": 150.0,
-        "Z": -976.7063598632812
+        "X": -697.2478637695312,
+        "Y": 151.0,
+        "Z": -999.6856689453125
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -1.7790937423706055,
+        "Yaw": -6.140755653381348,
         "Roll": 0.0
       }
     },
@@ -296,9 +296,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.5841059578965062,
+        "X": -0.06957998118209481,
         "Y": 0.0,
-        "Z": -0.12451161484941198
+        "Z": -0.47973565972918
       }
     },
     "Player": {
@@ -413,7 +413,7 @@
             },
             "2": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 6,
+              "Quantity": 9,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -508,7 +508,7 @@
             },
             "4": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 61,
+              "Quantity": 94,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -523,7 +523,7 @@
             "1": {
               "Id": "Tool_Hatchet_Thorium",
               "Quantity": 1,
-              "Durability": 231.25,
+              "Durability": 231.0,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -566,7 +566,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 6,
+        "ActiveHotbarSlot": 3,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -807,7 +807,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 79.0
+          "Value": 63.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -853,8 +853,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.6717041730880737,
-        "Yaw": -1.7764320373535156,
+        "Pitch": -0.4195503890514374,
+        "Yaw": 0.160739928483963,
         "Roll": 0.0
       }
     }

@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -698.8280029296875,
-        "Y": 150.0,
-        "Z": -976.6751098632812
+        "X": -696.9450073242188,
+        "Y": 152.0,
+        "Z": -1002.1113891601562
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -2.715345621109009,
+        "Yaw": -4.486935615539551,
         "Roll": 0.0
       }
     },
@@ -296,9 +296,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
+        "X": -0.05310054162695511,
         "Y": 0.0,
-        "Z": 0.0
+        "Z": 0.00915526579775088
       }
     },
     "Player": {
@@ -413,7 +413,7 @@
             },
             "2": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 6,
+              "Quantity": 9,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -508,7 +508,7 @@
             },
             "4": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 52,
+              "Quantity": 97,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -523,7 +523,7 @@
             "1": {
               "Id": "Tool_Hatchet_Thorium",
               "Quantity": 1,
-              "Durability": 231.25,
+              "Durability": 231.0,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -807,7 +807,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 79.0
+          "Value": 63.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -853,8 +853,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.45920413732528687,
-        "Yaw": -2.053929328918457,
+        "Pitch": -0.10954978317022324,
+        "Yaw": 1.9719879627227783,
         "Roll": 0.0
       }
     }
