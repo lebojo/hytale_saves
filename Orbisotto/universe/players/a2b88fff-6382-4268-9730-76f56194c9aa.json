@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -698.7387084960938,
-        "Y": 140.0,
-        "Z": -991.5868530273438
+        "X": -782.0682983398438,
+        "Y": 133.73336791992188,
+        "Z": -910.19287109375
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 0.7955830693244934,
+        "Yaw": -0.40041089057922363,
         "Roll": 0.0
       }
     },
@@ -296,9 +296,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
+        "X": 0.04028315150214688,
+        "Y": -1.066587988636389,
+        "Z": -0.09887682641436052
       }
     },
     "Player": {
@@ -313,6 +313,13 @@
           "Id": "Simple",
           "Capacity": 36,
           "Items": {
+            "0": {
+              "Id": "Wood_Redwood_Trunk",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "33": {
               "Id": "Furniture_Village_Statue",
               "Quantity": 1,
@@ -336,14 +343,14 @@
             },
             "12": {
               "Id": "Plant_Crop_Mushroom_Shelve_Yellow",
-              "Quantity": 56,
+              "Quantity": 67,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "13": {
               "Id": "Ingredient_Fibre",
-              "Quantity": 3,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -371,7 +378,7 @@
             },
             "26": {
               "Id": "Ingredient_Stick",
-              "Quantity": 55,
+              "Quantity": 79,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -413,7 +420,7 @@
             },
             "2": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 9,
+              "Quantity": 34,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -501,21 +508,21 @@
             },
             "6": {
               "Id": "Wood_Redwood_Stairs",
-              "Quantity": 4,
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 36,
+              "Quantity": 100,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
               "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 18,
+              "Quantity": 15,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -523,13 +530,27 @@
             "1": {
               "Id": "Tool_Hatchet_Thorium",
               "Quantity": 1,
-              "Durability": 230.75,
+              "Durability": 230.5,
               "MaxDurability": 350.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Wood_Redwood_Trunk",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "7": {
               "Id": "Ingredient_Tree_Sap",
-              "Quantity": 9,
+              "Quantity": 18,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Furniture_Construction_Sign",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -566,7 +587,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 3,
+        "ActiveHotbarSlot": 1,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -807,7 +828,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 63.0
+          "Value": 70.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -823,7 +844,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 10.0
+          "Value": 9.69999885559082
         },
         "Ammo": {
           "Id": "Ammo",
@@ -853,8 +874,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.1445533037185669,
-        "Yaw": 0.46392199397087097,
+        "Pitch": -0.2570447325706482,
+        "Yaw": -1.185805082321167,
         "Roll": 0.0
       }
     }
