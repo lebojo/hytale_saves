@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -721.6036987304688,
-        "Y": 133.19667053222656,
-        "Z": -985.886474609375
+        "X": -695.9635009765625,
+        "Y": 135.0,
+        "Z": -992.3251342773438
       },
       "Rotation": {
-        "Pitch": -0.5129787921905518,
-        "Yaw": -12.886466026306152,
+        "Pitch": 0.0,
+        "Yaw": 9.051065444946289,
         "Roll": 0.0
       }
     },
@@ -48,9 +48,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.03845210775584503,
-        "Y": 5.900109724584365,
-        "Z": 0.010986316501670009
+        "X": 0.38818335659030645,
+        "Y": 0.0,
+        "Z": -0.020141589257044203
       }
     },
     "Player": {
@@ -65,57 +65,85 @@
           "Id": "Simple",
           "Capacity": 36,
           "Items": {
-            "33": {
-              "Id": "Ingredient_Ice_Essence",
-              "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "4": {
-              "Id": "Furniture_Feran_Candle",
+            "0": {
+              "Id": "Tool_Watering_Can",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "12": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 100,
+            "35": {
+              "Id": "Furniture_Temple_Dark_Brazier",
+              "Quantity": 9,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "13": {
+            "2": {
+              "Id": "Armor_Cobalt_Chest",
+              "Quantity": 1,
+              "Durability": 120.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "25": {
+              "Id": "Furniture_Temple_Light_Statue",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Armor_Cobalt_Legs",
+              "Quantity": 1,
+              "Durability": 120.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Furniture_Crude_Candle",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Armor_Cobalt_Head",
+              "Quantity": 1,
+              "Durability": 120.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Armor_Cobalt_Hands",
+              "Quantity": 1,
+              "Durability": 120.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "34": {
+              "Id": "Furniture_Human_Ruins_Banner",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
               "Id": "Furniture_Tavern_Chandelier",
               "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "8": {
-              "Id": "Ingredient_Fire_Essence",
-              "Quantity": 15,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "24": {
-              "Id": "Ingredient_Bar_Cobalt",
-              "Quantity": 7,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "26": {
-              "Id": "Soil_Dirt",
-              "Quantity": 3,
+              "Id": "Furniture_Human_Ruins_Statue_Broken",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "16": {
-              "Id": "Furniture_Human_Ruins_Statue_Broken",
+              "Id": "Furniture_Feran_Candle",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -127,161 +155,13 @@
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
-            },
-            "19": {
-              "Id": "Ingredient_Fabric_Scrap_Linen",
-              "Quantity": 28,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "23": {
-              "Id": "Ingredient_Hide_Light",
-              "Quantity": 6,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "21": {
-              "Id": "Ingredient_Bar_Iron",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "22": {
-              "Id": "Weapon_Sword_Stone_Trork",
-              "Quantity": 1,
-              "Durability": 54.0,
-              "MaxDurability": 60.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "20": {
-              "Id": "Furniture_Crude_Candle",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "35": {
-              "Id": "Ingredient_Bar_Thorium",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "27": {
-              "Id": "Furniture_Temple_Dark_Brazier",
-              "Quantity": 9,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "15": {
-              "Id": "Furniture_Temple_Light_Statue",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "14": {
-              "Id": "Ingredient_Tree_Sap",
-              "Quantity": 14,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "11": {
-              "Id": "Wood_Azure_Trunk",
-              "Quantity": 100,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "10": {
-              "Id": "Wood_Azure_Trunk",
-              "Quantity": 100,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "32": {
-              "Id": "Rock_Stone_Cobble",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "Ingredient_Bar_Copper",
-              "Quantity": 8,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "3": {
-              "Id": "Ingredient_Life_Essence",
-              "Quantity": 17,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "34": {
-              "Id": "Furniture_Human_Ruins_Banner",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Ingredient_Leather_Heavy",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Potion_Stamina_Lesser",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
             }
           }
         },
         "Armor": {
           "Id": "Simple",
           "Capacity": 4,
-          "Items": {
-            "0": {
-              "Id": "Armor_Steel_Ancient_Head",
-              "Quantity": 1,
-              "Durability": 60.5,
-              "MaxDurability": 75.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "2": {
-              "Id": "Armor_Thorium_Hands",
-              "Quantity": 1,
-              "Durability": 104.0,
-              "MaxDurability": 120.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "Armor_Thorium_Chest",
-              "Quantity": 1,
-              "Durability": 68.29999999999998,
-              "MaxDurability": 114.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "3": {
-              "Id": "Armor_Thorium_Legs",
-              "Quantity": 1,
-              "Durability": 65.29999999999998,
-              "MaxDurability": 114.0,
-              "OverrideDroppedItemAnimation": false
-            }
-          }
+          "Items": {}
         },
         "HotBar": {
           "Id": "Simple",
@@ -299,6 +179,13 @@
               "Quantity": 1,
               "Durability": 269.5,
               "MaxDurability": 350.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Furniture_Construction_Sign",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
@@ -361,7 +248,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 6,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -628,14 +515,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 142.10000610351562,
-          "Modifiers": {
-            "Armor_ADDITIVE": {
-              "Id": "Static",
-              "CalculationType": "Additive",
-              "Amount": 58.0
-            }
-          }
+          "Value": 100.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -651,7 +531,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 7.79999303817749
+          "Value": 5.0999956130981445
         },
         "Ammo": {
           "Id": "Ammo",
@@ -671,7 +551,7 @@
         },
         "StaminaRegenDelay": {
           "Id": "StaminaRegenDelay",
-          "Value": 0.0
+          "Value": -0.34999996423721313
         },
         "MagicCharges": {
           "Id": "MagicCharges",
@@ -681,8 +561,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.21672746539115906,
-        "Yaw": -0.3203160762786865,
+        "Pitch": -1.0654866695404053,
+        "Yaw": 2.7537810802459717,
         "Roll": 0.0
       }
     }

@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -717.2904052734375,
-        "Y": 135.2254180908203,
-        "Z": -998.6854858398438
+        "X": -719.931640625,
+        "Y": 134.0,
+        "Z": -995.85205078125
       },
       "Rotation": {
         "Pitch": -0.03859085962176323,
-        "Yaw": -16.339366912841797,
+        "Yaw": -76.1338882446289,
         "Roll": 0.0
       }
     },
@@ -48,9 +48,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.08789061059360628,
-        "Y": -1.9418331778024889,
-        "Z": 0.09338377375570668
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
       }
     },
     "Player": {
@@ -72,37 +72,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "29": {
-              "Id": "Weapon_Daggers_Doomed",
-              "Quantity": 1,
-              "Durability": 67.5,
-              "MaxDurability": 75.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "4": {
-              "Id": "Food_Pork_Raw",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "12": {
-              "Id": "Ingredient_Bone_Fragment",
-              "Quantity": 24,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "22": {
-              "Id": "Plant_Seeds_Tomato",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "35": {
               "Id": "Ingredient_Bar_Thorium",
-              "Quantity": 1,
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -121,6 +93,48 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "4": {
+              "Id": "Food_Pork_Raw",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "12": {
+              "Id": "Ingredient_Bone_Fragment",
+              "Quantity": 14,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "13": {
+              "Id": "Ingredient_Life_Essence",
+              "Quantity": 26,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Rock_Stone_Cobble",
+              "Quantity": 80,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "9": {
+              "Id": "Ingredient_Bar_Iron",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Ingredient_Sac_Venom",
+              "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "10": {
               "Id": "Ingredient_Hide_Medium",
               "Quantity": 6,
@@ -128,18 +142,11 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "31": {
+            "30": {
               "Id": "Weapon_Shortbow_Thorium",
               "Quantity": 1,
               "Durability": 123.3,
               "MaxDurability": 137.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "32": {
-              "Id": "Wood_Jungle_Trunk",
-              "Quantity": 9,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
@@ -150,15 +157,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Wood_Azure_Trunk",
-              "Quantity": 100,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Ingredient_Ice_Essence",
-              "Quantity": 27,
+              "Id": "Rock_Ice",
+              "Quantity": 14,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -172,7 +172,7 @@
             "0": {
               "Id": "Armor_Thorium_Head",
               "Quantity": 1,
-              "Durability": 100.0,
+              "Durability": 99.5,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -218,10 +218,10 @@
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Rock_Ice",
-              "Quantity": 14,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Id": "Tool_Hoe_Crude",
+              "Quantity": 1,
+              "Durability": 46.0,
+              "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
@@ -231,39 +231,25 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "8": {
-              "Id": "Ingredient_Bar_Silver",
-              "Quantity": 26,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+            "1": {
+              "Id": "*Tool_Watering_Can_State_Filled_Water",
+              "Quantity": 1,
+              "Durability": 10.0,
+              "MaxDurability": 20.0,
               "OverrideDroppedItemAnimation": false
             },
-            "1": {
+            "3": {
               "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
               "Durability": 293.75,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
-            "3": {
+            "5": {
               "Id": "Weapon_Crossbow_Ancient_Steel",
               "Quantity": 1,
               "Durability": 151.91999999999996,
               "MaxDurability": 180.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Plant_Moss_Green",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Rock_Gem_Sapphire",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -298,9 +284,17 @@
         "Backpack": {
           "Id": "Simple",
           "Capacity": 9,
-          "Items": {}
+          "Items": {
+            "4": {
+              "Id": "Weapon_Staff_Crystal_Ice",
+              "Quantity": 1,
+              "Durability": 296.5,
+              "MaxDurability": 300.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
         },
-        "ActiveHotbarSlot": 5,
+        "ActiveHotbarSlot": 7,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -356,15 +350,17 @@
       "PlayerData": {
         "BlockIdVersion": 10,
         "World": "default",
-        "KnownRecipes": [],
+        "KnownRecipes": [
+          "Food_Salad_Caesar"
+        ],
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": 1517.4761962890625,
-              "Y": 109.44999694824219,
-              "Z": -2446.563232421875,
-              "Pitch": -0.6259944438934326,
-              "Yaw": 1.4666951894760132,
+              "X": -719.931640625,
+              "Y": 134.0,
+              "Z": -995.85205078125,
+              "Pitch": -0.29218074679374695,
+              "Yaw": -0.009163795039057732,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -641,7 +637,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 158.0,
+          "Value": 152.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -664,7 +660,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 8.499994277954102
+          "Value": 10.0
         },
         "Ammo": {
           "Id": "Ammo",
@@ -694,8 +690,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.18258647620677948,
-        "Yaw": 2.510195016860962,
+        "Pitch": -0.29218074679374695,
+        "Yaw": -0.009163795039057732,
         "Roll": 0.0
       }
     }
