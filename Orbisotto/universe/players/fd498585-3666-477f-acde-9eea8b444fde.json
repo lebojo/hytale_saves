@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1090.6361083984375,
+        "X": -1083.45849609375,
         "Y": 118.0,
-        "Z": -157.8363494873047
+        "Z": -159.96185302734375
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -16.012001037597656,
+        "Yaw": 21.135454177856445,
         "Roll": 0.0
       }
     },
@@ -64,71 +64,36 @@
               "OverrideDroppedItemAnimation": false
             },
             "4": {
-              "Id": "Tool_Pickaxe_Crude",
-              "Quantity": 1,
+              "Id": "Ingredient_Tree_Sap",
+              "Quantity": 23,
               "Durability": 0.0,
-              "MaxDurability": 150.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "12": {
-              "Id": "Plant_Moss_Green",
-              "Quantity": 9,
+              "Id": "Plant_Petals_Blue",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "13": {
-              "Id": "Plant_Petals_Red",
+              "Id": "Soil_Dirt",
               "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 100,
+              "Id": "Wood_Hardwood_Roof",
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "9": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 58,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "16": {
-              "Id": "Soil_Dirt",
-              "Quantity": 69,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "17": {
-              "Id": "Wood_Beech_Trunk",
-              "Quantity": 63,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "18": {
-              "Id": "Wood_Birch_Trunk",
-              "Quantity": 25,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "22": {
-              "Id": "Wood_Softwood_Planks",
-              "Quantity": 64,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "21": {
-              "Id": "Wood_Hardwood_Roof_Shallow",
-              "Quantity": 27,
+              "Id": "Ingredient_Fibre",
+              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -141,50 +106,57 @@
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 100,
+              "Id": "Rock_Stone_Cobble",
+              "Quantity": 10,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "14": {
-              "Id": "Rock_Stone_Brick",
-              "Quantity": 6,
+            "15": {
+              "Id": "Wood_Hardwood_Beam",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "11": {
-              "Id": "Ore_Copper",
-              "Quantity": 3,
+              "Id": "Wood_Oak_Trunk",
+              "Quantity": 24,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "10": {
-              "Id": "Ingredient_Tree_Sap",
-              "Quantity": 86,
+              "Id": "Furniture_Village_Platform",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "3": {
+            "1": {
               "Id": "Tool_Pickaxe_Crude",
               "Quantity": 1,
-              "Durability": 103.0,
+              "Durability": 0.0,
               "MaxDurability": 150.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Wood_Hardwood_Planks",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "7": {
               "Id": "Ingredient_Stick",
-              "Quantity": 100,
+              "Quantity": 55,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 27,
+              "Id": "Ingredient_Stick",
+              "Quantity": 100,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -201,38 +173,59 @@
           "Capacity": 9,
           "Items": {
             "0": {
-              "Id": "Furniture_Village_Window",
+              "Id": "Tool_Pickaxe_Crude",
               "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Durability": 58.25,
+              "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Wood_Hardwood_Planks",
+              "Id": "Tool_Hatchet_Crude",
+              "Quantity": 1,
+              "Durability": 120.0,
+              "MaxDurability": 150.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Rock_Stone_Brick",
               "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
-              "Id": "Wood_Oak_Trunk",
-              "Quantity": 26,
+              "Id": "Wood_Hardwood_Planks_Half",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "4": {
-              "Id": "Wood_Hardwood_Stairs",
-              "Quantity": 14,
+            "7": {
+              "Id": "Wood_Hardwood_Fence_Gate",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Furniture_Village_Ladder",
+              "Quantity": 8,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
-              "Id": "Tool_Hatchet_Crude",
+              "Id": "Wood_Hardwood_Fence",
+              "Quantity": 37,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Furniture_Village_Window",
               "Quantity": 1,
-              "Durability": 124.5,
-              "MaxDurability": 150.0,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -240,12 +233,20 @@
         "Utility": {
           "Id": "Simple",
           "Capacity": 4,
-          "Items": {}
+          "Items": {
+            "0": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
         },
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 3,
+        "ActiveHotbarSlot": 4,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -305,11 +306,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1228.263916015625,
-              "Y": 110.44999694824219,
-              "Z": 435.6585388183594,
-              "Pitch": -0.3098416328430176,
-              "Yaw": 2.7816402912139893,
+              "X": -1083.45849609375,
+              "Y": 118.0,
+              "Z": -159.96185302734375,
+              "Pitch": -0.4797047972679138,
+              "Yaw": 3.0712969303131104,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -319,14 +320,14 @@
             "RespawnPoints": [
               {
                 "BlockPosition": {
-                  "X": -1089,
+                  "X": -1081,
                   "Y": 118,
-                  "Z": -154
+                  "Z": -166
                 },
                 "RespawnPosition": {
-                  "X": -1088.5250000059605,
+                  "X": -1080.8999999761581,
                   "Y": 119.04999995231628,
-                  "Z": -153.89999997615814
+                  "Z": -165.5
                 },
                 "Name": "Lowlig's bed"
               }
@@ -422,7 +423,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 55.0
+          "Value": 15.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -468,8 +469,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.47754818201065063,
-        "Yaw": 2.5466415882110596,
+        "Pitch": -0.4797047972679138,
+        "Yaw": 3.0712969303131104,
         "Roll": 0.0
       }
     }
