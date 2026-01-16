@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1083.45849609375,
+        "X": -1081.340576171875,
         "Y": 118.0,
-        "Z": -159.96185302734375
+        "Z": -164.01202392578125
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 21.135454177856445,
+        "Yaw": 9.083175659179688,
         "Roll": 0.0
       }
     },
@@ -57,106 +57,99 @@
           "Capacity": 36,
           "Items": {
             "0": {
-              "Id": "Weapon_Sword_Crude",
+              "Id": "Ingredient_Life_Essence",
               "Quantity": 1,
-              "Durability": 74.96000000000015,
-              "MaxDurability": 80.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "4": {
-              "Id": "Ingredient_Tree_Sap",
-              "Quantity": 23,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "12": {
-              "Id": "Plant_Petals_Blue",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "13": {
-              "Id": "Soil_Dirt",
-              "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "8": {
-              "Id": "Wood_Hardwood_Roof",
-              "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "9": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
+              "Id": "Ingredient_Feathers_Dark",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Ore_Copper",
+              "Quantity": 7,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Ingredient_Stick",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "14": {
+              "Id": "Ore_Copper",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "12": {
+              "Id": "Tool_Hatchet_Crude",
+              "Quantity": 1,
+              "Durability": 59.25,
+              "MaxDurability": 150.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "13": {
               "Id": "Tool_Pickaxe_Crude",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Rock_Stone_Cobble",
-              "Quantity": 10,
+            "8": {
+              "Id": "Ore_Iron",
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "15": {
-              "Id": "Wood_Hardwood_Beam",
+            "9": {
+              "Id": "Ingredient_Sac_Venom",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "11": {
-              "Id": "Wood_Oak_Trunk",
-              "Quantity": 24,
+              "Id": "Rock_Stone_Cobble",
+              "Quantity": 47,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "10": {
-              "Id": "Furniture_Village_Platform",
-              "Quantity": 2,
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
+              "Id": "Ingredient_Fabric_Scrap_Linen",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
               "Id": "Tool_Pickaxe_Crude",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
-            "3": {
-              "Id": "Wood_Hardwood_Planks",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 55,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "5": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 100,
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -175,55 +168,55 @@
             "0": {
               "Id": "Tool_Pickaxe_Crude",
               "Quantity": 1,
-              "Durability": 58.25,
+              "Durability": 51.0,
               "MaxDurability": 150.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "Tool_Hatchet_Crude",
-              "Quantity": 1,
-              "Durability": 120.0,
-              "MaxDurability": 150.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "3": {
-              "Id": "Rock_Stone_Brick",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
-              "Id": "Wood_Hardwood_Planks_Half",
+              "Id": "Weapon_Sword_Crude",
               "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Wood_Hardwood_Fence_Gate",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Durability": 16.08000000000014,
+              "MaxDurability": 80.0,
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Furniture_Village_Ladder",
-              "Quantity": 8,
+              "Id": "Ingredient_Charcoal",
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "5": {
-              "Id": "Wood_Hardwood_Fence",
-              "Quantity": 37,
+            "4": {
+              "Id": "Ingredient_Hide_Light",
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
-              "Id": "Furniture_Village_Window",
+              "Id": "Plant_Fruit_Berries_Red",
               "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Rock_Basalt_Cobble",
+              "Quantity": 29,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Plant_Moss_Green",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -236,7 +229,7 @@
           "Items": {
             "0": {
               "Id": "Furniture_Crude_Torch",
-              "Quantity": 1,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -246,7 +239,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 0,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -296,21 +289,21 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": -1,
+        "ActiveUtilitySlot": 0,
         "SortType": "Type"
       },
       "PlayerData": {
-        "BlockIdVersion": 1,
+        "BlockIdVersion": 10,
         "World": "default",
         "KnownRecipes": [],
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1083.45849609375,
+              "X": -1081.340576171875,
               "Y": 118.0,
-              "Z": -159.96185302734375,
-              "Pitch": -0.4797047972679138,
-              "Yaw": 3.0712969303131104,
+              "Z": -164.01202392578125,
+              "Pitch": -0.5625498294830322,
+              "Yaw": 2.594545602798462,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -344,31 +337,64 @@
                   "Roll": 0.0
                 },
                 "Day": 26
+              },
+              {
+                "MarkerId": "death-marker-f84c4840-ef3b-4fd8-ae6d-c1cd3268041b",
+                "Transform": {
+                  "X": -1081.6922607421875,
+                  "Y": 118.0,
+                  "Z": -162.46778869628906,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 36
+              },
+              {
+                "MarkerId": "death-marker-479e90b7-bd4b-4dde-83f0-cdfc6ed5e25b",
+                "Transform": {
+                  "X": -981.5863647460938,
+                  "Y": 93.0,
+                  "Z": -336.4931335449219,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 37
+              },
+              {
+                "MarkerId": "death-marker-172997c2-976a-4681-9a5c-8cd329180a79",
+                "Transform": {
+                  "X": -899.3016357421875,
+                  "Y": 64.0,
+                  "Z": -223.36436462402344,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 38
+              },
+              {
+                "MarkerId": "death-marker-46f4e7d2-464a-475d-832b-2dd64af18df3",
+                "Transform": {
+                  "X": -1032.7843017578125,
+                  "Y": 37.799068450927734,
+                  "Z": -138.70985412597656,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 38
               }
             ]
-          },
-          "instance-Forgotten_Temple-1fc039a1-3e6d-46c4-bc26-eca8d68754f2": {
-            "LastPosition": {
-              "X": 5097.20068359375,
-              "Y": 169.4499969482422,
-              "Z": 4983.435546875,
-              "Pitch": -0.11200003325939178,
-              "Yaw": -1.569387674331665,
-              "Roll": 0.0
-            },
-            "LastMovementStates": {
-              "Flying": false
-            },
-            "FirstSpawn": false,
-            "DeathPositions": []
           }
         },
         "DiscoveredZones": [
-          "Zone1_Spawn",
-          "Zone1_Temple",
+          "Zone1_Tier1",
           "ForgottenTemple",
           "Zone1_Tier2",
-          "Zone1_Tier1"
+          "Zone1_Temple",
+          "Zone1_Spawn"
         ],
         "DiscoveredInstances": [
           {
@@ -423,7 +449,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 15.0
+          "Value": 100.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -469,8 +495,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.4797047972679138,
-        "Yaw": 3.0712969303131104,
+        "Pitch": -0.5625498294830322,
+        "Yaw": 2.594545602798462,
         "Roll": 0.0
       }
     }
