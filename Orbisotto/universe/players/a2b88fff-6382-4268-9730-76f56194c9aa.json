@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -695.4751586914062,
-        "Y": 127.51099395751953,
-        "Z": -992.65087890625
+        "X": -698.8414916992188,
+        "Y": 153.00010681152344,
+        "Z": -990.2972412109375
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 4.71238899230957,
+        "Yaw": 7.231761932373047,
         "Roll": 0.0
       }
     },
@@ -49,8 +49,8 @@
     "Velocity": {
       "Velocity": {
         "X": 0.0,
-        "Y": 0.022659298043664122,
-        "Z": 0.012817380711567584
+        "Y": 0.0,
+        "Z": 0.0
       }
     },
     "Player": {
@@ -80,8 +80,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "29": {
-              "Id": "Rock_Shale_Brick_Pillar_Middle",
-              "Quantity": 13,
+              "Id": "Rock_Basalt_Cobble",
+              "Quantity": 22,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -108,8 +108,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "30": {
-              "Id": "Rock_Shale_Brick_Roof",
-              "Quantity": 20,
+              "Id": "Rock_Shale_Brick_Roof_Flat",
+              "Quantity": 36,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -149,30 +149,23 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "19": {
-              "Id": "Furniture_Temple_Dark_Platform",
-              "Quantity": 32,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "23": {
-              "Id": "Rock_Shale_Brick_Pillar_Base",
-              "Quantity": 8,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "21": {
-              "Id": "Rock_Shale_Brick",
-              "Quantity": 6,
+              "Id": "Wood_Redwood_Stairs",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "22": {
-              "Id": "Rock_Shale_Brick_Half",
-              "Quantity": 60,
+              "Id": "Furniture_Temple_Dark_Platform",
+              "Quantity": 27,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "21": {
+              "Id": "Rock_Shale_Brick_Pillar_Base",
+              "Quantity": 8,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -200,7 +193,7 @@
             },
             "32": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 24,
+              "Quantity": 14,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -244,9 +237,23 @@
               "MaxDurability": 337.0,
               "OverrideDroppedItemAnimation": false
             },
-            "4": {
+            "2": {
+              "Id": "Rock_Shale_Brick",
+              "Quantity": 51,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
               "Id": "Furniture_Temple_Dark_Brazier",
               "Quantity": 7,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Rock_Shale_Brick_Roof",
+              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -261,13 +268,20 @@
             "1": {
               "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
-              "Durability": 229.25,
+              "Durability": 105.5,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
-            "7": {
-              "Id": "Potion_Health_Lesser",
-              "Quantity": 1,
+            "3": {
+              "Id": "Rock_Shale_Brick_Half",
+              "Quantity": 55,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Rock_Shale_Brick_Pillar_Middle",
+              "Quantity": 13,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -304,7 +318,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 3,
+        "ActiveHotbarSlot": 1,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -364,11 +378,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -703.3287963867188,
-              "Y": 168.0,
-              "Z": -994.445556640625,
-              "Pitch": -0.6479541659355164,
-              "Yaw": -1.5007694959640503,
+              "X": -698.8414916992188,
+              "Y": 153.00010681152344,
+              "Z": -990.2972412109375,
+              "Pitch": -0.5357877016067505,
+              "Yaw": 0.1631782501935959,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -571,7 +585,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 100.0
+          "Value": 99.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -587,7 +601,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 3.7000045776367188
+          "Value": 10.0
         },
         "Ammo": {
           "Id": "Ammo",
@@ -617,8 +631,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.38405296206474304,
-        "Yaw": 1.6393345594406128,
+        "Pitch": -0.5357877016067505,
+        "Yaw": 0.1631782501935959,
         "Roll": 0.0
       }
     }
