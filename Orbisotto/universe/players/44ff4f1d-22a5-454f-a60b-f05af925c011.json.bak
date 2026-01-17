@@ -3,7 +3,38 @@
     "Nameplate": {
       "Text": "Yudel"
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "FruitVeggie_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 4.800657272338867,
+          "SinceLastDamage": 0.09969957172870636,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/Stamina/Tiny.png",
+          "Invulnerable": false
+        },
+        {
+          "EntityEffectId": "HealthRegen_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 4.800657272338867,
+          "SinceLastDamage": 0.19969876110553741,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -20,13 +51,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -672.2155151367188,
-        "Y": 128.7664337158203,
-        "Z": 535.2197265625
+        "X": -963.27685546875,
+        "Y": 132.0,
+        "Z": -1037.508056640625
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 15.742486953735352,
+        "Yaw": 26.44727897644043,
         "Roll": 0.0
       }
     },
@@ -35,8 +66,8 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.001831052136370916,
-        "Y": -2.232968080304332,
+        "X": 0.0,
+        "Y": 0.0,
         "Z": 0.0
       }
     },
@@ -64,13 +95,20 @@
           "Items": {
             "0": {
               "Id": "Plant_Fruit_Berries_Red",
-              "Quantity": 6,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
               "Id": "Ingredient_Life_Essence",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Plant_Crop_Health3",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -161,8 +199,10 @@
         },
         "DiscoveredZones": [
           "Zone1_Spawn",
+          "Zone1_Tier3",
           "Zone1_Tier2",
-          "Zone1_Tier1"
+          "Zone1_Tier1",
+          "Zone3_Tier1"
         ],
         "DiscoveredInstances": [],
         "ReputationData": {},
@@ -228,7 +268,14 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 6.699999809265137
+          "Value": 11.0,
+          "Modifiers": {
+            "Effect_MULTIPLICATIVE": {
+              "Id": "Static",
+              "CalculationType": "Multiplicative",
+              "Amount": 1.100000023841858
+            }
+          }
         },
         "Ammo": {
           "Id": "Ammo",
@@ -258,8 +305,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.10683950036764145,
-        "Yaw": -3.1070683002471924,
+        "Pitch": -0.11733385175466537,
+        "Yaw": 1.314539909362793,
         "Roll": 0.0
       }
     }

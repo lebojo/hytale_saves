@@ -3,7 +3,38 @@
     "Nameplate": {
       "Text": "yametersa"
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "Meat_Buff_T2",
+          "InitialDuration": 150.0,
+          "RemainingDuration": 136.66079711914062,
+          "SinceLastDamage": 0.0,
+          "HasBeenDamaged": true,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/AddHealth/Small.png",
+          "Invulnerable": false
+        },
+        {
+          "EntityEffectId": "HealthRegen_Buff_T2",
+          "InitialDuration": 150.0,
+          "RemainingDuration": 136.66079711914062,
+          "SinceLastDamage": 1.336369514465332,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -20,13 +51,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -700.7494506835938,
-        "Y": 168.0467529296875,
-        "Z": -993.6576538085938
+        "X": -701.6748657226562,
+        "Y": 127.0,
+        "Z": -991.3251342773438
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -33.00530242919922,
+        "Yaw": 8.15796184539795,
         "Roll": 0.0
       }
     },
@@ -49,8 +80,8 @@
     "Velocity": {
       "Velocity": {
         "X": 0.0,
-        "Y": -1.0656736534474762,
-        "Z": -0.0036621087747335953
+        "Y": 0.0,
+        "Z": 0.0
       }
     },
     "Player": {
@@ -79,30 +110,58 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "35": {
-              "Id": "Rock_Shale_Cobble_Wall",
-              "Quantity": 34,
+            "29": {
+              "Id": "Rock_Shale_Brick_Pillar_Base",
+              "Quantity": 11,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "29": {
+            "12": {
               "Id": "Rock_Shale_Brick_Roof_Flat",
               "Quantity": 26,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "2": {
-              "Id": "Armor_Cobalt_Chest",
-              "Quantity": 1,
-              "Durability": 108.0,
-              "MaxDurability": 120.0,
+            "9": {
+              "Id": "Rock_Shale_Brick_Beam",
+              "Quantity": 20,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Plant_Moss_Green",
-              "Quantity": 9,
+            "28": {
+              "Id": "Weapon_Daggers_Cobalt",
+              "Quantity": 1,
+              "Durability": 90.0,
+              "MaxDurability": 150.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "26": {
+              "Id": "Plant_Petals_Blue",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "22": {
+              "Id": "Rock_Shale_Brick_Pillar_Middle",
+              "Quantity": 47,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "21": {
+              "Id": "Rock_Shale_Brick_Decorative",
+              "Quantity": 13,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "20": {
+              "Id": "Rock_Shale_Brick_Roof",
+              "Quantity": 24,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -114,18 +173,11 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "4": {
-              "Id": "Armor_Cobalt_Legs",
-              "Quantity": 1,
-              "Durability": 108.0,
-              "MaxDurability": 120.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "3": {
-              "Id": "Armor_Cobalt_Hands",
-              "Quantity": 1,
-              "Durability": 108.0,
-              "MaxDurability": 120.0,
+            "6": {
+              "Id": "Plant_Moss_Green",
+              "Quantity": 14,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "15": {
@@ -142,44 +194,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "12": {
-              "Id": "Rock_Shale_Brick_Roof",
-              "Quantity": 24,
+            "11": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "Armor_Cobalt_Head",
-              "Quantity": 1,
-              "Durability": 108.0,
-              "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "10": {
               "Id": "Furniture_Temple_Dark_Platform",
               "Quantity": 32,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "9": {
-              "Id": "Rock_Shale_Brick_Beam",
-              "Quantity": 20,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "11": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "31": {
-              "Id": "Rock_Shale_Brick_Smooth",
-              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -191,44 +215,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "30": {
+            "34": {
               "Id": "Rock_Shale_Brick_Half",
-              "Quantity": 100,
+              "Quantity": 27,
               "Durability": 0.0,
               "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "28": {
-              "Id": "Weapon_Daggers_Cobalt",
-              "Quantity": 1,
-              "Durability": 90.0,
-              "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "7": {
               "Id": "Ingredient_Bar_Iron",
               "Quantity": 40,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "26": {
-              "Id": "Plant_Petals_Blue",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "22": {
-              "Id": "Rock_Shale_Brick_Pillar_Base",
-              "Quantity": 11,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "21": {
-              "Id": "Rock_Shale_Brick_Decorative",
-              "Quantity": 13,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -254,27 +250,20 @@
             "2": {
               "Id": "Tool_Hatchet_Thorium",
               "Quantity": 1,
-              "Durability": 296.0,
+              "Durability": 294.5,
               "MaxDurability": 321.0,
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Rock_Shale_Brick_Pillar_Middle",
-              "Quantity": 43,
+              "Id": "Rock_Shale_Cobble_Wall",
+              "Quantity": 34,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
-              "Id": "Food_Kebab_Meat",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "8": {
-              "Id": "Furniture_Temple_Dark_Brazier",
-              "Quantity": 4,
+              "Id": "Wood_Redwood_Trunk",
+              "Quantity": 56,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -282,20 +271,13 @@
             "1": {
               "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
-              "Durability": 64.25,
+              "Durability": 31.0,
               "MaxDurability": 315.0,
               "OverrideDroppedItemAnimation": false
             },
-            "7": {
-              "Id": "Rock_Shale_Brick_Half",
-              "Quantity": 26,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "5": {
-              "Id": "Wood_Redwood_Trunk",
-              "Quantity": 55,
+              "Id": "Rock_Shale_Brick_Half",
+              "Quantity": 99,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -332,9 +314,38 @@
         "Backpack": {
           "Id": "Simple",
           "Capacity": 9,
-          "Items": {}
+          "Items": {
+            "0": {
+              "Id": "Armor_Cobalt_Legs",
+              "Quantity": 1,
+              "Durability": 108.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Armor_Cobalt_Chest",
+              "Quantity": 1,
+              "Durability": 108.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Armor_Cobalt_Hands",
+              "Quantity": 1,
+              "Durability": 108.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Armor_Cobalt_Head",
+              "Quantity": 1,
+              "Durability": 108.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
         },
-        "ActiveHotbarSlot": 6,
+        "ActiveHotbarSlot": 7,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -394,11 +405,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -696.6857299804688,
-              "Y": 151.00010681152344,
-              "Z": -985.152099609375,
-              "Pitch": 0.10044938325881958,
-              "Yaw": 0.05780677869915962,
+              "X": -701.6748657226562,
+              "Y": 127.0,
+              "Z": -991.3251342773438,
+              "Pitch": -0.4307892322540283,
+              "Yaw": 1.8509541749954224,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -603,7 +614,14 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 100.0
+          "Value": 58.94999313354492,
+          "Modifiers": {
+            "Effect_MULTIPLICATIVE": {
+              "Id": "Static",
+              "CalculationType": "Multiplicative",
+              "Amount": 1.0499999523162842
+            }
+          }
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -649,8 +667,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -1.3583141565322876,
-        "Yaw": -1.7570847272872925,
+        "Pitch": -0.4307892322540283,
+        "Yaw": 1.8509541749954224,
         "Roll": 0.0
       }
     }

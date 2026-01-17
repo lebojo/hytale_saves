@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -672.9984130859375,
-        "Y": 126.0,
-        "Z": 524.8945922851562
+        "X": -963.27685546875,
+        "Y": 132.0,
+        "Z": -1037.508056640625
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 12.587240219116211,
+        "Yaw": 26.44727897644043,
         "Roll": 0.0
       }
     },
@@ -64,13 +64,20 @@
           "Items": {
             "0": {
               "Id": "Plant_Fruit_Berries_Red",
-              "Quantity": 6,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
               "Id": "Ingredient_Life_Essence",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Plant_Crop_Health3",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -152,6 +159,14 @@
         "KnownRecipes": [],
         "PerWorldData": {
           "default": {
+            "LastPosition": {
+              "X": -963.27685546875,
+              "Y": 132.0,
+              "Z": -1037.508056640625,
+              "Pitch": -0.11733385175466537,
+              "Yaw": 1.314539909362793,
+              "Roll": 0.0
+            },
             "LastMovementStates": {
               "Flying": false
             },
@@ -161,8 +176,10 @@
         },
         "DiscoveredZones": [
           "Zone1_Spawn",
+          "Zone1_Tier3",
           "Zone1_Tier2",
-          "Zone1_Tier1"
+          "Zone1_Tier1",
+          "Zone3_Tier1"
         ],
         "DiscoveredInstances": [],
         "ReputationData": {},
@@ -228,7 +245,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 6.499994277954102
+          "Value": 10.0
         },
         "Ammo": {
           "Id": "Ammo",
@@ -258,8 +275,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.23458968102931976,
-        "Yaw": 0.02086848020553589,
+        "Pitch": -0.11733385175466537,
+        "Yaw": 1.314539909362793,
         "Roll": 0.0
       }
     }
