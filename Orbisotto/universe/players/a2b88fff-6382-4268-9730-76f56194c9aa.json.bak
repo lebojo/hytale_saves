@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -695.67041015625,
-        "Y": 149.00010681152344,
-        "Z": -988.560302734375
+        "X": -700.903564453125,
+        "Y": 148.00010681152344,
+        "Z": -992.0599975585938
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 26.62471580505371,
+        "Yaw": 1.3567434549331665,
         "Roll": 0.0
       }
     },
@@ -56,9 +56,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.23620583118393598,
+        "X": 0.009155261705033382,
         "Y": 0.0,
-        "Z": -0.05859369455725544
+        "Z": 0.02563473277409347
       }
     },
     "Player": {
@@ -80,16 +80,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "33": {
-              "Id": "Furniture_Temple_Dark_Sign",
-              "Quantity": 5,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "29": {
               "Id": "Wood_Redwood_Trunk",
-              "Quantity": 73,
+              "Quantity": 74,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -109,8 +102,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "12": {
-              "Id": "Rock_Shale_Cobble",
-              "Quantity": 33,
+              "Id": "Furniture_Temple_Dark_Sign",
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -129,13 +122,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "9": {
-              "Id": "Rock_Shale_Brick_Decorative",
-              "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "30": {
               "Id": "Rock_Shale_Brick_Wall",
               "Quantity": 2,
@@ -150,16 +136,23 @@
               "MaxDurability": 138.0,
               "OverrideDroppedItemAnimation": false
             },
+            "24": {
+              "Id": "Furniture_Temple_Dark_Trapdoor",
+              "Quantity": 30,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "19": {
               "Id": "Rock_Shale_Brick_Pillar_Middle",
-              "Quantity": 47,
+              "Quantity": 51,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "26": {
               "Id": "Furniture_Temple_Dark_Brazier",
-              "Quantity": 5,
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -193,15 +186,22 @@
               "OverrideDroppedItemAnimation": false
             },
             "22": {
-              "Id": "Furniture_Temple_Dark_Trapdoor",
-              "Quantity": 30,
+              "Id": "Wood_Cedar_Trunk",
+              "Quantity": 95,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "20": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "21": {
               "Id": "Rock_Shale_Brick_Pillar_Base",
-              "Quantity": 11,
+              "Quantity": 13,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -270,8 +270,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "32": {
-              "Id": "Rock_Shale_Brick_Ornate",
-              "Quantity": 4,
+              "Id": "Rock_Shale_Brick_Stairs",
+              "Quantity": 25,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -365,16 +365,23 @@
               "MaxDurability": 303.0,
               "OverrideDroppedItemAnimation": false
             },
+            "6": {
+              "Id": "Rock_Shale_Brick_Smooth",
+              "Quantity": 20,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "4": {
-              "Id": "Wood_Cedar_Trunk",
-              "Quantity": 97,
+              "Id": "Rock_Shale_Brick_Decorative",
+              "Quantity": 21,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
               "Id": "Rock_Shale_Brick_Half",
-              "Quantity": 32,
+              "Quantity": 37,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -382,13 +389,27 @@
             "1": {
               "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
-              "Durability": 24.19999999999999,
-              "MaxDurability": 248.0,
+              "Durability": 160.5,
+              "MaxDurability": 213.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Rock_Shale_Brick_Stairs",
-              "Quantity": 24,
+              "Id": "Rock_Shale_Brick",
+              "Quantity": 21,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Rock_Shale_Brick_Beam",
+              "Quantity": 20,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Rock_Shale_Brick_Ornate",
+              "Quantity": 34,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -427,7 +448,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 2,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -749,8 +770,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.3657819628715515,
-        "Yaw": 1.4919545650482178,
+        "Pitch": -0.23203857243061066,
+        "Yaw": 1.3465538024902344,
         "Roll": 0.0
       }
     }
