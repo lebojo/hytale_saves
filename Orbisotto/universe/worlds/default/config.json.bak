@@ -6,6 +6,17 @@
   },
   "DisplayName": "Orbisotto",
   "Seed": 1768322863003,
+  "SpawnProvider": {
+    "Id": "Global",
+    "SpawnPoint": {
+      "X": -1383.4898681640625,
+      "Y": 122.0,
+      "Z": 634.5172119140625,
+      "Pitch": -20.614519119262695,
+      "Yaw": -90.41255187988281,
+      "Roll": 0.0
+    }
+  },
   "WorldGen": {
     "Type": "Hytale",
     "Name": "Default"

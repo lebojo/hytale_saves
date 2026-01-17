@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -719.931640625,
-        "Y": 134.0,
-        "Z": -995.85205078125
+        "X": -715.9816284179688,
+        "Y": 133.0,
+        "Z": -1007.8012084960938
       },
       "Rotation": {
         "Pitch": -0.03859085962176323,
-        "Yaw": -76.1338882446289,
+        "Yaw": -5.202045440673828,
         "Roll": 0.0
       }
     },
@@ -122,8 +122,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "9": {
-              "Id": "Ingredient_Bar_Iron",
-              "Quantity": 2,
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -162,6 +162,20 @@
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Ingredient_Hide_Heavy",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
             }
           }
         },
@@ -172,14 +186,14 @@
             "0": {
               "Id": "Armor_Thorium_Head",
               "Quantity": 1,
-              "Durability": 99.5,
+              "Durability": 99.0,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Armor_Steel_Ancient_Hands",
               "Quantity": 1,
-              "Durability": 60.0,
+              "Durability": 59.5,
               "MaxDurability": 75.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -206,7 +220,7 @@
             "0": {
               "Id": "Weapon_Sword_Cobalt",
               "Quantity": 1,
-              "Durability": 23.610000000000532,
+              "Durability": 22.140000000000526,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -224,13 +238,6 @@
               "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             },
-            "4": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 6,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "1": {
               "Id": "*Tool_Watering_Can_State_Filled_Water",
               "Quantity": 1,
@@ -243,6 +250,13 @@
               "Quantity": 1,
               "Durability": 293.75,
               "MaxDurability": 350.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Ingredient_Bar_Iron",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
@@ -294,7 +308,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 7,
+        "ActiveHotbarSlot": 4,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -344,7 +358,7 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": -1,
+        "ActiveUtilitySlot": 1,
         "SortType": "Type"
       },
       "PlayerData": {
@@ -356,11 +370,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -719.931640625,
-              "Y": 134.0,
-              "Z": -995.85205078125,
-              "Pitch": -0.29218074679374695,
-              "Yaw": -0.009163795039057732,
+              "X": -715.9816284179688,
+              "Y": 133.0,
+              "Z": -1007.8012084960938,
+              "Pitch": -0.021709950640797615,
+              "Yaw": 0.29574182629585266,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -458,105 +472,37 @@
                 "Day": 20
               }
             ]
-          },
-          "instance-Forgotten_Temple-f0ec9cfb-35b3-45c7-a0ad-bc8e5c5af81a": {
-            "LastPosition": {
-              "X": 5096.45849609375,
-              "Y": 169.4499969482422,
-              "Z": 4983.4404296875,
-              "Pitch": -0.03999561071395874,
-              "Yaw": -1.5767923593521118,
-              "Roll": 0.0
-            },
-            "LastMovementStates": {
-              "Flying": false
-            },
-            "FirstSpawn": false,
-            "DeathPositions": []
-          },
-          "instance-Portals_Hedera-7c2ccb9e-8450-4923-b902-130b1e9e4f1e": {
-            "LastPosition": {
-              "X": -61.533931732177734,
-              "Y": 101.44120788574219,
-              "Z": 7.031554698944092,
-              "Pitch": -0.35079216957092285,
-              "Yaw": -1.375586748123169,
-              "Roll": 0.0
-            },
-            "LastMovementStates": {
-              "Flying": false
-            },
-            "FirstSpawn": false,
-            "DeathPositions": []
-          },
-          "instance-Forgotten_Temple-33663abc-64b3-4276-be76-a9759fcf0e3e": {
-            "LastPosition": {
-              "X": 5097.4599609375,
-              "Y": 169.4499969482422,
-              "Z": 4983.328125,
-              "Pitch": -0.16599851846694946,
-              "Yaw": -1.626396656036377,
-              "Roll": 0.0
-            },
-            "LastMovementStates": {
-              "Flying": false
-            },
-            "FirstSpawn": false,
-            "DeathPositions": []
-          },
-          "instance-Forgotten_Temple-b363373c-dbe7-403f-921c-9a9d30648915": {
-            "LastPosition": {
-              "X": 5096.33984375,
-              "Y": 169.45010375976562,
-              "Z": 4983.5234375,
-              "Pitch": -0.16799932718276978,
-              "Yaw": -1.6328045129776,
-              "Roll": 0.0
-            },
-            "LastMovementStates": {
-              "Flying": false
-            },
-            "FirstSpawn": false,
-            "DeathPositions": []
           }
         },
         "DiscoveredZones": [
-          "Oceans",
-          "Zone1_Temple",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone1_Shallow_Ocean",
-          "ForgottenTemple",
-          "Zone3_Shallow_Ocean_Tier1",
           "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Shallow_Ocean_Tier1",
           "Zone1_Tier3",
-          "Zone3_Shallow_Ocean_Tier3",
-          "Zone1_Tier2",
           "Zone1_Tier1",
-          "Zone1_Spawn",
-          "Zone3_Shore_Tier2",
           "Zone3_Tier2",
           "Zone4_Shore_Tier4",
-          "Zone3_Tier3",
-          "Zone3_Shore_Tier3",
           "Zone4_Tier5",
-          "Zone4_Shore_Tier5",
-          "Zone3_Shore_Tier1",
           "Zone4_Tier4",
-          "Zone4_Shallow_Ocean_Tier4",
+          "Zone4_Shore_Tier5",
+          "Zone3_Tier3",
+          "Zone3_Tier1",
+          "Zone1_Temple",
+          "Zone1_Tier2",
+          "Oceans",
+          "Zone1_Spawn",
+          "Zone1_Shallow_Ocean",
+          "ForgottenTemple",
+          "Zone3_Shore_Tier3",
+          "Zone3_Shore_Tier2",
+          "Zone3_Shore_Tier1",
           "Zone1_Shore",
-          "Zone3_Tier1"
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone4_Shallow_Ocean_Tier4",
+          "Zone3_Shallow_Ocean_Tier3"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
-            "$type": "04"
-          },
-          {
             "$binary": "yUtYskETRfWlSwKer6QCrw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
             "$type": "04"
           },
           {
@@ -564,15 +510,11 @@
             "$type": "04"
           },
           {
-            "$binary": "/+BiIoEgSL6PeW8LQ0YL/g==",
+            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
             "$type": "04"
           },
           {
-            "$binary": "s2M3PNvnQD+SHJqdMGSJFQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "fCzLnoRQSSO5AhMLHp5PHg==",
+            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
             "$type": "04"
           },
           {
@@ -580,11 +522,23 @@
             "$type": "04"
           },
           {
+            "$binary": "s2M3PNvnQD+SHJqdMGSJFQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "/+BiIoEgSL6PeW8LQ0YL/g==",
+            "$type": "04"
+          },
+          {
+            "$binary": "fCzLnoRQSSO5AhMLHp5PHg==",
+            "$type": "04"
+          },
+          {
             "$binary": "PsbSp7V5SYGfiQULjjaeZg==",
             "$type": "04"
           },
           {
-            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
+            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
             "$type": "04"
           }
         ],
@@ -637,7 +591,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 152.0,
+          "Value": 92.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -690,8 +644,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.29218074679374695,
-        "Yaw": -0.009163795039057732,
+        "Pitch": -0.021709950640797615,
+        "Yaw": 0.29574182629585266,
         "Roll": 0.0
       }
     }
