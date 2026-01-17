@@ -8,7 +8,7 @@
         {
           "EntityEffectId": "Meat_Buff_T2",
           "InitialDuration": 150.0,
-          "RemainingDuration": 60.48120880126953,
+          "RemainingDuration": 137.12869262695312,
           "SinceLastDamage": 0.0,
           "HasBeenDamaged": true,
           "SequentialHits": {
@@ -22,8 +22,8 @@
         {
           "EntityEffectId": "HealthRegen_Buff_T2",
           "InitialDuration": 150.0,
-          "RemainingDuration": 60.48120880126953,
-          "SinceLastDamage": 1.5153404474258423,
+          "RemainingDuration": 137.12869262695312,
+          "SinceLastDamage": 0.8685811758041382,
           "HasBeenDamaged": false,
           "SequentialHits": {
             "Hits": 0
@@ -51,13 +51,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1207.177490234375,
-        "Y": 123.0,
-        "Z": -686.7070922851562
+        "X": -1199.1422119140625,
+        "Y": 28.81333351135254,
+        "Z": -699.193603515625
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 36.72651672363281,
+        "Yaw": 71.85709381103516,
         "Roll": 0.0
       }
     },
@@ -66,9 +66,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
+        "X": 1.3659656570244314,
+        "Y": 0.7999985694897191,
+        "Z": -2.2741680241613187
       }
     },
     "Player": {
@@ -90,11 +90,11 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "35": {
-              "Id": "Tool_Pickaxe_Crude",
+            "33": {
+              "Id": "Weapon_Sword_Crude",
               "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 150.0,
+              "Durability": 36.28000000000043,
+              "MaxDurability": 80.0,
               "OverrideDroppedItemAnimation": false
             },
             "29": {
@@ -104,30 +104,30 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "2": {
-              "Id": "Ingredient_Bar_Iron",
-              "Quantity": 30,
+            "25": {
+              "Id": "Ingredient_Fabric_Scrap_Cindercloth",
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Weapon_Shortbow_Crude",
-              "Quantity": 1,
-              "Durability": 62.260000000000005,
-              "MaxDurability": 80.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "6": {
+            "4": {
               "Id": "Weapon_Sword_Scrap",
               "Quantity": 1,
               "Durability": 40.0,
               "MaxDurability": 50.0,
               "OverrideDroppedItemAnimation": false
             },
-            "4": {
-              "Id": "Ore_Iron",
-              "Quantity": 2,
+            "12": {
+              "Id": "Ingredient_Hide_Light",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "13": {
+              "Id": "Ingredient_Sac_Venom",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -153,37 +153,23 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "1": {
-              "Id": "Weapon_Arrow_Crude",
+            "28": {
+              "Id": "Ingredient_Hide_Medium",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "24": {
+              "Id": "Rubble_Volcanic",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "28": {
-              "Id": "Ingredient_Leather_Light",
-              "Quantity": 5,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "34": {
-              "Id": "Ingredient_Bar_Copper",
-              "Quantity": 16,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Rubble_Stone",
-              "Quantity": 10,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Ingredient_Hide_Medium",
-              "Quantity": 2,
+            "23": {
+              "Id": "Ore_Iron",
+              "Quantity": 11,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -195,9 +181,149 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "16": {
+              "Id": "Rock_Basalt_Cobble",
+              "Quantity": 33,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "17": {
               "Id": "Plant_Crop_Health3",
               "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "19": {
+              "Id": "Ingredient_Stick",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "18": {
+              "Id": "Rock_Volcanic_Cobble",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "22": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "21": {
+              "Id": "Ingredient_Fire_Essence",
+              "Quantity": 16,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "20": {
+              "Id": "Ore_Copper",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "35": {
+              "Id": "Tool_Pickaxe_Crude",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 150.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Ingredient_Bar_Iron",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "27": {
+              "Id": "Weapon_Shortbow_Crude",
+              "Quantity": 1,
+              "Durability": 62.260000000000005,
+              "MaxDurability": 80.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Ore_Iron",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "15": {
+              "Id": "Ore_Copper",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "14": {
+              "Id": "Tool_Pickaxe_Crude",
+              "Quantity": 1,
+              "Durability": 150.0,
+              "MaxDurability": 150.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "31": {
+              "Id": "Ingredient_Crystal_Green",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 10,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "10": {
+              "Id": "Ingredient_Bone_Fragment",
+              "Quantity": 9,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "32": {
+              "Id": "Ingredient_Powder_Boom",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Weapon_Sword_Scrap",
+              "Quantity": 1,
+              "Durability": 50.0,
+              "MaxDurability": 50.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Rubble_Stone",
+              "Quantity": 8,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Rock_Stone_Cobble",
+              "Quantity": 51,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -211,28 +337,28 @@
             "0": {
               "Id": "Armor_Copper_Head",
               "Quantity": 1,
-              "Durability": 80.0,
+              "Durability": 77.0,
               "MaxDurability": 80.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Armor_Copper_Hands",
               "Quantity": 1,
-              "Durability": 80.0,
+              "Durability": 74.0,
               "MaxDurability": 80.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
               "Id": "Armor_Iron_Chest",
               "Quantity": 1,
-              "Durability": 75.0,
+              "Durability": 71.5,
               "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Armor_Copper_Legs",
               "Quantity": 1,
-              "Durability": 80.0,
+              "Durability": 74.5,
               "MaxDurability": 80.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -242,6 +368,20 @@
           "Id": "Simple",
           "Capacity": 9,
           "Items": {
+            "0": {
+              "Id": "Tool_Pickaxe_Iron",
+              "Quantity": 1,
+              "Durability": 112.25,
+              "MaxDurability": 250.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Rock_Basalt_Cobble",
+              "Quantity": 96,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "6": {
               "Id": "Tool_Hatchet_Crude",
               "Quantity": 1,
@@ -257,15 +397,22 @@
               "OverrideDroppedItemAnimation": false
             },
             "8": {
-              "Id": "Weapon_Sword_Crude",
+              "Id": "Weapon_Sword_Iron",
               "Quantity": 1,
-              "Durability": 37.75000000000043,
-              "MaxDurability": 80.0,
+              "Durability": 92.9100000000008,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Ingredient_Fabric_Scrap_Linen",
+              "Quantity": 12,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 18,
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -273,7 +420,7 @@
             "7": {
               "Id": "Tool_Pickaxe_Copper",
               "Quantity": 1,
-              "Durability": 8.0,
+              "Durability": 0.0,
               "MaxDurability": 200.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -359,7 +506,7 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": 1,
+        "ActiveUtilitySlot": 0,
         "SortType": "Name"
       },
       "PlayerData": {
@@ -369,11 +516,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1204.1148681640625,
+              "X": -1207.177490234375,
               "Y": 123.0,
-              "Z": -684.611572265625,
-              "Pitch": -0.3620224595069885,
-              "Yaw": -0.9260083436965942,
+              "Z": -686.7070922851562,
+              "Pitch": -0.42951852083206177,
+              "Yaw": -1.679947018623352,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -425,9 +572,9 @@
         },
         "DiscoveredZones": [
           "Zone1_Spawn",
-          "Zone3_Tier1",
-          "Zone3_Tier2",
           "Zone1_Tier3",
+          "Zone3_Tier2",
+          "Zone3_Tier1",
           "Zone1_Tier2",
           "Zone1_Tier1"
         ],
@@ -479,7 +626,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 139.64999389648438,
+          "Value": 115.53901672363281,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -544,8 +691,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.3735184669494629,
-        "Yaw": -1.3001972436904907,
+        "Pitch": -0.4399871230125427,
+        "Yaw": -2.7522294521331787,
         "Roll": 0.0
       }
     }
