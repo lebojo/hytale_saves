@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -963.27685546875,
-        "Y": 132.0,
-        "Z": -1037.508056640625
+        "X": -1156.087646484375,
+        "Y": 118.0,
+        "Z": -588.2938232421875
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 26.44727897644043,
+        "Yaw": 45.99882125854492,
         "Roll": 0.0
       }
     },
@@ -51,7 +51,29 @@
         "Storage": {
           "Id": "Simple",
           "Capacity": 36,
-          "Items": {}
+          "Items": {
+            "0": {
+              "Id": "Ingredient_Charcoal",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 26,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Ingredient_Stick",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
         },
         "Armor": {
           "Id": "Simple",
@@ -64,7 +86,35 @@
           "Items": {
             "0": {
               "Id": "Plant_Fruit_Berries_Red",
-              "Quantity": 4,
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Ingredient_Hide_Light",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Ingredient_Stick",
+              "Quantity": 55,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -83,9 +133,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "2": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 3,
+            "7": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Bench_Campfire",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -100,7 +157,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 0,
+        "ActiveHotbarSlot": 8,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -154,7 +211,7 @@
         "SortType": "Name"
       },
       "PlayerData": {
-        "BlockIdVersion": 1,
+        "BlockIdVersion": 10,
         "World": "default",
         "KnownRecipes": [],
         "PerWorldData": {
@@ -176,6 +233,7 @@
         },
         "DiscoveredZones": [
           "Zone1_Spawn",
+          "Zone3_Tier2",
           "Zone1_Tier3",
           "Zone1_Tier2",
           "Zone1_Tier1",
@@ -275,8 +333,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.11733385175466537,
-        "Yaw": 1.314539909362793,
+        "Pitch": -0.9538258910179138,
+        "Yaw": 2.6537041664123535,
         "Roll": 0.0
       }
     }
