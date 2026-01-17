@@ -1,6 +1,56 @@
 {
   "Parties": [
     {
+      "Id": "f55c453a-4e69-422e-bbe4-341779dac133",
+      "Owner": "44ff4f1d-22a5-454f-a60b-f05af925c011",
+      "Name": "Yudel's Party",
+      "Description": "Yudel's Party Description",
+      "Color": -7680,
+      "Members": [
+        "44ff4f1d-22a5-454f-a60b-f05af925c011"
+      ],
+      "Overrides": [
+        {
+          "Type": "simpleclaims.claim.amount",
+          "Value": {
+            "Type": "integer",
+            "Value": "25"
+          }
+        },
+        {
+          "Type": "simpleclaims.party.protection.place_blocks",
+          "Value": {
+            "Type": "bool",
+            "Value": "false"
+          }
+        },
+        {
+          "Type": "simpleclaims.party.protection.break_blocks",
+          "Value": {
+            "Type": "bool",
+            "Value": "false"
+          }
+        },
+        {
+          "Type": "simpleclaims.party.protection.interact",
+          "Value": {
+            "Type": "bool",
+            "Value": "false"
+          }
+        }
+      ],
+      "CreatedTracker": {
+        "UserUUID": "44ff4f1d-22a5-454f-a60b-f05af925c011",
+        "UserName": "Yudel",
+        "Date": "2026-01-17T18:18:39.518195915"
+      },
+      "ModifiedTracker": {
+        "UserUUID": "44ff4f1d-22a5-454f-a60b-f05af925c011",
+        "UserName": "Yudel",
+        "Date": "2026-01-17T18:18:39.518239951"
+      }
+    },
+    {
       "Id": "d43ffb58-86df-4467-b237-6576ec19d0fd",
       "Owner": "387c2467-ac68-4267-a267-1c3090359140",
       "Name": "LeBojo's Party",

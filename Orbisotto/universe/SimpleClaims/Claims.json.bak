@@ -54,6 +54,16 @@
           }
         },
         {
+          "UUID": "f55c453a-4e69-422e-bbe4-341779dac133",
+          "ChunkX": -38,
+          "ChunkY": -22,
+          "CreatedTracker": {
+            "UserUUID": "44ff4f1d-22a5-454f-a60b-f05af925c011",
+            "UserName": "Yudel",
+            "Date": "2026-01-17T18:18:39.520159471"
+          }
+        },
+        {
           "UUID": "d43ffb58-86df-4467-b237-6576ec19d0fd",
           "ChunkX": -23,
           "ChunkY": -31,

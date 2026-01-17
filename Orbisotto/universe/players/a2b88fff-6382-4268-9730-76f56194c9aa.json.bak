@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -701.5617065429688,
-        "Y": 127.0,
-        "Z": -991.7355346679688
+        "X": -697.9920654296875,
+        "Y": 154.0,
+        "Z": -976.2836303710938
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 14.160146713256836,
+        "Yaw": 9.50548267364502,
         "Roll": 0.0
       }
     },
@@ -56,9 +56,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.01281736065724736,
+        "X": 0.0,
         "Y": 0.0,
-        "Z": -0.02563472131449472
+        "Z": 0.0
       }
     },
     "Player": {
@@ -122,6 +122,13 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "8": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "9": {
               "Id": "Wood_Fir_Trunk",
               "Quantity": 6,
@@ -150,22 +157,8 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "17": {
-              "Id": "Furniture_Crude_Candle",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "16": {
-              "Id": "Rock_Shale_Brick",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "19": {
-              "Id": "Food_Wildmeat_Raw",
+            "26": {
+              "Id": "Wood_Deadwood_Planks",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -178,8 +171,29 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "16": {
+              "Id": "Rock_Shale_Brick",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "17": {
+              "Id": "Furniture_Crude_Candle",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "19": {
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "23": {
-              "Id": "Rubble_Stone",
+              "Id": "Deco_Iron_Bars",
               "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -220,15 +234,15 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Tool_Shears_Basic",
+            "6": {
+              "Id": "Ingredient_Bone_Fragment",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Ingredient_Bone_Fragment",
+            "27": {
+              "Id": "Tool_Shears_Basic",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -248,6 +262,13 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "31": {
+              "Id": "Rock_Slate_Cobble",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "11": {
               "Id": "Ore_Thorium",
               "Quantity": 4,
@@ -258,13 +279,6 @@
             "10": {
               "Id": "Furniture_Temple_Dark_Platform",
               "Quantity": 32,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "31": {
-              "Id": "Rock_Slate_Cobble",
-              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -365,20 +379,6 @@
               "MaxDurability": 303.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Tool_Repair_Kit_Iron",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "4": {
-              "Id": "Deco_Iron_Bars",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "8": {
               "Id": "Rock_Shale_Brick_Ornate",
               "Quantity": 3,
@@ -400,9 +400,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "5": {
-              "Id": "Wood_Deadwood_Planks",
-              "Quantity": 1,
+            "7": {
+              "Id": "Rubble_Stone",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -441,7 +441,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 7,
+        "ActiveHotbarSlot": 2,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -501,11 +501,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -701.6748657226562,
+              "X": -701.2384033203125,
               "Y": 127.0,
-              "Z": -991.3251342773438,
-              "Pitch": -0.4307892322540283,
-              "Yaw": 1.8509541749954224,
+              "Z": -993.007080078125,
+              "Pitch": -0.27204644680023193,
+              "Yaw": -0.35912278294563293,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -623,8 +623,8 @@
           "Oceans",
           "Zone1_Spawn",
           "Zone1_Shallow_Ocean",
-          "ForgottenTemple",
           "Zone3_Shore_Tier3",
+          "ForgottenTemple",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
           "Zone1_Shore",
@@ -633,15 +633,15 @@
           "Zone3_Shallow_Ocean_Tier3",
           "Zone3_Shallow_Ocean_Tier2",
           "Zone3_Shallow_Ocean_Tier1",
-          "Zone1_Tier3",
-          "Zone1_Tier1",
-          "Zone4_Shore_Tier4",
-          "Zone3_Tier2",
-          "Zone4_Tier5",
-          "Zone4_Tier4",
-          "Zone4_Shore_Tier5",
+          "Zone3_Tier1",
           "Zone3_Tier3",
-          "Zone3_Tier1"
+          "Zone4_Shore_Tier5",
+          "Zone4_Tier4",
+          "Zone4_Tier5",
+          "Zone3_Tier2",
+          "Zone4_Shore_Tier4",
+          "Zone1_Tier1",
+          "Zone1_Tier3"
         ],
         "DiscoveredInstances": [
           {
@@ -649,7 +649,7 @@
             "$type": "04"
           },
           {
-            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
+            "$binary": "fCzLnoRQSSO5AhMLHp5PHg==",
             "$type": "04"
           },
           {
@@ -657,7 +657,7 @@
             "$type": "04"
           },
           {
-            "$binary": "fCzLnoRQSSO5AhMLHp5PHg==",
+            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
             "$type": "04"
           }
         ],
@@ -763,8 +763,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.3107963800430298,
-        "Yaw": 0.8033770322799683,
+        "Pitch": -0.27330076694488525,
+        "Yaw": -2.2954907417297363,
         "Roll": 0.0
       }
     }
