@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1209.12744140625,
-        "Y": 123.0,
-        "Z": -685.8600463867188
+        "X": -1201.5567626953125,
+        "Y": 127.0,
+        "Z": -681.115234375
       },
       "Rotation": {
-        "Pitch": -0.7634631991386414,
-        "Yaw": -5.170698165893555,
+        "Pitch": 0.0,
+        "Yaw": 10.280516624450684,
         "Roll": 0.0
       }
     },
@@ -63,9 +63,9 @@
               "MaxDurability": 500.0,
               "OverrideDroppedItemAnimation": false
             },
-            "35": {
+            "33": {
               "Id": "Furniture_Crude_Torch",
-              "Quantity": 83,
+              "Quantity": 20,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -101,13 +101,6 @@
             "3": {
               "Id": "Weapon_Arrow_Crude",
               "Quantity": 49,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "34": {
-              "Id": "Furniture_Crude_Torch",
-              "Quantity": 20,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -181,17 +174,17 @@
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Tool_Hatchet_Iron",
-              "Quantity": 1,
-              "Durability": 175.0,
-              "MaxDurability": 250.0,
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 83,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
-              "Id": "Tool_Hoe_Crude",
+              "Id": "Tool_Watering_Can",
               "Quantity": 1,
-              "Durability": 66.0,
-              "MaxDurability": 100.0,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
@@ -215,11 +208,18 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "5": {
-              "Id": "*Tool_Watering_Can_State_Filled_Water",
+            "7": {
+              "Id": "Tool_Hoe_Crude",
               "Quantity": 1,
-              "Durability": 19.0,
-              "MaxDurability": 20.0,
+              "Durability": 48.0,
+              "MaxDurability": 100.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Tool_Hatchet_Iron",
+              "Quantity": 1,
+              "Durability": 175.0,
+              "MaxDurability": 250.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -249,7 +249,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 1,
+        "ActiveHotbarSlot": 6,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -309,11 +309,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": 965.6748657226562,
-              "Y": 118.4500961303711,
-              "Z": -622.5343627929688,
-              "Pitch": -0.5110000967979431,
-              "Yaw": 6.2831854820251465,
+              "X": -1201.5567626953125,
+              "Y": 127.0,
+              "Z": -681.115234375,
+              "Pitch": -0.4066182076931,
+              "Yaw": -3.0712528228759766,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -527,8 +527,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.1314535140991211,
-        "Yaw": 1.1661752462387085,
+        "Pitch": -0.4066182076931,
+        "Yaw": -3.0712528228759766,
         "Roll": 0.0
       }
     }
