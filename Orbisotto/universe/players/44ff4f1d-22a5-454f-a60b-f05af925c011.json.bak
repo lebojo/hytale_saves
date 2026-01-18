@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1163.3111572265625,
-        "Y": 63.0,
-        "Z": -781.757080078125
+        "X": -1229.5201416015625,
+        "Y": 131.0,
+        "Z": -685.033447265625
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 66.89857482910156,
+        "Yaw": -5.070088863372803,
         "Roll": 0.0
       }
     },
@@ -171,13 +171,6 @@
               "Quantity": 1,
               "Durability": 80.73000000000117,
               "MaxDurability": 120.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "Teleporter",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
@@ -510,8 +503,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.4985707402229309,
-        "Yaw": -1.5458545684814453,
+        "Pitch": -0.5528193116188049,
+        "Yaw": 1.6484938859939575,
         "Roll": 0.0
       }
     }

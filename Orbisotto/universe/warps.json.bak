@@ -11,6 +11,16 @@
       "Yaw": 7.853981971740723
     },
     {
+      "Id": "Grotte Normale",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-18T21:00:04.637067607Z",
+      "X": -1164.0,
+      "Y": 63.0,
+      "Z": -781.5,
+      "Yaw": 7.853981971740723
+    },
+    {
       "Id": "Volcan",
       "World": "default",
       "Creator": "*Teleporter",
