@@ -3,7 +3,38 @@
     "Nameplate": {
       "Text": "LeBojo"
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "Meat_Buff_T2",
+          "InitialDuration": 150.0,
+          "RemainingDuration": 119.864013671875,
+          "SinceLastDamage": 0.0,
+          "HasBeenDamaged": true,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/AddHealth/Small.png",
+          "Invulnerable": false
+        },
+        {
+          "EntityEffectId": "HealthRegen_Buff_T2",
+          "InitialDuration": 150.0,
+          "RemainingDuration": 119.864013671875,
+          "SinceLastDamage": 0.13153211772441864,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -20,13 +51,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -715.6781005859375,
-        "Y": 133.0,
-        "Z": -1005.6758422851562
+        "X": -721.0775146484375,
+        "Y": 134.0,
+        "Z": -994.81640625
       },
       "Rotation": {
-        "Pitch": -0.03859085962176323,
-        "Yaw": -2.324317216873169,
+        "Pitch": 0.0,
+        "Yaw": 3.815593719482422,
         "Roll": 0.0
       }
     },
@@ -48,9 +79,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -3.6199912873002678,
+        "X": -0.2508541987530201,
         "Y": 0.0,
-        "Z": -3.9331013075978634
+        "Z": 2.1752904242232693
       }
     },
     "Player": {
@@ -142,13 +173,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "30": {
-              "Id": "Weapon_Shortbow_Thorium",
-              "Quantity": 1,
-              "Durability": 123.3,
-              "MaxDurability": 137.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "1": {
               "Id": "Weapon_Arrow_Crude",
               "Quantity": 56,
@@ -156,16 +180,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "30": {
+              "Id": "Weapon_Shortbow_Thorium",
+              "Quantity": 1,
+              "Durability": 123.3,
+              "MaxDurability": 137.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "3": {
               "Id": "Rock_Ice",
               "Quantity": 14,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 6,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -238,6 +262,13 @@
               "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             },
+            "4": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "1": {
               "Id": "*Tool_Watering_Can_State_Filled_Water",
               "Quantity": 1,
@@ -308,7 +339,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 8,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -358,7 +389,7 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": 1,
+        "ActiveUtilitySlot": -1,
         "SortType": "Type"
       },
       "PlayerData": {
@@ -370,11 +401,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -716.069091796875,
+              "X": -715.9816284179688,
               "Y": 133.0,
-              "Z": -1012.5096435546875,
-              "Pitch": -0.21213878691196442,
-              "Yaw": 2.110844135284424,
+              "Z": -1007.8012084960938,
+              "Pitch": -0.021709950640797615,
+              "Yaw": 0.29574182629585266,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -477,22 +508,22 @@
         "DiscoveredZones": [
           "Zone3_Shallow_Ocean_Tier2",
           "Zone3_Shallow_Ocean_Tier1",
-          "Zone1_Tier3",
-          "Zone1_Tier1",
-          "Zone3_Tier2",
-          "Zone4_Shore_Tier4",
+          "Oceans",
+          "Zone1_Temple",
+          "Zone3_Tier1",
+          "Zone3_Tier3",
           "Zone4_Tier5",
           "Zone4_Tier4",
           "Zone4_Shore_Tier5",
-          "Zone3_Tier3",
-          "Zone3_Tier1",
-          "Zone1_Temple",
+          "Zone4_Shore_Tier4",
+          "Zone3_Tier2",
+          "Zone1_Tier3",
           "Zone1_Tier2",
-          "Oceans",
+          "Zone1_Tier1",
           "Zone1_Spawn",
           "Zone1_Shallow_Ocean",
-          "ForgottenTemple",
           "Zone3_Shore_Tier3",
+          "ForgottenTemple",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
           "Zone1_Shore",
@@ -502,7 +533,7 @@
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "yUtYskETRfWlSwKer6QCrw==",
+            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
             "$type": "04"
           },
           {
@@ -510,7 +541,7 @@
             "$type": "04"
           },
           {
-            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
+            "$binary": "yUtYskETRfWlSwKer6QCrw==",
             "$type": "04"
           },
           {
@@ -591,12 +622,17 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 92.0,
+          "Value": 145.91748046875,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
               "Amount": 58.0
+            },
+            "Effect_MULTIPLICATIVE": {
+              "Id": "Static",
+              "CalculationType": "Multiplicative",
+              "Amount": 1.0499999523162842
             }
           }
         },
@@ -614,7 +650,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 9.799999237060547
+          "Value": 7.099997043609619
         },
         "Ammo": {
           "Id": "Ammo",
@@ -634,7 +670,7 @@
         },
         "StaminaRegenDelay": {
           "Id": "StaminaRegenDelay",
-          "Value": -0.34999996423721313
+          "Value": 0.0
         },
         "MagicCharges": {
           "Id": "MagicCharges",
@@ -644,8 +680,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.18970990180969238,
-        "Yaw": -3.1069440841674805,
+        "Pitch": 0.26790812611579895,
+        "Yaw": -1.682525873184204,
         "Roll": 0.0
       }
     }

@@ -3,7 +3,38 @@
     "Nameplate": {
       "Text": "LeBojo"
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "Meat_Buff_T2",
+          "InitialDuration": 150.0,
+          "RemainingDuration": 113.8298568725586,
+          "SinceLastDamage": 0.0,
+          "HasBeenDamaged": true,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/AddHealth/Small.png",
+          "Invulnerable": false
+        },
+        {
+          "EntityEffectId": "HealthRegen_Buff_T2",
+          "InitialDuration": 150.0,
+          "RemainingDuration": 113.8298568725586,
+          "SinceLastDamage": 0.1657859981060028,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -20,13 +51,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -715.9816284179688,
-        "Y": 133.0,
-        "Z": -1007.8012084960938
+        "X": -720.5620727539062,
+        "Y": 134.0,
+        "Z": -995.256103515625
       },
       "Rotation": {
-        "Pitch": -0.03859085962176323,
-        "Yaw": -5.202045440673828,
+        "Pitch": 0.0,
+        "Yaw": 3.023237943649292,
         "Roll": 0.0
       }
     },
@@ -142,13 +173,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "30": {
-              "Id": "Weapon_Shortbow_Thorium",
-              "Quantity": 1,
-              "Durability": 123.3,
-              "MaxDurability": 137.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "1": {
               "Id": "Weapon_Arrow_Crude",
               "Quantity": 56,
@@ -156,16 +180,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "30": {
+              "Id": "Weapon_Shortbow_Thorium",
+              "Quantity": 1,
+              "Durability": 123.3,
+              "MaxDurability": 137.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "3": {
               "Id": "Rock_Ice",
               "Quantity": 14,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 6,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -238,6 +262,13 @@
               "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             },
+            "4": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "1": {
               "Id": "*Tool_Watering_Can_State_Filled_Water",
               "Quantity": 1,
@@ -308,7 +339,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 8,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -358,7 +389,7 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": 1,
+        "ActiveUtilitySlot": -1,
         "SortType": "Type"
       },
       "PlayerData": {
@@ -370,11 +401,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -715.9816284179688,
-              "Y": 133.0,
-              "Z": -1007.8012084960938,
-              "Pitch": -0.021709950640797615,
-              "Yaw": 0.29574182629585266,
+              "X": -720.5620727539062,
+              "Y": 134.0,
+              "Z": -995.256103515625,
+              "Pitch": -0.7978419065475464,
+              "Yaw": 3.0221598148345947,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -477,22 +508,22 @@
         "DiscoveredZones": [
           "Zone3_Shallow_Ocean_Tier2",
           "Zone3_Shallow_Ocean_Tier1",
-          "Zone1_Tier3",
-          "Zone1_Tier1",
-          "Zone3_Tier2",
-          "Zone4_Shore_Tier4",
+          "Oceans",
+          "Zone1_Temple",
+          "Zone3_Tier1",
+          "Zone3_Tier3",
           "Zone4_Tier5",
           "Zone4_Tier4",
           "Zone4_Shore_Tier5",
-          "Zone3_Tier3",
-          "Zone3_Tier1",
-          "Zone1_Temple",
+          "Zone4_Shore_Tier4",
+          "Zone3_Tier2",
+          "Zone1_Tier3",
           "Zone1_Tier2",
-          "Oceans",
+          "Zone1_Tier1",
           "Zone1_Spawn",
           "Zone1_Shallow_Ocean",
-          "ForgottenTemple",
           "Zone3_Shore_Tier3",
+          "ForgottenTemple",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
           "Zone1_Shore",
@@ -502,7 +533,7 @@
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "yUtYskETRfWlSwKer6QCrw==",
+            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
             "$type": "04"
           },
           {
@@ -510,7 +541,7 @@
             "$type": "04"
           },
           {
-            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
+            "$binary": "yUtYskETRfWlSwKer6QCrw==",
             "$type": "04"
           },
           {
@@ -591,12 +622,17 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 92.0,
+          "Value": 153.38296508789062,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
               "Amount": 58.0
+            },
+            "Effect_MULTIPLICATIVE": {
+              "Id": "Static",
+              "CalculationType": "Multiplicative",
+              "Amount": 1.0499999523162842
             }
           }
         },
@@ -644,8 +680,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.021709950640797615,
-        "Yaw": 0.29574182629585266,
+        "Pitch": -0.7978419065475464,
+        "Yaw": 3.0221598148345947,
         "Roll": 0.0
       }
     }
