@@ -194,6 +194,14 @@
     },
     {
       "Id": "NPC",
+      "NPCRole": "Goblin_Hermit",
+      "TranslationKey": "server.npcRoles.Goblin_Hermit.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768742487098,
+      "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+    },
+    {
+      "Id": "NPC",
       "NPCRole": "Molerat",
       "TranslationKey": "server.npcRoles.Molerat.name",
       "IsMemoriesNameOverridden": false,
@@ -711,6 +719,14 @@
       "IsMemoriesNameOverridden": false,
       "CapturedTimestamp": 1768412892940,
       "FoundLocationNameKey": "server.map.region.Zone3_Tier1"
+    },
+    {
+      "Id": "NPC",
+      "NPCRole": "Tang_Lemon_Peel",
+      "TranslationKey": "server.npcRoles.Tang_Lemon_Peel.name",
+      "IsMemoriesNameOverridden": false,
+      "CapturedTimestamp": 1768750405780,
+      "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
     },
     {
       "Id": "NPC",

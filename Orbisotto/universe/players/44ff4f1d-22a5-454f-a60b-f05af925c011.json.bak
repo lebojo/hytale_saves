@@ -20,53 +20,28 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1207.69970703125,
+        "X": -1207.871337890625,
         "Y": 123.0,
-        "Z": -685.9779663085938
+        "Z": -684.7506103515625
       },
       "Rotation": {
-        "Pitch": 0.0,
-        "Yaw": 4.3904314041137695,
+        "Pitch": -0.7634631991386414,
+        "Yaw": -6.041013240814209,
         "Roll": 0.0
       }
     },
     "PlayerMemories": {
       "Capacity": 48,
-      "Memories": [
-        {
-          "Id": "NPC",
-          "NPCRole": "Goblin_Thief",
-          "TranslationKey": "server.npcRoles.Goblin_Thief.name",
-          "IsMemoriesNameOverridden": true,
-          "CapturedTimestamp": 1768737981819,
-          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
-        },
-        {
-          "Id": "NPC",
-          "NPCRole": "Goblin_Hermit",
-          "TranslationKey": "server.npcRoles.Goblin_Hermit.name",
-          "IsMemoriesNameOverridden": false,
-          "CapturedTimestamp": 1768742487098,
-          "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
-        },
-        {
-          "Id": "NPC",
-          "NPCRole": "Tang_Lemon_Peel",
-          "TranslationKey": "server.npcRoles.Tang_Lemon_Peel.name",
-          "IsMemoriesNameOverridden": false,
-          "CapturedTimestamp": 1768750405780,
-          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
-        }
-      ]
+      "Memories": []
     },
     "BuilderTools": {
       "SelectionHistory": true
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.8532711537919938,
+        "X": -1.442870212231894,
         "Y": 0.0,
-        "Z": -0.4138181990493361
+        "Z": -2.766721942490345
       }
     },
     "Player": {
@@ -86,41 +61,6 @@
               "Quantity": 1,
               "Durability": 350.0,
               "MaxDurability": 500.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "28": {
-              "Id": "Weapon_Shortbow_Thorium",
-              "Quantity": 1,
-              "Durability": 150.0,
-              "MaxDurability": 150.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "24": {
-              "Id": "Tool_Hatchet_Iron",
-              "Quantity": 1,
-              "Durability": 175.0,
-              "MaxDurability": 250.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "17": {
-              "Id": "Plant_Crop_Mana3",
-              "Quantity": 9,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "19": {
-              "Id": "Food_Wildmeat_Raw",
-              "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "20": {
-              "Id": "Ingredient_Hide_Heavy",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "35": {
@@ -144,18 +84,11 @@
               "MaxDurability": 300.0,
               "OverrideDroppedItemAnimation": false
             },
-            "15": {
-              "Id": "Plant_Crop_Mushroom_Glowing_Blue",
-              "Quantity": 6,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "11": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 8,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+            "9": {
+              "Id": "Weapon_Shortbow_Doomed",
+              "Quantity": 1,
+              "Durability": 75.0,
+              "MaxDurability": 75.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
@@ -178,6 +111,20 @@
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
+            },
+            "26": {
+              "Id": "Weapon_Sword_Doomed",
+              "Quantity": 1,
+              "Durability": 3.1599999999998616,
+              "MaxDurability": 67.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "18": {
+              "Id": "Weapon_Shortbow_Thorium",
+              "Quantity": 1,
+              "Durability": 150.0,
+              "MaxDurability": 150.0,
+              "OverrideDroppedItemAnimation": false
             }
           }
         },
@@ -188,28 +135,28 @@
             "0": {
               "Id": "Armor_Cobalt_Head",
               "Quantity": 1,
-              "Durability": 117.0,
+              "Durability": 113.5,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Armor_Cobalt_Hands",
               "Quantity": 1,
-              "Durability": 114.5,
+              "Durability": 110.0,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
               "Id": "Armor_Cobalt_Chest",
               "Quantity": 1,
-              "Durability": 116.5,
+              "Durability": 112.0,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Armor_Iron_Legs",
               "Quantity": 1,
-              "Durability": 95.0,
+              "Durability": 91.5,
               "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -222,15 +169,22 @@
             "0": {
               "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
-              "Durability": 284.5,
+              "Durability": 279.0,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Food_Vegetable_Cooked",
-              "Quantity": 11,
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Tool_Hatchet_Iron",
+              "Quantity": 1,
+              "Durability": 175.0,
+              "MaxDurability": 250.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
@@ -241,10 +195,17 @@
               "OverrideDroppedItemAnimation": false
             },
             "8": {
-              "Id": "Weapon_Sword_Doomed",
+              "Id": "Weapon_Sword_Iron",
               "Quantity": 1,
-              "Durability": 13.239999999999881,
-              "MaxDurability": 67.0,
+              "Durability": 91.44000000000085,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
@@ -252,13 +213,6 @@
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Weapon_Sword_Iron",
-              "Quantity": 1,
-              "Durability": 96.06000000000071,
-              "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
@@ -295,7 +249,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 6,
+        "ActiveHotbarSlot": 1,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -355,11 +309,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1205.9749755859375,
-              "Y": 123.1500015258789,
-              "Z": -681.5,
-              "Pitch": -0.03150000050663948,
-              "Yaw": -0.03674999997019768,
+              "X": 965.6748657226562,
+              "Y": 118.4500961303711,
+              "Z": -622.5343627929688,
+              "Pitch": -0.5110000967979431,
+              "Yaw": 6.2831854820251465,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -446,24 +400,28 @@
           }
         },
         "DiscoveredZones": [
-          "Oceans",
-          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Spawn",
+          "Zone4_Tier5",
           "ForgottenTemple",
+          "Zone3_Shore_Tier2",
           "Zone1_Tier3",
-          "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Tier2",
+          "Zone3_Tier1",
           "Zone1_Tier2",
           "Zone1_Tier1",
-          "Zone1_Spawn",
-          "Zone3_Tier2",
-          "Zone3_Shore_Tier2",
-          "Zone4_Tier5",
+          "Oceans",
           "Zone4_Shore_Tier5",
-          "Zone1_Shore",
-          "Zone3_Tier1"
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone1_Shore"
         ],
         "DiscoveredInstances": [
           {
             "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
             "$type": "04"
           }
         ],
@@ -539,7 +497,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 9.799999237060547
+          "Value": 9.299997329711914
         },
         "Ammo": {
           "Id": "Ammo",
@@ -569,8 +527,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.37933817505836487,
-        "Yaw": -1.358688235282898,
+        "Pitch": -0.1887965202331543,
+        "Yaw": 0.9281758666038513,
         "Roll": 0.0
       }
     }
