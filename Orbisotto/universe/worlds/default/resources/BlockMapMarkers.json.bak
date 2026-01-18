@@ -10,6 +10,16 @@
       "Icon": "Temple_Gateway.png",
       "MarkerId": "802e4b6d-2977-4da0-8d48-22b36bfbfe43"
     },
+    "1999598154290301110": {
+      "Position": {
+        "X": 2230,
+        "Y": 110,
+        "Z": -598
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "549fa3ed-a66d-40d4-be50-3439b490eb06"
+    },
     "1981583507612239341": {
       "Position": {
         "X": 1517,
@@ -38,7 +48,7 @@
       },
       "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
       "Icon": "Temple_Gateway.png",
-      "MarkerId": "8cb92766-dd5d-469b-9ac4-8b86d144499a"
+      "MarkerId": "2f346e46-e6e8-4efb-af05-27d8fc7f8584"
     }
   }
 }
