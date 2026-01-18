@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1473.3223876953125,
-        "Y": 33.0,
-        "Z": -1697.11083984375
+        "X": -1205.8287353515625,
+        "Y": 127.0,
+        "Z": -678.289794921875
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 7.2953996658325195,
+        "Yaw": -11.116713523864746,
         "Roll": 0.0
       }
     },
@@ -77,13 +77,6 @@
               "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Food_Wildmeat_Raw",
-              "Quantity": 5,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "27": {
               "Id": "Tool_Pickaxe_Cobalt",
               "Quantity": 1,
@@ -91,60 +84,11 @@
               "MaxDurability": 300.0,
               "OverrideDroppedItemAnimation": false
             },
-            "4": {
-              "Id": "Plant_Moss_Green",
-              "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "14": {
-              "Id": "Plant_Crop_Cauliflower_Item",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "13": {
-              "Id": "Plant_Crop_Lettuce_Item",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "12": {
-              "Id": "Plant_Crop_Wheat_Item",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "11": {
-              "Id": "Ingredient_Life_Essence",
-              "Quantity": 22,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "8": {
-              "Id": "Plant_Moss_Yellow",
-              "Quantity": 13,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "9": {
               "Id": "Weapon_Shortbow_Doomed",
               "Quantity": 1,
               "Durability": 75.0,
               "MaxDurability": 75.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "10": {
-              "Id": "Plant_Crop_Corn_Item",
-              "Quantity": 7,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "31": {
@@ -171,20 +115,6 @@
             "3": {
               "Id": "Weapon_Arrow_Crude",
               "Quantity": 49,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Ingredient_Hide_Medium",
-              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -253,13 +183,6 @@
             "2": {
               "Id": "Food_Vegetable_Cooked",
               "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "6": {
-              "Id": "Wood_Camphor_Trunk",
-              "Quantity": 13,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -393,11 +316,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1201.5567626953125,
+              "X": -1205.8287353515625,
               "Y": 127.0,
-              "Z": -681.115234375,
-              "Pitch": -0.4066182076931,
-              "Yaw": -3.0712528228759766,
+              "Z": -678.289794921875,
+              "Pitch": -0.2517824172973633,
+              "Yaw": 1.4164069890975952,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -558,8 +481,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.09253708273172379,
-        "Yaw": 1.5526121854782104,
+        "Pitch": -0.2517824172973633,
+        "Yaw": 1.4164069890975952,
         "Roll": 0.0
       }
     }
