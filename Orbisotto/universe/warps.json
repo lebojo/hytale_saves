@@ -1,6 +1,16 @@
 {
   "Warps": [
     {
+      "Id": "Urox",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-18T20:59:45.138922505Z",
+      "X": -1164.0,
+      "Y": 63.0,
+      "Z": -781.5,
+      "Yaw": 7.853981971740723
+    },
+    {
       "Id": "ForgottenTemple",
       "World": "default",
       "Creator": "*Teleporter",
@@ -59,6 +69,16 @@
       "Y": 139.0,
       "Z": -1009.5,
       "Yaw": 4.71238899230957
+    },
+    {
+      "Id": "Yudel4",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-18T20:58:38.550795202Z",
+      "X": -1217.0,
+      "Y": 123.0,
+      "Z": -680.5,
+      "Yaw": 7.853981971740723
     }
   ]
 }

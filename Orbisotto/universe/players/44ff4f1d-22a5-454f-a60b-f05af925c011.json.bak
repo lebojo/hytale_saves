@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1205.8287353515625,
-        "Y": 127.0,
-        "Z": -678.289794921875
+        "X": -1163.3111572265625,
+        "Y": 63.0,
+        "Z": -781.757080078125
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -11.116713523864746,
+        "Yaw": 66.89857482910156,
         "Roll": 0.0
       }
     },
@@ -57,80 +57,45 @@
           "Capacity": 36,
           "Items": {
             "0": {
-              "Id": "Tool_Hammer_Iron",
-              "Quantity": 1,
-              "Durability": 350.0,
-              "MaxDurability": 500.0,
+              "Id": "Ingredient_Charcoal",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "33": {
+            "29": {
               "Id": "Furniture_Crude_Torch",
-              "Quantity": 20,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
-              "Id": "Armor_Iron_Chest",
-              "Quantity": 1,
-              "Durability": 100.0,
-              "MaxDurability": 100.0,
+              "Id": "Rock_Stone_Cobble",
+              "Quantity": 14,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "27": {
-              "Id": "Tool_Pickaxe_Cobalt",
+              "Id": "Tool_Pickaxe_Iron",
               "Quantity": 1,
-              "Durability": 62.0,
-              "MaxDurability": 300.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "9": {
-              "Id": "Weapon_Shortbow_Doomed",
-              "Quantity": 1,
-              "Durability": 75.0,
-              "MaxDurability": 75.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "31": {
-              "Id": "Tool_Hatchet_Iron",
-              "Quantity": 1,
-              "Durability": 175.0,
+              "Durability": 250.0,
               "MaxDurability": 250.0,
               "OverrideDroppedItemAnimation": false
             },
-            "32": {
-              "Id": "Furniture_Crude_Torch",
-              "Quantity": 83,
+            "8": {
+              "Id": "Plant_Crop_Mana3",
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Tool_Pickaxe_Iron",
+              "Id": "Rubble_Volcanic",
               "Quantity": 1,
-              "Durability": 70.75,
-              "MaxDurability": 225.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "3": {
-              "Id": "Weapon_Arrow_Crude",
-              "Quantity": 49,
               "Durability": 0.0,
               "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "26": {
-              "Id": "Weapon_Sword_Doomed",
-              "Quantity": 1,
-              "Durability": 3.1599999999998616,
-              "MaxDurability": 67.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "18": {
-              "Id": "Weapon_Shortbow_Thorium",
-              "Quantity": 1,
-              "Durability": 150.0,
-              "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -142,14 +107,14 @@
             "0": {
               "Id": "Armor_Cobalt_Head",
               "Quantity": 1,
-              "Durability": 112.0,
+              "Durability": 111.5,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Armor_Cobalt_Hands",
               "Quantity": 1,
-              "Durability": 109.5,
+              "Durability": 108.5,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -163,7 +128,7 @@
             "3": {
               "Id": "Armor_Iron_Legs",
               "Quantity": 1,
-              "Durability": 90.0,
+              "Durability": 88.5,
               "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -174,17 +139,24 @@
           "Capacity": 9,
           "Items": {
             "0": {
-              "Id": "Tool_Pickaxe_Thorium",
+              "Id": "Tool_Pickaxe_Iron",
               "Quantity": 1,
-              "Durability": 253.75,
-              "MaxDurability": 350.0,
+              "Durability": 243.0,
+              "MaxDurability": 250.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Food_Vegetable_Cooked",
-              "Quantity": 4,
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Tool_Hatchet_Iron",
+              "Quantity": 1,
+              "Durability": 175.0,
+              "MaxDurability": 250.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
@@ -197,12 +169,12 @@
             "8": {
               "Id": "Weapon_Sword_Iron",
               "Quantity": 1,
-              "Durability": 84.09000000000107,
+              "Durability": 80.73000000000117,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Rubble_Volcanic",
+              "Id": "Teleporter",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -216,10 +188,10 @@
               "OverrideDroppedItemAnimation": false
             },
             "7": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Id": "Tool_Pickaxe_Thorium",
+              "Quantity": 1,
+              "Durability": 200.25,
+              "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
@@ -237,7 +209,7 @@
           "Items": {
             "0": {
               "Id": "Furniture_Crude_Torch",
-              "Quantity": 1,
+              "Quantity": 100,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -254,9 +226,73 @@
         "Backpack": {
           "Id": "Simple",
           "Capacity": 9,
-          "Items": {}
+          "Items": {
+            "0": {
+              "Id": "Weapon_Shortbow_Doomed",
+              "Quantity": 1,
+              "Durability": 75.0,
+              "MaxDurability": 75.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Tool_Pickaxe_Cobalt",
+              "Quantity": 1,
+              "Durability": 62.0,
+              "MaxDurability": 300.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Armor_Iron_Chest",
+              "Quantity": 1,
+              "Durability": 100.0,
+              "MaxDurability": 100.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Tool_Hammer_Iron",
+              "Quantity": 1,
+              "Durability": 350.0,
+              "MaxDurability": 500.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Ingredient_Stick",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Weapon_Shortbow_Thorium",
+              "Quantity": 1,
+              "Durability": 150.0,
+              "MaxDurability": 150.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Weapon_Sword_Doomed",
+              "Quantity": 1,
+              "Durability": 3.1599999999998616,
+              "MaxDurability": 67.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 49,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Tool_Pickaxe_Iron",
+              "Quantity": 1,
+              "Durability": 70.75,
+              "MaxDurability": 225.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
         },
-        "ActiveHotbarSlot": 8,
+        "ActiveHotbarSlot": 1,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -316,11 +352,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1201.5567626953125,
+              "X": -1205.8287353515625,
               "Y": 127.0,
-              "Z": -681.115234375,
-              "Pitch": -0.4066182076931,
-              "Yaw": -3.0712528228759766,
+              "Z": -678.289794921875,
+              "Pitch": -0.2517824172973633,
+              "Yaw": 1.4164069890975952,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -346,21 +382,21 @@
           }
         },
         "DiscoveredZones": [
-          "Oceans",
-          "Zone4_Shallow_Ocean_Tier5",
-          "ForgottenTemple",
-          "Zone1_Tier3",
           "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Tier1",
+          "Zone1_Shore",
+          "Zone3_Shore_Tier1",
+          "Zone3_Shore_Tier2",
+          "Zone1_Spawn",
+          "Zone4_Tier5",
+          "Oceans",
+          "Zone4_Shore_Tier5",
+          "Zone3_Tier2",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Tier3",
           "Zone1_Tier2",
           "Zone1_Tier1",
-          "Zone1_Spawn",
-          "Zone3_Shore_Tier2",
-          "Zone3_Tier2",
-          "Zone4_Tier5",
-          "Zone4_Shore_Tier5",
-          "Zone3_Shore_Tier1",
-          "Zone1_Shore",
-          "Zone3_Tier1"
+          "ForgottenTemple"
         ],
         "DiscoveredInstances": [
           {
@@ -456,14 +492,7 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 0.0,
-          "Modifiers": {
-            "*Weapon_0": {
-              "Id": "Static",
-              "CalculationType": "Additive",
-              "Amount": 20.0
-            }
-          }
+          "Value": 0.0
         },
         "DeployablePreview": {
           "Id": "DeployablePreview",
@@ -481,8 +510,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.2517824172973633,
-        "Yaw": 1.4164069890975952,
+        "Pitch": -0.4985707402229309,
+        "Yaw": -1.5458545684814453,
         "Roll": 0.0
       }
     }
