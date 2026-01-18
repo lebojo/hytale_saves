@@ -1,3 +1,5 @@
 {
-  "BlockPlacementCounts": {}
+  "BlockPlacementCounts": {
+    "Teleporter": 2
+  }
 }
