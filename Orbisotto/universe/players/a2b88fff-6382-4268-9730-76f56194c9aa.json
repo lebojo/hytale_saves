@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -719.2481689453125,
-        "Y": 132.0,
-        "Z": -977.5731811523438
+        "X": -1542.3970947265625,
+        "Y": 54.0,
+        "Z": -1854.6749267578125
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 5.043061256408691,
+        "Yaw": -0.006669534835964441,
         "Roll": 0.0
       }
     },
@@ -88,23 +88,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Tool_Pickaxe_Cobalt",
-              "Quantity": 1,
-              "Durability": 152.25,
-              "MaxDurability": 300.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "15": {
-              "Id": "Ingredient_Leather_Light",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "14": {
-              "Id": "Ingredient_Hide_Light",
-              "Quantity": 13,
+            "2": {
+              "Id": "Rock_Stone_Cobble",
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -117,15 +103,22 @@
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Furniture_Crude_Torch",
-              "Quantity": 1,
+              "Id": "Rock_Quartzite_Cobble",
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "28": {
-              "Id": "Rock_Stone_Cobble",
-              "Quantity": 72,
+            "16": {
+              "Id": "Ingredient_Hide_Light",
+              "Quantity": 13,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "17": {
+              "Id": "Ingredient_Leather_Light",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -178,15 +171,29 @@
               "OverrideDroppedItemAnimation": false
             },
             "2": {
-              "Id": "Tool_Hatchet_Thorium",
+              "Id": "Tool_Pickaxe_Cobalt",
               "Quantity": 1,
-              "Durability": 232.64999999999998,
-              "MaxDurability": 303.0,
+              "Durability": 122.75,
+              "MaxDurability": 300.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Rubble_Stone",
+              "Quantity": 20,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Rock_Stone_Cobble",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
               "Id": "Food_Fish_Grilled",
-              "Quantity": 2,
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -198,9 +205,23 @@
               "MaxDurability": 138.0,
               "OverrideDroppedItemAnimation": false
             },
+            "3": {
+              "Id": "Tool_Hatchet_Thorium",
+              "Quantity": 1,
+              "Durability": 232.64999999999998,
+              "MaxDurability": 303.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "7": {
               "Id": "Plant_Fruit_Apple",
               "Quantity": 47,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Rock_Basalt_Cobble",
+              "Quantity": 15,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -225,6 +246,13 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "1": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "3": {
               "Id": "Furniture_Crude_Torch",
               "Quantity": 1,
@@ -239,7 +267,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 2,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -351,76 +379,15 @@
                 "Name": "yametersa"
               }
             ],
-            "DeathPositions": [
-              {
-                "MarkerId": "death-marker-c3e96d1a-fd24-4bdb-9cac-83d86ce97b27",
-                "Transform": {
-                  "X": -695.7009887695312,
-                  "Y": 128.2239990234375,
-                  "Z": -993.7266235351562,
-                  "Pitch": 0.0,
-                  "Yaw": 0.0,
-                  "Roll": 0.0
-                },
-                "Day": 75
-              },
-              {
-                "MarkerId": "death-marker-2ce5926c-dd6b-4861-8d35-74b8c2756d5b",
-                "Transform": {
-                  "X": -700.0884399414062,
-                  "Y": 133.0,
-                  "Z": -1102.094482421875,
-                  "Pitch": 0.0,
-                  "Yaw": 0.0,
-                  "Roll": 0.0
-                },
-                "Day": 76
-              },
-              {
-                "MarkerId": "death-marker-f76c0379-9e41-46d2-9b4f-32fd69ec4874",
-                "Transform": {
-                  "X": -660.9308471679688,
-                  "Y": 126.0,
-                  "Z": -1099.7908935546875,
-                  "Pitch": 0.0,
-                  "Yaw": 0.0,
-                  "Roll": 0.0
-                },
-                "Day": 76
-              },
-              {
-                "MarkerId": "death-marker-83c4943f-66cb-4eea-a51f-7d4327b2ba5a",
-                "Transform": {
-                  "X": -695.6748657226562,
-                  "Y": 128.2239990234375,
-                  "Z": -993.6133422851562,
-                  "Pitch": 0.0,
-                  "Yaw": 0.0,
-                  "Roll": 0.0
-                },
-                "Day": 78
-              },
-              {
-                "MarkerId": "death-marker-7c2f596f-7af0-4a9d-b562-f1732a20e286",
-                "Transform": {
-                  "X": -750.9659423828125,
-                  "Y": 138.0,
-                  "Z": -1080.6082763671875,
-                  "Pitch": 0.0,
-                  "Yaw": 0.0,
-                  "Roll": 0.0
-                },
-                "Day": 34
-              }
-            ]
+            "DeathPositions": []
           }
         },
         "DiscoveredZones": [
           "Zone1_Shore",
-          "Zone3_Tier1",
+          "Zone1_Tier3",
           "Zone3_Tier3",
           "Zone3_Tier2",
-          "Zone1_Tier3",
+          "Zone3_Tier1",
           "Zone1_Tier2",
           "Zone1_Tier1",
           "Zone1_Temple",
@@ -429,29 +396,29 @@
           "Zone3_Shallow_Ocean_Tier2",
           "Zone3_Shallow_Ocean_Tier1",
           "Zone1_Spawn",
-          "Zone3_Shore_Tier3",
           "ForgottenTemple",
+          "Zone3_Shore_Tier3",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
-          "Zone2_Shore",
-          "Zone4_Tier5",
-          "Zone2_Tier1",
-          "Zone1_Shallow_Ocean",
-          "Zone4_Shore_Tier5",
+          "Zone2_Tier3",
+          "Zone2_Tier2",
+          "Zone4_Tier4",
           "Zone4_Shore_Tier4",
+          "Zone4_Shore_Tier5",
+          "Zone1_Shallow_Ocean",
           "Zone4_Shallow_Ocean_Tier5",
           "Zone4_Shallow_Ocean_Tier4",
-          "Zone4_Tier4",
-          "Zone2_Tier2",
-          "Zone2_Tier3"
+          "Zone2_Tier1",
+          "Zone4_Tier5",
+          "Zone2_Shore"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
+            "$binary": "uBRDw95tSFyUd/xugtEzxg==",
             "$type": "04"
           },
           {
-            "$binary": "uBRDw95tSFyUd/xugtEzxg==",
+            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
             "$type": "04"
           },
           {
@@ -524,7 +491,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 100.0,
+          "Value": 161.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -577,8 +544,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.16895517706871033,
-        "Yaw": -0.5767442584037781,
+        "Pitch": 0.7872864603996277,
+        "Yaw": -0.005458333529531956,
         "Roll": 0.0
       }
     }

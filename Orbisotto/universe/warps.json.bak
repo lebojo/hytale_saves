@@ -4,10 +4,20 @@
       "Id": "ForgottenTemple",
       "World": "default",
       "Creator": "*Teleporter",
-      "CreationDate": "2026-01-18T16:50:54.980053060Z",
+      "CreationDate": "2026-01-18T16:55:45.710897157Z",
       "X": 962.0,
       "Y": 118.0,
       "Z": -622.5,
+      "Yaw": 7.853981971740723
+    },
+    {
+      "Id": "Volcan",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-18T18:39:00.331640772Z",
+      "X": -1467.0,
+      "Y": 32.0,
+      "Z": -1699.5,
       "Yaw": 7.853981971740723
     },
     {
@@ -29,6 +39,16 @@
       "Y": 123.0,
       "Z": -694.0,
       "Yaw": 6.2831854820251465
+    },
+    {
+      "Id": "Yudel3",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-18T18:39:11.349729129Z",
+      "X": -1217.0,
+      "Y": 123.0,
+      "Z": -688.5,
+      "Yaw": 7.853981971740723
     },
     {
       "Id": "Bojo/Yame",

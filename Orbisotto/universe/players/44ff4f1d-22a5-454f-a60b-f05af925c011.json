@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1201.5567626953125,
-        "Y": 127.0,
-        "Z": -681.115234375
+        "X": -1473.3223876953125,
+        "Y": 33.0,
+        "Z": -1697.11083984375
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 10.280516624450684,
+        "Yaw": 7.2953996658325195,
         "Roll": 0.0
       }
     },
@@ -77,6 +77,13 @@
               "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             },
+            "6": {
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "27": {
               "Id": "Tool_Pickaxe_Cobalt",
               "Quantity": 1,
@@ -84,11 +91,74 @@
               "MaxDurability": 300.0,
               "OverrideDroppedItemAnimation": false
             },
+            "4": {
+              "Id": "Plant_Moss_Green",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "14": {
+              "Id": "Plant_Crop_Cauliflower_Item",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "13": {
+              "Id": "Plant_Crop_Lettuce_Item",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "12": {
+              "Id": "Plant_Crop_Wheat_Item",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Ingredient_Life_Essence",
+              "Quantity": 22,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Plant_Moss_Yellow",
+              "Quantity": 13,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "9": {
               "Id": "Weapon_Shortbow_Doomed",
               "Quantity": 1,
               "Durability": 75.0,
               "MaxDurability": 75.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "10": {
+              "Id": "Plant_Crop_Corn_Item",
+              "Quantity": 7,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "31": {
+              "Id": "Tool_Hatchet_Iron",
+              "Quantity": 1,
+              "Durability": 175.0,
+              "MaxDurability": 250.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "32": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 83,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
@@ -101,6 +171,20 @@
             "3": {
               "Id": "Weapon_Arrow_Crude",
               "Quantity": 49,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Ingredient_Hide_Medium",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -128,28 +212,28 @@
             "0": {
               "Id": "Armor_Cobalt_Head",
               "Quantity": 1,
-              "Durability": 113.5,
+              "Durability": 112.0,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Armor_Cobalt_Hands",
               "Quantity": 1,
-              "Durability": 110.0,
+              "Durability": 109.5,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
               "Id": "Armor_Cobalt_Chest",
               "Quantity": 1,
-              "Durability": 112.0,
+              "Durability": 111.5,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Armor_Iron_Legs",
               "Quantity": 1,
-              "Durability": 91.5,
+              "Durability": 90.0,
               "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -162,41 +246,41 @@
             "0": {
               "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
-              "Durability": 279.0,
+              "Durability": 253.75,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Food_Vegetable_Cooked",
-              "Quantity": 7,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Furniture_Crude_Torch",
-              "Quantity": 83,
+              "Id": "Wood_Camphor_Trunk",
+              "Quantity": 13,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
-              "Id": "Tool_Watering_Can",
+              "Id": "*Tool_Watering_Can_State_Filled_Water",
               "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Durability": 16.0,
+              "MaxDurability": 20.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
               "Id": "Weapon_Sword_Iron",
               "Quantity": 1,
-              "Durability": 91.44000000000085,
+              "Durability": 84.09000000000107,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 25,
+              "Id": "Rubble_Volcanic",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -209,17 +293,17 @@
               "OverrideDroppedItemAnimation": false
             },
             "7": {
-              "Id": "Tool_Hoe_Crude",
-              "Quantity": 1,
-              "Durability": 48.0,
-              "MaxDurability": 100.0,
+              "Id": "Ingredient_Stick",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
-              "Id": "Tool_Hatchet_Iron",
+              "Id": "Tool_Hoe_Crude",
               "Quantity": 1,
-              "Durability": 175.0,
-              "MaxDurability": 250.0,
+              "Durability": 25.0,
+              "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -249,7 +333,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 6,
+        "ActiveHotbarSlot": 8,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -335,85 +419,25 @@
                 "Name": "Yudel's bed"
               }
             ],
-            "DeathPositions": [
-              {
-                "MarkerId": "death-marker-c16a5fca-92fb-45d1-b28c-43e7f5c8ff9f",
-                "Transform": {
-                  "X": -1209.4969482421875,
-                  "Y": 123.0,
-                  "Z": -664.73974609375,
-                  "Pitch": 0.0,
-                  "Yaw": 0.0,
-                  "Roll": 0.0
-                },
-                "Day": 77
-              },
-              {
-                "MarkerId": "death-marker-55a3de1e-d4cf-4c80-9535-7c28a46a0e14",
-                "Transform": {
-                  "X": -1197.2449951171875,
-                  "Y": 28.000099182128906,
-                  "Z": -697.2098388671875,
-                  "Pitch": 0.0,
-                  "Yaw": 0.0,
-                  "Roll": 0.0
-                },
-                "Day": 79
-              },
-              {
-                "MarkerId": "death-marker-529bca06-9a74-4f40-88ff-6b05fbc1a5c6",
-                "Transform": {
-                  "X": -1690.565673828125,
-                  "Y": 122.0105209350586,
-                  "Z": -812.9313354492188,
-                  "Pitch": 0.0,
-                  "Yaw": 0.0,
-                  "Roll": 0.0
-                },
-                "Day": 32
-              },
-              {
-                "MarkerId": "death-marker-d8f0c231-36c5-4ba6-8916-b56baae35727",
-                "Transform": {
-                  "X": -1079.2232666015625,
-                  "Y": 40.0,
-                  "Z": -802.3160400390625,
-                  "Pitch": 0.0,
-                  "Yaw": 0.0,
-                  "Roll": 0.0
-                },
-                "Day": 34
-              },
-              {
-                "MarkerId": "death-marker-5c1918e8-45ee-43f8-ba2c-81dbe62879c3",
-                "Transform": {
-                  "X": -1157.498046875,
-                  "Y": 35.0,
-                  "Z": -824.5148315429688,
-                  "Pitch": 0.0,
-                  "Yaw": 0.0,
-                  "Roll": 0.0
-                },
-                "Day": 35
-              }
-            ]
+            "DeathPositions": []
           }
         },
         "DiscoveredZones": [
-          "Zone1_Spawn",
-          "Zone4_Tier5",
+          "Oceans",
+          "Zone4_Shallow_Ocean_Tier5",
           "ForgottenTemple",
-          "Zone3_Shore_Tier2",
           "Zone1_Tier3",
-          "Zone3_Tier2",
-          "Zone3_Tier1",
+          "Zone3_Shallow_Ocean_Tier2",
           "Zone1_Tier2",
           "Zone1_Tier1",
-          "Oceans",
+          "Zone1_Spawn",
+          "Zone3_Shore_Tier2",
+          "Zone3_Tier2",
+          "Zone4_Tier5",
           "Zone4_Shore_Tier5",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone3_Shallow_Ocean_Tier2",
-          "Zone1_Shore"
+          "Zone3_Shore_Tier1",
+          "Zone1_Shore",
+          "Zone3_Tier1"
         ],
         "DiscoveredInstances": [
           {
@@ -509,7 +533,14 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 0.0
+          "Value": 0.0,
+          "Modifiers": {
+            "*Weapon_0": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            }
+          }
         },
         "DeployablePreview": {
           "Id": "DeployablePreview",
@@ -527,8 +558,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.4066182076931,
-        "Yaw": -3.0712528228759766,
+        "Pitch": -0.09253708273172379,
+        "Yaw": 1.5526121854782104,
         "Roll": 0.0
       }
     }
