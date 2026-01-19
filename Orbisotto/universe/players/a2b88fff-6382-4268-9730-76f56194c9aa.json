@@ -3,38 +3,7 @@
     "Nameplate": {
       "Text": "yametersa"
     },
-    "EffectController": {
-      "ActiveEntityEffects": [
-        {
-          "EntityEffectId": "Meat_Buff_T2",
-          "InitialDuration": 150.0,
-          "RemainingDuration": 122.56179809570312,
-          "SinceLastDamage": 0.0,
-          "HasBeenDamaged": true,
-          "SequentialHits": {
-            "Hits": 0
-          },
-          "Infinite": false,
-          "Debuff": false,
-          "StatusEffectIcon": "UI/StatusEffects/AddHealth/Small.png",
-          "Invulnerable": false
-        },
-        {
-          "EntityEffectId": "HealthRegen_Buff_T2",
-          "InitialDuration": 150.0,
-          "RemainingDuration": 122.56179809570312,
-          "SinceLastDamage": 1.4336615800857544,
-          "HasBeenDamaged": false,
-          "SequentialHits": {
-            "Hits": 0
-          },
-          "Infinite": false,
-          "Debuff": false,
-          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
-          "Invulnerable": false
-        }
-      ]
-    },
+    "EffectController": {},
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -51,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -703.4716796875,
-        "Y": 118.0,
-        "Z": -1007.0538330078125
+        "X": -692.9320678710938,
+        "Y": 159.00010681152344,
+        "Z": -994.60302734375
       },
       "Rotation": {
-        "Pitch": 0.0,
-        "Yaw": 11.759931564331055,
+        "Pitch": -0.2207825779914856,
+        "Yaw": 9.617036819458008,
         "Roll": 0.0
       }
     },
@@ -95,9 +64,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.034790021695707336,
+        "X": 0.0,
         "Y": 0.0,
-        "Z": -0.0860595273525392
+        "Z": 0.0
       }
     },
     "Player": {
@@ -119,13 +88,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "33": {
-              "Id": "Rock_Shale_Brick_Stairs",
-              "Quantity": 20,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "35": {
               "Id": "Potion_Health_Lesser",
               "Quantity": 2,
@@ -142,16 +104,30 @@
             },
             "25": {
               "Id": "Furniture_Village_Bookcase",
-              "Quantity": 11,
+              "Quantity": 14,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "12": {
+              "Id": "Rock_Shale_Brick",
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "32": {
               "Id": "Rock_Shale_Brick_Pillar_Middle",
-              "Quantity": 32,
+              "Quantity": 33,
               "Durability": 0.0,
               "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "30": {
+              "Id": "Tool_Hatchet_Thorium",
+              "Quantity": 1,
+              "Durability": 231.14999999999998,
+              "MaxDurability": 303.0,
               "OverrideDroppedItemAnimation": false
             },
             "34": {
@@ -185,13 +161,6 @@
             "16": {
               "Id": "Food_Kebab_Vegetable",
               "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "23": {
-              "Id": "Rock_Shale_Brick_Half",
-              "Quantity": 90,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -246,8 +215,15 @@
             "2": {
               "Id": "Tool_Pickaxe_Cobalt",
               "Quantity": 1,
-              "Durability": 262.5,
+              "Durability": 150.5,
               "MaxDurability": 272.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Rock_Shale_Brick_Beam",
+              "Quantity": 20,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
@@ -272,15 +248,22 @@
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Tool_Hatchet_Thorium",
-              "Quantity": 1,
-              "Durability": 231.89999999999998,
-              "MaxDurability": 303.0,
+              "Id": "Rock_Shale_Brick_Stairs",
+              "Quantity": 12,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Rock_Shale_Brick_Half",
+              "Quantity": 74,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
-              "Id": "Rock_Shale_Cobble",
-              "Quantity": 9,
+              "Id": "Rock_Shale_Brick_Wall",
+              "Quantity": 10,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -307,7 +290,7 @@
             },
             "1": {
               "Id": "Furniture_Crude_Torch",
-              "Quantity": 5,
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -326,7 +309,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 2,
+        "ActiveHotbarSlot": 7,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -386,11 +369,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -700.6443481445312,
+              "X": -692.9320678710938,
               "Y": 159.00010681152344,
-              "Z": -992.1259155273438,
-              "Pitch": -0.33899009227752686,
-              "Yaw": -0.9899137616157532,
+              "Z": -994.60302734375,
+              "Pitch": -0.05329476296901703,
+              "Yaw": -3.0254783630371094,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -550,17 +533,12 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 145.86976623535156,
+          "Value": 161.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
               "Amount": 61.0
-            },
-            "Effect_MULTIPLICATIVE": {
-              "Id": "Static",
-              "CalculationType": "Multiplicative",
-              "Amount": 1.0499999523162842
             }
           }
         },
@@ -608,8 +586,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.13453184068202972,
-        "Yaw": -0.01104101724922657,
+        "Pitch": -0.05329476296901703,
+        "Yaw": -3.0254783630371094,
         "Roll": 0.0
       }
     }
