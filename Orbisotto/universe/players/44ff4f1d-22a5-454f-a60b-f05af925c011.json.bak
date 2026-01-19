@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1229.5201416015625,
-        "Y": 131.0,
-        "Z": -685.033447265625
+        "X": -1205.8626708984375,
+        "Y": 123.0,
+        "Z": -683.7810668945312
       },
       "Rotation": {
-        "Pitch": 0.0,
-        "Yaw": -5.070088863372803,
+        "Pitch": -0.7634631991386414,
+        "Yaw": -3.029883861541748,
         "Roll": 0.0
       }
     },
@@ -345,11 +345,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1205.8287353515625,
-              "Y": 127.0,
-              "Z": -678.289794921875,
-              "Pitch": -0.2517824172973633,
-              "Yaw": 1.4164069890975952,
+              "X": -1229.5201416015625,
+              "Y": 131.0,
+              "Z": -685.033447265625,
+              "Pitch": -0.5528193116188049,
+              "Yaw": 1.6484938859939575,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -375,29 +375,29 @@
           }
         },
         "DiscoveredZones": [
-          "Zone3_Shallow_Ocean_Tier2",
-          "Zone3_Tier1",
+          "ForgottenTemple",
           "Zone1_Shore",
+          "Zone1_Tier2",
+          "Zone3_Tier1",
+          "Zone3_Tier2",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone4_Shore_Tier5",
+          "Oceans",
+          "Zone4_Tier5",
           "Zone3_Shore_Tier1",
           "Zone3_Shore_Tier2",
           "Zone1_Spawn",
-          "Zone4_Tier5",
-          "Oceans",
-          "Zone4_Shore_Tier5",
-          "Zone3_Tier2",
-          "Zone4_Shallow_Ocean_Tier5",
           "Zone1_Tier3",
-          "Zone1_Tier2",
           "Zone1_Tier1",
-          "ForgottenTemple"
+          "Zone3_Shallow_Ocean_Tier2"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
+            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
             "$type": "04"
           },
           {
-            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
+            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
             "$type": "04"
           }
         ],
@@ -450,7 +450,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 157.0,
+          "Value": 142.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -503,8 +503,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.5528193116188049,
-        "Yaw": 1.6484938859939575,
+        "Pitch": -0.7634631991386414,
+        "Yaw": -3.029883861541748,
         "Roll": 0.0
       }
     }
