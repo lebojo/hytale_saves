@@ -345,11 +345,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1229.5201416015625,
-              "Y": 131.0,
-              "Z": -685.033447265625,
-              "Pitch": -0.5528193116188049,
-              "Yaw": 1.6484938859939575,
+              "X": -1205.8626708984375,
+              "Y": 123.0,
+              "Z": -683.7810668945312,
+              "Pitch": -0.7634631991386414,
+              "Yaw": -3.029883861541748,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -393,11 +393,11 @@
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
+            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
             "$type": "04"
           },
           {
-            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
+            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
             "$type": "04"
           }
         ],
@@ -503,8 +503,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.7634631991386414,
-        "Yaw": -3.029883861541748,
+        "Pitch": -0.34521329402923584,
+        "Yaw": 2.800053358078003,
         "Roll": 0.0
       }
     }
