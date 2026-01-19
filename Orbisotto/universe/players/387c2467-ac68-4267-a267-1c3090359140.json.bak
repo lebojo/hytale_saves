@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -709.5653076171875,
-        "Y": 133.0,
-        "Z": -1008.439208984375
+        "X": -735.363037109375,
+        "Y": 135.0,
+        "Z": -974.6857299804688
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 10.763354301452637,
+        "Yaw": -13.962167739868164,
         "Roll": 0.0
       }
     },
@@ -48,9 +48,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
+        "X": 0.02197262563645099,
         "Y": 0.0,
-        "Z": 0.0
+        "Z": 0.17944310936434976
       }
     },
     "Player": {
@@ -158,7 +158,7 @@
             },
             "16": {
               "Id": "Ingredient_Life_Essence",
-              "Quantity": 82,
+              "Quantity": 85,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -233,9 +233,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "31": {
-              "Id": "Wood_Camphor_Trunk",
-              "Quantity": 92,
+            "15": {
+              "Id": "Plant_Fruit_Berries_Red",
+              "Quantity": 6,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -247,11 +247,11 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "10": {
-              "Id": "Tool_Hoe_Crude",
-              "Quantity": 1,
-              "Durability": 36.0,
-              "MaxDurability": 100.0,
+            "31": {
+              "Id": "Wood_Camphor_Trunk",
+              "Quantity": 92,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "32": {
@@ -319,7 +319,7 @@
             "1": {
               "Id": "Armor_Thorium_Chest",
               "Quantity": 1,
-              "Durability": 105.5,
+              "Durability": 105.0,
               "MaxDurability": 108.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -365,10 +365,10 @@
               "OverrideDroppedItemAnimation": false
             },
             "8": {
-              "Id": "Plant_Fruit_Berries_Red",
-              "Quantity": 6,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Id": "Tool_Hoe_Crude",
+              "Quantity": 1,
+              "Durability": 35.0,
+              "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
@@ -380,6 +380,13 @@
             },
             "3": {
               "Id": "Tool_Watering_Can",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Plant_Crop_Corn_Item",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -483,7 +490,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 7,
+        "ActiveHotbarSlot": 3,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -545,11 +552,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -716.2149658203125,
+              "X": -714.7189331054688,
               "Y": 133.0,
-              "Z": -1012.0155029296875,
-              "Pitch": -0.01734192669391632,
-              "Yaw": -2.914525032043457,
+              "Z": -1006.448974609375,
+              "Pitch": -0.11720672994852066,
+              "Yaw": 1.4837270975112915,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -662,42 +669,38 @@
           }
         },
         "DiscoveredZones": [
-          "Zone3_Shallow_Ocean_Tier2",
-          "Zone3_Shallow_Ocean_Tier1",
-          "Oceans",
-          "Zone1_Temple",
-          "Zone3_Tier1",
-          "Zone3_Tier3",
+          "Zone1_Tier1",
+          "Zone1_Tier3",
+          "Zone3_Tier2",
+          "Zone4_Shore_Tier4",
           "Zone4_Tier5",
           "Zone4_Tier4",
           "Zone4_Shore_Tier5",
-          "Zone4_Shore_Tier4",
-          "Zone3_Tier2",
-          "Zone1_Tier3",
+          "Zone3_Tier3",
+          "Zone3_Tier1",
+          "Zone1_Temple",
           "Zone1_Tier2",
-          "Zone1_Tier1",
+          "Oceans",
           "Zone1_Spawn",
           "Zone1_Shallow_Ocean",
-          "Zone3_Shore_Tier3",
           "ForgottenTemple",
+          "Zone3_Shore_Tier3",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
           "Zone1_Shore",
           "Zone4_Shallow_Ocean_Tier5",
           "Zone4_Shallow_Ocean_Tier4",
-          "Zone3_Shallow_Ocean_Tier3"
+          "Zone3_Shallow_Ocean_Tier3",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Shallow_Ocean_Tier1"
         ],
         "DiscoveredInstances": [
-          {
-            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
-            "$type": "04"
-          },
           {
             "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
             "$type": "04"
           },
           {
-            "$binary": "yUtYskETRfWlSwKer6QCrw==",
+            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
             "$type": "04"
           },
           {
@@ -726,6 +729,10 @@
           },
           {
             "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "yUtYskETRfWlSwKer6QCrw==",
             "$type": "04"
           }
         ],
@@ -778,7 +785,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 139.0,
+          "Value": 136.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -801,7 +808,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 10.0
+          "Value": 9.599998474121094
         },
         "Ammo": {
           "Id": "Ammo",
@@ -821,7 +828,7 @@
         },
         "StaminaRegenDelay": {
           "Id": "StaminaRegenDelay",
-          "Value": 0.0
+          "Value": -0.6499999761581421
         },
         "MagicCharges": {
           "Id": "MagicCharges",
@@ -831,8 +838,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.16299383342266083,
-        "Yaw": -1.5808323621749878,
+        "Pitch": -0.09140165895223618,
+        "Yaw": -1.0369676351547241,
         "Roll": 0.0
       }
     }
