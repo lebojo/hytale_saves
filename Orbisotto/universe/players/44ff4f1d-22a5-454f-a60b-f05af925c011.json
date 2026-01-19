@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1205.8626708984375,
-        "Y": 123.0,
-        "Z": -683.7810668945312
+        "X": -1201.4603271484375,
+        "Y": 127.0,
+        "Z": -689.604736328125
       },
       "Rotation": {
         "Pitch": -0.7634631991386414,
-        "Yaw": -3.029883861541748,
+        "Yaw": 62.79808044433594,
         "Roll": 0.0
       }
     },
@@ -66,13 +66,6 @@
             "29": {
               "Id": "Furniture_Crude_Torch",
               "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "2": {
-              "Id": "Rock_Stone_Cobble",
-              "Quantity": 14,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -141,7 +134,7 @@
             "0": {
               "Id": "Tool_Pickaxe_Iron",
               "Quantity": 1,
-              "Durability": 243.0,
+              "Durability": 240.5,
               "MaxDurability": 250.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -171,6 +164,13 @@
               "Quantity": 1,
               "Durability": 80.73000000000117,
               "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Rock_Stone_Cobble",
+              "Quantity": 14,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
@@ -345,11 +345,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1205.8626708984375,
-              "Y": 123.0,
-              "Z": -683.7810668945312,
-              "Pitch": -0.34521329402923584,
-              "Yaw": 2.800053358078003,
+              "X": -1201.4603271484375,
+              "Y": 127.0,
+              "Z": -689.604736328125,
+              "Pitch": -0.11704617738723755,
+              "Yaw": -0.08802922815084457,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -393,11 +393,11 @@
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
+            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
             "$type": "04"
           },
           {
-            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
+            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
             "$type": "04"
           }
         ],
@@ -503,8 +503,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.34521329402923584,
-        "Yaw": 2.800053358078003,
+        "Pitch": -0.11704617738723755,
+        "Yaw": -0.08802922815084457,
         "Roll": 0.0
       }
     }
