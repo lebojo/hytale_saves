@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -736.4112548828125,
-        "Y": 136.0,
-        "Z": -989.7836303710938
+        "X": -736.02587890625,
+        "Y": 135.0,
+        "Z": -977.9868774414062
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -1.2585912942886353,
+        "Yaw": -8.446113586425781,
         "Roll": 0.0
       }
     },
@@ -48,9 +48,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
+        "X": 0.08605949849885827,
         "Y": 0.0,
-        "Z": 0.0
+        "Z": -0.4595943430470942
       }
     },
     "Player": {
@@ -79,20 +79,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "29": {
-              "Id": "Ingredient_Fabric_Scrap_Linen",
-              "Quantity": 5,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "25": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 76,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "4": {
               "Id": "Food_Pork_Raw",
               "Quantity": 3,
@@ -101,8 +87,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "12": {
-              "Id": "Plant_Crop_Wheat_Item",
-              "Quantity": 9,
+              "Id": "Wood_Camphor_Trunk",
+              "Quantity": 92,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -121,13 +107,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "30": {
-              "Id": "Wood_Camphor_Trunk",
-              "Quantity": 100,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "28": {
               "Id": "Plant_Moss_Yellow",
               "Quantity": 7,
@@ -142,23 +121,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "18": {
-              "Id": "Plant_Crop_Carrot_Item",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "26": {
               "Id": "Plant_Petals_Purple",
               "Quantity": 24,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "16": {
-              "Id": "Ingredient_Life_Essence",
-              "Quantity": 85,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -234,29 +199,15 @@
               "OverrideDroppedItemAnimation": false
             },
             "15": {
-              "Id": "Plant_Fruit_Berries_Red",
-              "Quantity": 6,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "10": {
-              "Id": "Plant_Crop_Corn_Item",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "11": {
-              "Id": "Ingredient_Powder_Boom",
-              "Quantity": 2,
+              "Id": "Plant_Crop_Wheat_Item",
+              "Quantity": 26,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "31": {
               "Id": "Wood_Camphor_Trunk",
-              "Quantity": 92,
+              "Quantity": 100,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -278,13 +229,6 @@
             "3": {
               "Id": "Food_Fish_Grilled",
               "Quantity": 11,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "34": {
-              "Id": "Ingredient_Bar_Gold",
-              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -353,13 +297,13 @@
             "2": {
               "Id": "Tool_Hatchet_Thorium",
               "Quantity": 1,
-              "Durability": 163.75,
+              "Durability": 163.5,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Plant_Fruit_Pinkberry",
-              "Quantity": 10,
+              "Id": "Plant_Seeds_Onion",
+              "Quantity": 11,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -386,10 +330,10 @@
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Tool_Watering_Can",
+              "Id": "*Tool_Watering_Can_State_Filled_Water",
               "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Durability": 20.0,
+              "MaxDurability": 20.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
@@ -490,7 +434,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 7,
+        "ActiveHotbarSlot": 8,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -552,11 +496,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -736.4112548828125,
-              "Y": 136.0,
-              "Z": -989.7836303710938,
-              "Pitch": 0.09039842337369919,
-              "Yaw": -0.7811170816421509,
+              "X": -720.5317993164062,
+              "Y": 134.0,
+              "Z": -998.848876953125,
+              "Pitch": -0.23000159859657288,
+              "Yaw": -1.5911167860031128,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -669,62 +613,38 @@
           }
         },
         "DiscoveredZones": [
+          "Zone3_Shallow_Ocean_Tier1",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Shallow_Ocean_Tier3",
+          "Zone4_Shallow_Ocean_Tier4",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Shore",
+          "Zone3_Shore_Tier1",
+          "Zone3_Shore_Tier2",
+          "Zone3_Shore_Tier3",
+          "ForgottenTemple",
+          "Zone1_Shallow_Ocean",
+          "Zone1_Spawn",
           "Oceans",
+          "Zone1_Tier2",
           "Zone1_Temple",
           "Zone3_Tier1",
           "Zone3_Tier3",
-          "Zone4_Tier5",
-          "Zone4_Tier4",
           "Zone4_Shore_Tier5",
+          "Zone4_Tier4",
+          "Zone4_Tier5",
           "Zone4_Shore_Tier4",
           "Zone3_Tier2",
           "Zone1_Tier3",
-          "Zone1_Tier2",
-          "Zone1_Tier1",
-          "Zone1_Spawn",
-          "Zone1_Shallow_Ocean",
-          "Zone3_Shore_Tier3",
-          "ForgottenTemple",
-          "Zone3_Shore_Tier2",
-          "Zone3_Shore_Tier1",
-          "Zone1_Shore",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone4_Shallow_Ocean_Tier4",
-          "Zone3_Shallow_Ocean_Tier3",
-          "Zone3_Shallow_Ocean_Tier2",
-          "Zone3_Shallow_Ocean_Tier1"
+          "Zone1_Tier1"
         ],
         "DiscoveredInstances": [
-          {
-            "$binary": "yUtYskETRfWlSwKer6QCrw==",
-            "$type": "04"
-          },
           {
             "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
             "$type": "04"
           },
           {
-            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
-            "$type": "04"
-          },
-          {
-            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "pB7h/wkpTYO2bpdD2zsZ9w==",
-            "$type": "04"
-          },
-          {
-            "$binary": "s2M3PNvnQD+SHJqdMGSJFQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "/+BiIoEgSL6PeW8LQ0YL/g==",
-            "$type": "04"
-          },
-          {
-            "$binary": "fCzLnoRQSSO5AhMLHp5PHg==",
+            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
             "$type": "04"
           },
           {
@@ -732,7 +652,31 @@
             "$type": "04"
           },
           {
-            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
+            "$binary": "fCzLnoRQSSO5AhMLHp5PHg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "/+BiIoEgSL6PeW8LQ0YL/g==",
+            "$type": "04"
+          },
+          {
+            "$binary": "s2M3PNvnQD+SHJqdMGSJFQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "pB7h/wkpTYO2bpdD2zsZ9w==",
+            "$type": "04"
+          },
+          {
+            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "yUtYskETRfWlSwKer6QCrw==",
             "$type": "04"
           }
         ],
@@ -785,7 +729,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 136.0,
+          "Value": 158.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -838,8 +782,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.09039842337369919,
-        "Yaw": -0.7811170816421509,
+        "Pitch": -0.672000527381897,
+        "Yaw": -2.94952654838562,
         "Roll": 0.0
       }
     }

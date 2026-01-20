@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1399.797607421875,
-        "Y": 30.608501434326172,
-        "Z": -1996.63134765625
+        "X": -1402.446044921875,
+        "Y": 32.0,
+        "Z": -1977.1129150390625
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -1.3306019306182861,
+        "Yaw": -0.7325504422187805,
         "Roll": 0.0
       }
     },
@@ -70,11 +70,25 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "2": {
+              "Id": "Rubble_Sandstone_White",
+              "Quantity": 10,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "27": {
               "Id": "Tool_Pickaxe_Iron",
               "Quantity": 1,
               "Durability": 250.0,
               "MaxDurability": 250.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Ingredient_Stick",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
@@ -87,6 +101,13 @@
             "1": {
               "Id": "Rubble_Volcanic",
               "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -183,7 +204,7 @@
             "7": {
               "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
-              "Durability": 200.25,
+              "Durability": 199.25,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -285,7 +306,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 8,
+        "ActiveHotbarSlot": 7,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -345,11 +366,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1399.797607421875,
-              "Y": 30.608501434326172,
-              "Z": -1996.63134765625,
-              "Pitch": -0.24304701387882233,
-              "Yaw": -0.6306982636451721,
+              "X": -1402.446044921875,
+              "Y": 32.0,
+              "Z": -1977.1129150390625,
+              "Pitch": -0.3812982141971588,
+              "Yaw": -1.5179486274719238,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -393,11 +414,11 @@
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
+            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
             "$type": "04"
           },
           {
-            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
+            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
             "$type": "04"
           }
         ],
@@ -485,14 +506,7 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 0.0,
-          "Modifiers": {
-            "*Weapon_0": {
-              "Id": "Static",
-              "CalculationType": "Additive",
-              "Amount": 20.0
-            }
-          }
+          "Value": 0.0
         },
         "DeployablePreview": {
           "Id": "DeployablePreview",
@@ -510,8 +524,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.24304701387882233,
-        "Yaw": -0.6306982636451721,
+        "Pitch": -0.3812982141971588,
+        "Yaw": -1.5179486274719238,
         "Roll": 0.0
       }
     }
