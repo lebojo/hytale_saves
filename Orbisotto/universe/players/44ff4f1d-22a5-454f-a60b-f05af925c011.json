@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1201.4603271484375,
-        "Y": 127.0,
-        "Z": -689.604736328125
+        "X": -1399.797607421875,
+        "Y": 30.608501434326172,
+        "Z": -1996.63134765625
       },
       "Rotation": {
-        "Pitch": -0.7634631991386414,
-        "Yaw": 62.79808044433594,
+        "Pitch": 0.0,
+        "Yaw": -1.3306019306182861,
         "Roll": 0.0
       }
     },
@@ -121,7 +121,7 @@
             "3": {
               "Id": "Armor_Iron_Legs",
               "Quantity": 1,
-              "Durability": 88.5,
+              "Durability": 88.0,
               "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -140,7 +140,7 @@
             },
             "2": {
               "Id": "Food_Vegetable_Cooked",
-              "Quantity": 3,
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -285,7 +285,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 1,
+        "ActiveHotbarSlot": 8,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -345,11 +345,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1201.4603271484375,
-              "Y": 127.0,
-              "Z": -689.604736328125,
-              "Pitch": -0.11704617738723755,
-              "Yaw": -0.08802922815084457,
+              "X": -1399.797607421875,
+              "Y": 30.608501434326172,
+              "Z": -1996.63134765625,
+              "Pitch": -0.24304701387882233,
+              "Yaw": -0.6306982636451721,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -375,20 +375,20 @@
           }
         },
         "DiscoveredZones": [
-          "ForgottenTemple",
-          "Zone1_Shore",
-          "Zone1_Tier2",
-          "Zone3_Tier1",
-          "Zone3_Tier2",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone4_Shore_Tier5",
-          "Oceans",
-          "Zone4_Tier5",
-          "Zone3_Shore_Tier1",
-          "Zone3_Shore_Tier2",
-          "Zone1_Spawn",
-          "Zone1_Tier3",
           "Zone1_Tier1",
+          "Zone1_Tier3",
+          "Zone1_Spawn",
+          "Zone3_Shore_Tier2",
+          "Zone3_Shore_Tier1",
+          "Zone4_Tier5",
+          "Oceans",
+          "Zone4_Shore_Tier5",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone3_Tier2",
+          "Zone3_Tier1",
+          "Zone1_Tier2",
+          "Zone1_Shore",
+          "ForgottenTemple",
           "Zone3_Shallow_Ocean_Tier2"
         ],
         "DiscoveredInstances": [
@@ -450,7 +450,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 142.0,
+          "Value": 157.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -485,7 +485,14 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 0.0
+          "Value": 0.0,
+          "Modifiers": {
+            "*Weapon_0": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            }
+          }
         },
         "DeployablePreview": {
           "Id": "DeployablePreview",
@@ -503,8 +510,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.11704617738723755,
-        "Yaw": -0.08802922815084457,
+        "Pitch": -0.24304701387882233,
+        "Yaw": -0.6306982636451721,
         "Roll": 0.0
       }
     }
