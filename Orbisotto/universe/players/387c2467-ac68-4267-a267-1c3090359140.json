@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -734.8670654296875,
-        "Y": 135.0,
-        "Z": -974.5865478515625
+        "X": -736.4112548828125,
+        "Y": 136.0,
+        "Z": -989.7836303710938
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -14.143609046936035,
+        "Yaw": -1.2585912942886353,
         "Roll": 0.0
       }
     },
@@ -219,13 +219,6 @@
               "MaxDurability": 137.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Furniture_Construction_Sign",
-              "Quantity": 6,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "27": {
               "Id": "Plant_Flower_Common_Poisoned2",
               "Quantity": 1,
@@ -233,9 +226,23 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "6": {
+              "Id": "Furniture_Construction_Sign",
+              "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "15": {
               "Id": "Plant_Fruit_Berries_Red",
               "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "10": {
+              "Id": "Plant_Crop_Corn_Item",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -385,13 +392,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "7": {
-              "Id": "Plant_Crop_Corn_Item",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "5": {
               "Id": "Weapon_Crossbow_Ancient_Steel",
               "Quantity": 1,
@@ -490,7 +490,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 3,
+        "ActiveHotbarSlot": 7,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -552,11 +552,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -734.8670654296875,
-              "Y": 135.0,
-              "Z": -974.5865478515625,
-              "Pitch": -0.16840167343616486,
-              "Yaw": -1.164717674255371,
+              "X": -736.4112548828125,
+              "Y": 136.0,
+              "Z": -989.7836303710938,
+              "Pitch": 0.09039842337369919,
+              "Yaw": -0.7811170816421509,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -669,22 +669,22 @@
           }
         },
         "DiscoveredZones": [
-          "Zone1_Tier1",
-          "Zone1_Tier3",
-          "Zone3_Tier2",
-          "Zone4_Shore_Tier4",
+          "Oceans",
+          "Zone1_Temple",
+          "Zone3_Tier1",
+          "Zone3_Tier3",
           "Zone4_Tier5",
           "Zone4_Tier4",
           "Zone4_Shore_Tier5",
-          "Zone3_Tier3",
-          "Zone3_Tier1",
-          "Zone1_Temple",
+          "Zone4_Shore_Tier4",
+          "Zone3_Tier2",
+          "Zone1_Tier3",
           "Zone1_Tier2",
-          "Oceans",
+          "Zone1_Tier1",
           "Zone1_Spawn",
           "Zone1_Shallow_Ocean",
-          "ForgottenTemple",
           "Zone3_Shore_Tier3",
+          "ForgottenTemple",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
           "Zone1_Shore",
@@ -695,6 +695,10 @@
           "Zone3_Shallow_Ocean_Tier1"
         ],
         "DiscoveredInstances": [
+          {
+            "$binary": "yUtYskETRfWlSwKer6QCrw==",
+            "$type": "04"
+          },
           {
             "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
             "$type": "04"
@@ -729,10 +733,6 @@
           },
           {
             "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "yUtYskETRfWlSwKer6QCrw==",
             "$type": "04"
           }
         ],
@@ -838,8 +838,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.16840167343616486,
-        "Yaw": -1.164717674255371,
+        "Pitch": 0.09039842337369919,
+        "Yaw": -0.7811170816421509,
         "Roll": 0.0
       }
     }
