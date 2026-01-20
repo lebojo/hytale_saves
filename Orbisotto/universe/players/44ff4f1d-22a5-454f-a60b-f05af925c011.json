@@ -375,29 +375,29 @@
           }
         },
         "DiscoveredZones": [
+          "Zone3_Shallow_Ocean_Tier2",
+          "ForgottenTemple",
           "Zone1_Tier1",
+          "Zone1_Tier2",
           "Zone1_Tier3",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone3_Tier2",
+          "Zone4_Shore_Tier5",
+          "Oceans",
+          "Zone4_Tier5",
           "Zone1_Spawn",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
-          "Zone4_Tier5",
-          "Oceans",
-          "Zone4_Shore_Tier5",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone3_Tier2",
           "Zone3_Tier1",
-          "Zone1_Tier2",
-          "Zone1_Shore",
-          "ForgottenTemple",
-          "Zone3_Shallow_Ocean_Tier2"
+          "Zone1_Shore"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
+            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
             "$type": "04"
           },
           {
-            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
+            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
             "$type": "04"
           }
         ],

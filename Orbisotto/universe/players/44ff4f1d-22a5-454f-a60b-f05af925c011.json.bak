@@ -345,11 +345,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1201.4603271484375,
-              "Y": 127.0,
-              "Z": -689.604736328125,
-              "Pitch": -0.11704617738723755,
-              "Yaw": -0.08802922815084457,
+              "X": -1399.797607421875,
+              "Y": 30.608501434326172,
+              "Z": -1996.63134765625,
+              "Pitch": -0.24304701387882233,
+              "Yaw": -0.6306982636451721,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -375,29 +375,29 @@
           }
         },
         "DiscoveredZones": [
+          "Zone3_Shallow_Ocean_Tier2",
+          "ForgottenTemple",
           "Zone1_Tier1",
+          "Zone1_Tier2",
           "Zone1_Tier3",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone3_Tier2",
+          "Zone4_Shore_Tier5",
+          "Oceans",
+          "Zone4_Tier5",
           "Zone1_Spawn",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
-          "Zone4_Tier5",
-          "Oceans",
-          "Zone4_Shore_Tier5",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone3_Tier2",
           "Zone3_Tier1",
-          "Zone1_Tier2",
-          "Zone1_Shore",
-          "ForgottenTemple",
-          "Zone3_Shallow_Ocean_Tier2"
+          "Zone1_Shore"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
+            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
             "$type": "04"
           },
           {
-            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
+            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
             "$type": "04"
           }
         ],
