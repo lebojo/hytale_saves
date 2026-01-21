@@ -369,8 +369,8 @@
               "X": -1402.446044921875,
               "Y": 32.0,
               "Z": -1977.1129150390625,
-              "Pitch": -0.3812982141971588,
-              "Yaw": -1.5179486274719238,
+              "Pitch": -0.4372982084751129,
+              "Yaw": -1.4409489631652832,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -414,11 +414,11 @@
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
+            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
             "$type": "04"
           },
           {
-            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
+            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
             "$type": "04"
           }
         ],
@@ -524,8 +524,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.3812982141971588,
-        "Yaw": -1.5179486274719238,
+        "Pitch": -0.4372982084751129,
+        "Yaw": -1.4409489631652832,
         "Roll": 0.0
       }
     }
