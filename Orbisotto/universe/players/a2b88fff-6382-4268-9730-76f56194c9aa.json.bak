@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -724.013427734375,
-        "Y": 133.0,
-        "Z": -979.2084350585938
+        "X": -3249.157958984375,
+        "Y": 38.794639587402344,
+        "Z": -1140.7545166015625
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 1.7944939136505127,
+        "Yaw": 13.659341812133789,
         "Roll": 0.0
       }
     },
@@ -64,9 +64,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
+        "X": 6.5258756486053136,
+        "Y": -8.219943711636747,
+        "Z": 4.541013358176537
       }
     },
     "Player": {
@@ -88,93 +88,44 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "33": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 12,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "2": {
-              "Id": "Ingredient_Fabric_Scrap_Linen",
-              "Quantity": 91,
+              "Id": "Ore_Cobalt",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "6": {
-              "Id": "Armor_Cobalt_Head",
-              "Quantity": 1,
-              "Durability": 59.400000000000006,
-              "MaxDurability": 113.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
-              "Id": "Armor_Cobalt_Hands",
-              "Quantity": 1,
-              "Durability": 51.900000000000006,
-              "MaxDurability": 113.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "8": {
-              "Id": "Ingredient_Void_Essence",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "9": {
-              "Id": "Plant_Moss_Green",
-              "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "10": {
-              "Id": "Tool_Shears_Basic",
+              "Id": "Ingredient_Hide_Heavy",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "31": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 24,
+              "Id": "Deco_Rope",
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "32": {
-              "Id": "Plant_Petals_Purple",
-              "Quantity": 100,
+              "Id": "Rock_Basalt_Cobble",
+              "Quantity": 39,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Ingredient_Bar_Iron",
-              "Quantity": 6,
+              "Id": "Tool_Shears_Basic",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Armor_Cobalt_Legs",
-              "Quantity": 1,
-              "Durability": 59.900000000000006,
-              "MaxDurability": 113.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Armor_Cobalt_Chest",
-              "Quantity": 1,
-              "Durability": 57.900000000000006,
-              "MaxDurability": 113.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "23": {
-              "Id": "Plant_Petals_Purple",
-              "Quantity": 4,
+              "Id": "Ingredient_Hide_Light",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -184,7 +135,36 @@
         "Armor": {
           "Id": "Simple",
           "Capacity": 4,
-          "Items": {}
+          "Items": {
+            "0": {
+              "Id": "Armor_Cobalt_Head",
+              "Quantity": 1,
+              "Durability": 59.400000000000006,
+              "MaxDurability": 113.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Armor_Cobalt_Hands",
+              "Quantity": 1,
+              "Durability": 51.900000000000006,
+              "MaxDurability": 113.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Armor_Cobalt_Chest",
+              "Quantity": 1,
+              "Durability": 57.400000000000006,
+              "MaxDurability": 113.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Armor_Cobalt_Legs",
+              "Quantity": 1,
+              "Durability": 59.900000000000006,
+              "MaxDurability": 113.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
         },
         "HotBar": {
           "Id": "Simple",
@@ -204,9 +184,16 @@
               "MaxDurability": 303.0,
               "OverrideDroppedItemAnimation": false
             },
+            "6": {
+              "Id": "Rock_Slate_Cobble",
+              "Quantity": 66,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "8": {
               "Id": "Food_Kebab_Fruit",
-              "Quantity": 19,
+              "Quantity": 17,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -221,13 +208,20 @@
             "3": {
               "Id": "Tool_Pickaxe_Cobalt",
               "Quantity": 1,
-              "Durability": 205.0,
+              "Durability": 115.0,
               "MaxDurability": 246.0,
               "OverrideDroppedItemAnimation": false
             },
             "7": {
-              "Id": "Food_Kebab_Vegetable",
-              "Quantity": 1,
+              "Id": "Plant_Fruit_Apple",
+              "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Soil_Dirt_Burnt",
+              "Quantity": 17,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -273,7 +267,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 5,
+        "ActiveHotbarSlot": 4,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -333,11 +327,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -724.013427734375,
-              "Y": 133.0,
-              "Z": -979.2084350585938,
-              "Pitch": -0.10936488211154938,
-              "Yaw": 0.34364086389541626,
+              "X": -731.8509521484375,
+              "Y": 135.0,
+              "Z": -982.378173828125,
+              "Pitch": -0.2843647301197052,
+              "Yaw": -0.18510781228542328,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -497,7 +491,14 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 75.0
+          "Value": 145.0,
+          "Modifiers": {
+            "Armor_ADDITIVE": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 61.0
+            }
+          }
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -513,7 +514,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 10.0
+          "Value": 5.400002479553223
         },
         "Ammo": {
           "Id": "Ammo",
@@ -533,7 +534,7 @@
         },
         "StaminaRegenDelay": {
           "Id": "StaminaRegenDelay",
-          "Value": 0.0
+          "Value": -0.5499999523162842
         },
         "MagicCharges": {
           "Id": "MagicCharges",
@@ -543,8 +544,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.014385075308382511,
-        "Yaw": 2.579892158508301,
+        "Pitch": -0.10831868648529053,
+        "Yaw": 1.0929713249206543,
         "Roll": 0.0
       }
     }
