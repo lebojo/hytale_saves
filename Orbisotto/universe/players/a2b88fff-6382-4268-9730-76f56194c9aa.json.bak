@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -719.9634399414062,
+        "X": -724.013427734375,
         "Y": 133.0,
-        "Z": -972.7578735351562
+        "Z": -979.2084350585938
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -5.440668106079102,
+        "Yaw": 1.7944939136505127,
         "Roll": 0.0
       }
     },
@@ -130,6 +130,13 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "10": {
+              "Id": "Tool_Shears_Basic",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "31": {
               "Id": "Ingredient_Fibre",
               "Quantity": 24,
@@ -137,9 +144,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "10": {
-              "Id": "Tool_Shears_Basic",
-              "Quantity": 1,
+            "32": {
+              "Id": "Plant_Petals_Purple",
+              "Quantity": 100,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -163,6 +170,13 @@
               "Quantity": 1,
               "Durability": 57.900000000000006,
               "MaxDurability": 113.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "23": {
+              "Id": "Plant_Petals_Purple",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -190,13 +204,6 @@
               "MaxDurability": 303.0,
               "OverrideDroppedItemAnimation": false
             },
-            "4": {
-              "Id": "Plant_Petals_Purple",
-              "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "8": {
               "Id": "Food_Kebab_Fruit",
               "Quantity": 19,
@@ -221,13 +228,6 @@
             "7": {
               "Id": "Food_Kebab_Vegetable",
               "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Plant_Petals_Purple",
-              "Quantity": 100,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -273,7 +273,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 6,
+        "ActiveHotbarSlot": 5,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -333,11 +333,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -720.8160400390625,
+              "X": -724.013427734375,
               "Y": 133.0,
-              "Z": -985.8987426757812,
-              "Pitch": -0.11936876177787781,
-              "Yaw": 0.0082737747579813,
+              "Z": -979.2084350585938,
+              "Pitch": -0.10936488211154938,
+              "Yaw": 0.34364086389541626,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -543,8 +543,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.24061477184295654,
-        "Yaw": 1.1648919582366943,
+        "Pitch": 0.014385075308382511,
+        "Yaw": 2.579892158508301,
         "Roll": 0.0
       }
     }

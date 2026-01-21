@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -724.013427734375,
-        "Y": 133.0,
-        "Z": -979.2084350585938
+        "X": -731.8509521484375,
+        "Y": 135.0,
+        "Z": -982.378173828125
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -5.970592021942139,
+        "Yaw": -0.18761850893497467,
         "Roll": 0.0
       }
     },
@@ -130,16 +130,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "31": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 24,
+            "10": {
+              "Id": "Tool_Shears_Basic",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "10": {
-              "Id": "Tool_Shears_Basic",
-              "Quantity": 1,
+            "31": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 24,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -333,11 +333,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -724.013427734375,
-              "Y": 133.0,
-              "Z": -979.2084350585938,
-              "Pitch": -0.10936488211154938,
-              "Yaw": 0.34364086389541626,
+              "X": -731.8509521484375,
+              "Y": 135.0,
+              "Z": -982.378173828125,
+              "Pitch": -0.2843647301197052,
+              "Yaw": -0.18510781228542328,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -513,7 +513,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 9.199996948242188
+          "Value": 10.0
         },
         "Ammo": {
           "Id": "Ammo",
@@ -543,8 +543,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.10936488211154938,
-        "Yaw": 0.34364086389541626,
+        "Pitch": -0.2843647301197052,
+        "Yaw": -0.18510781228542328,
         "Roll": 0.0
       }
     }
