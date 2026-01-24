@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -761.3251342773438,
+        "X": -761.4151611328125,
         "Y": 139.0,
-        "Z": -1018.6748657226562
+        "Z": -1017.8667602539062
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -10.484991073608398,
+        "Yaw": 2.4392457008361816,
         "Roll": 0.0
       }
     },
@@ -108,25 +108,25 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "7": {
-              "Id": "Ingredient_Fabric_Scrap_Linen",
-              "Quantity": 7,
+            "24": {
+              "Id": "Wood_Hardwood_Fence",
+              "Quantity": 41,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "1": {
-              "Id": "Weapon_Arrow_Crude",
-              "Quantity": 20,
+            "30": {
+              "Id": "Plant_Petals_Cyan",
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "10": {
-              "Id": "Ingredient_Sac_Venom",
-              "Quantity": 7,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+            "31": {
+              "Id": "Tool_Shovel_Iron",
+              "Quantity": 1,
+              "Durability": 231.44999999999578,
+              "MaxDurability": 250.0,
               "OverrideDroppedItemAnimation": false
             },
             "13": {
@@ -157,11 +157,11 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "31": {
-              "Id": "Tool_Shovel_Iron",
-              "Quantity": 1,
-              "Durability": 231.44999999999578,
-              "MaxDurability": 250.0,
+            "10": {
+              "Id": "Ingredient_Sac_Venom",
+              "Quantity": 7,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "32": {
@@ -171,9 +171,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "30": {
-              "Id": "Plant_Petals_Cyan",
-              "Quantity": 5,
+            "1": {
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 20,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -192,9 +192,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "24": {
-              "Id": "Wood_Hardwood_Fence",
-              "Quantity": 41,
+            "7": {
+              "Id": "Ingredient_Fabric_Scrap_Linen",
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -206,16 +206,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "18": {
-              "Id": "Plant_Crop_Mushroom_Shelve_Brown",
-              "Quantity": 44,
+            "23": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 16,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "23": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 16,
+            "18": {
+              "Id": "Plant_Crop_Mushroom_Shelve_Brown",
+              "Quantity": 44,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -454,7 +454,7 @@
         "SortType": "Type"
       },
       "PlayerData": {
-        "BlockIdVersion": 10,
+        "BlockIdVersion": 11,
         "World": "default",
         "KnownRecipes": [
           "Food_Salad_Caesar"
@@ -462,11 +462,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -755.0833129882812,
+              "X": -761.3251342773438,
               "Y": 139.0,
-              "Z": -1016.8287353515625,
-              "Pitch": -0.27991122007369995,
-              "Yaw": 1.1780420541763306,
+              "Z": -1018.6748657226562,
+              "Pitch": -0.020999740809202194,
+              "Yaw": 2.1356306076049805,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -579,6 +579,12 @@
           }
         },
         "DiscoveredZones": [
+          "Zone3_Shallow_Ocean_Tier1",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Shallow_Ocean_Tier3",
+          "Zone4_Shallow_Ocean_Tier4",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Shore",
           "Zone3_Shore_Tier1",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier3",
@@ -596,15 +602,13 @@
           "Zone4_Shore_Tier4",
           "Zone3_Tier2",
           "Zone1_Tier3",
-          "Zone1_Tier1",
-          "Zone3_Shallow_Ocean_Tier1",
-          "Zone3_Shallow_Ocean_Tier2",
-          "Zone3_Shallow_Ocean_Tier3",
-          "Zone4_Shallow_Ocean_Tier4",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone1_Shore"
+          "Zone1_Tier1"
         ],
         "DiscoveredInstances": [
+          {
+            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
+            "$type": "04"
+          },
           {
             "$binary": "PsbSp7V5SYGfiQULjjaeZg==",
             "$type": "04"
@@ -639,10 +643,6 @@
           },
           {
             "$binary": "yUtYskETRfWlSwKer6QCrw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
             "$type": "04"
           }
         ],
@@ -730,7 +730,7 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 10.0,
+          "Value": 0.0,
           "Modifiers": {
             "*Weapon_0": {
               "Id": "Static",
@@ -755,8 +755,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.027124740183353424,
-        "Yaw": 1.8381308317184448,
+        "Pitch": -0.23040500283241272,
+        "Yaw": 1.6538474559783936,
         "Roll": 0.0
       }
     }
