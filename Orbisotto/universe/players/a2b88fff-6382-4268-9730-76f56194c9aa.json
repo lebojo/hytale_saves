@@ -3,7 +3,24 @@
     "Nameplate": {
       "Text": "yametersa"
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "HealthRegen_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 31.189199447631836,
+          "SinceLastDamage": 1.8110039234161377,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -20,13 +37,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -4561.265625,
-        "Y": 144.5633544921875,
-        "Z": -10397.458984375
+        "X": -4909.544921875,
+        "Y": 152.0,
+        "Z": -10540.02734375
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 19.687746047973633,
+        "Yaw": -1.2194706201553345,
         "Roll": 0.0
       }
     },
@@ -64,9 +81,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.1318359453580347,
-        "Y": 5.100403136038967,
-        "Z": -0.17578126047737958
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
       }
     },
     "Player": {
@@ -116,13 +133,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "12": {
-              "Id": "Plant_Fruit_Berries_Red",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "13": {
               "Id": "Rock_Stone_Cobble",
               "Quantity": 64,
@@ -153,7 +163,7 @@
             },
             "28": {
               "Id": "Ingredient_Fire_Essence",
-              "Quantity": 30,
+              "Quantity": 40,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -223,14 +233,7 @@
             },
             "20": {
               "Id": "Ingredient_Fabric_Scrap_Cindercloth",
-              "Quantity": 10,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "35": {
-              "Id": "Ore_Silver",
-              "Quantity": 2,
+              "Quantity": 16,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -270,13 +273,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "10": {
-              "Id": "Ingredient_Life_Essence",
-              "Quantity": 10,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "11": {
               "Id": "Ore_Copper",
               "Quantity": 3,
@@ -284,9 +280,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "10": {
+              "Id": "Ingredient_Life_Essence",
+              "Quantity": 10,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "31": {
               "Id": "Ingredient_Hide_Medium",
-              "Quantity": 3,
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -306,8 +309,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Ore_Iron",
-              "Quantity": 8,
+              "Id": "Ore_Silver",
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -342,28 +345,28 @@
             "0": {
               "Id": "Armor_Cobalt_Head",
               "Quantity": 1,
-              "Durability": 50.400000000000006,
+              "Durability": 49.900000000000006,
               "MaxDurability": 113.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Armor_Cobalt_Hands",
               "Quantity": 1,
-              "Durability": 41.900000000000006,
+              "Durability": 40.400000000000006,
               "MaxDurability": 113.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
               "Id": "Armor_Cobalt_Chest",
               "Quantity": 1,
-              "Durability": 49.900000000000006,
+              "Durability": 46.400000000000006,
               "MaxDurability": 113.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Armor_Cobalt_Legs",
               "Quantity": 1,
-              "Durability": 48.900000000000006,
+              "Durability": 47.900000000000006,
               "MaxDurability": 113.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -376,14 +379,14 @@
             "0": {
               "Id": "Weapon_Sword_Cobalt",
               "Quantity": 1,
-              "Durability": 55.77000000000136,
+              "Durability": 47.79000000000133,
               "MaxDurability": 111.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Tool_Pickaxe_Cobalt",
               "Quantity": 1,
-              "Durability": 138.25,
+              "Durability": 130.5,
               "MaxDurability": 184.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -396,14 +399,7 @@
             },
             "4": {
               "Id": "Rock_Volcanic_Cobble",
-              "Quantity": 83,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "8": {
-              "Id": "Food_Fish_Grilled",
-              "Quantity": 3,
+              "Quantity": 37,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -420,13 +416,6 @@
               "Quantity": 1,
               "Durability": 227.89999999999998,
               "MaxDurability": 303.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Potion_Health_Lesser",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -478,7 +467,7 @@
             },
             "2": {
               "Id": "Ore_Adamantite",
-              "Quantity": 13,
+              "Quantity": 14,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -492,7 +481,7 @@
             },
             "4": {
               "Id": "Ore_Silver",
-              "Quantity": 18,
+              "Quantity": 25,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -513,7 +502,7 @@
             },
             "3": {
               "Id": "Ore_Iron",
-              "Quantity": 7,
+              "Quantity": 15,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -594,11 +583,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -4363.99072265625,
-              "Y": 133.0,
-              "Z": -8971.4765625,
-              "Pitch": -0.17330661416053772,
-              "Yaw": -0.2692488133907318,
+              "X": -4909.544921875,
+              "Y": 152.0,
+              "Z": -10540.02734375,
+              "Pitch": -0.05829540640115738,
+              "Yaw": -1.2194663286209106,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -763,7 +752,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 119.0,
+          "Value": 46.25394821166992,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -786,7 +775,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 7.599989414215088
+          "Value": 4.5
         },
         "Ammo": {
           "Id": "Ammo",
@@ -816,8 +805,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.1667073667049408,
-        "Yaw": 0.13347049057483673,
+        "Pitch": -0.05829540640115738,
+        "Yaw": -1.2194663286209106,
         "Roll": 0.0
       }
     }
