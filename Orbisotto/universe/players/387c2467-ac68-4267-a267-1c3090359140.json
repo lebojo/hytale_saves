@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -761.4151611328125,
-        "Y": 139.0,
-        "Z": -1017.8667602539062
+        "X": -717.155517578125,
+        "Y": 133.0,
+        "Z": -1010.8831176757812
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 2.402495861053467,
+        "Yaw": 9.512114524841309,
         "Roll": 0.0
       }
     },
@@ -108,25 +108,25 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "24": {
-              "Id": "Wood_Hardwood_Fence",
-              "Quantity": 41,
+            "7": {
+              "Id": "Ingredient_Fabric_Scrap_Linen",
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "30": {
-              "Id": "Plant_Petals_Cyan",
-              "Quantity": 5,
+            "1": {
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 20,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "31": {
-              "Id": "Tool_Shovel_Iron",
-              "Quantity": 1,
-              "Durability": 231.44999999999578,
-              "MaxDurability": 250.0,
+            "10": {
+              "Id": "Ingredient_Sac_Venom",
+              "Quantity": 7,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "13": {
@@ -157,11 +157,11 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "10": {
-              "Id": "Ingredient_Sac_Venom",
-              "Quantity": 7,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+            "31": {
+              "Id": "Tool_Shovel_Iron",
+              "Quantity": 1,
+              "Durability": 231.44999999999578,
+              "MaxDurability": 250.0,
               "OverrideDroppedItemAnimation": false
             },
             "32": {
@@ -171,9 +171,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "1": {
-              "Id": "Weapon_Arrow_Crude",
-              "Quantity": 20,
+            "30": {
+              "Id": "Plant_Petals_Cyan",
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -192,9 +192,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "7": {
-              "Id": "Ingredient_Fabric_Scrap_Linen",
-              "Quantity": 7,
+            "24": {
+              "Id": "Wood_Hardwood_Fence",
+              "Quantity": 41,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -206,16 +206,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "23": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 16,
+            "18": {
+              "Id": "Plant_Crop_Mushroom_Shelve_Brown",
+              "Quantity": 44,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "18": {
-              "Id": "Plant_Crop_Mushroom_Shelve_Brown",
-              "Quantity": 44,
+            "23": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 16,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -400,7 +400,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 0,
+        "ActiveHotbarSlot": 6,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -450,7 +450,7 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": 1,
+        "ActiveUtilitySlot": -1,
         "SortType": "Type"
       },
       "PlayerData": {
@@ -462,11 +462,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -761.4151611328125,
-              "Y": 139.0,
-              "Z": -1017.8667602539062,
-              "Pitch": -0.17790497839450836,
-              "Yaw": 1.6170976161956787,
+              "X": -717.155517578125,
+              "Y": 133.0,
+              "Z": -1010.8831176757812,
+              "Pitch": -0.3252558708190918,
+              "Yaw": 3.0451865196228027,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -730,14 +730,7 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 0.0,
-          "Modifiers": {
-            "*Weapon_0": {
-              "Id": "Static",
-              "CalculationType": "Additive",
-              "Amount": 20.0
-            }
-          }
+          "Value": 0.0
         },
         "DeployablePreview": {
           "Id": "DeployablePreview",
@@ -755,8 +748,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.17790497839450836,
-        "Yaw": 1.6170976161956787,
+        "Pitch": -0.3252558708190918,
+        "Yaw": 3.0451865196228027,
         "Roll": 0.0
       }
     }
