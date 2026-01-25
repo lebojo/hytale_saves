@@ -3,38 +3,7 @@
     "Nameplate": {
       "Text": "yametersa"
     },
-    "EffectController": {
-      "ActiveEntityEffects": [
-        {
-          "EntityEffectId": "FruitVeggie_Buff_T2",
-          "InitialDuration": 150.0,
-          "RemainingDuration": 140.4388885498047,
-          "SinceLastDamage": 0.059129223227500916,
-          "HasBeenDamaged": false,
-          "SequentialHits": {
-            "Hits": 0
-          },
-          "Infinite": false,
-          "Debuff": false,
-          "StatusEffectIcon": "UI/StatusEffects/Stamina/Small.png",
-          "Invulnerable": false
-        },
-        {
-          "EntityEffectId": "HealthRegen_Buff_T2",
-          "InitialDuration": 150.0,
-          "RemainingDuration": 140.4388885498047,
-          "SinceLastDamage": 1.5591291189193726,
-          "HasBeenDamaged": false,
-          "SequentialHits": {
-            "Hits": 0
-          },
-          "Infinite": false,
-          "Debuff": false,
-          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
-          "Invulnerable": false
-        }
-      ]
-    },
+    "EffectController": {},
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -51,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -4610.09375,
-        "Y": 151.0,
-        "Z": -8438.630859375
+        "X": -4365.98681640625,
+        "Y": 133.59999084472656,
+        "Z": -8970.435546875
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -0.07174926996231079,
+        "Yaw": -1.665789246559143,
         "Roll": 0.0
       }
     },
@@ -87,9 +56,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
+        "X": 4.790031853419286,
+        "Y": -5.599814570229179,
+        "Z": 0.058593661815526436
       }
     },
     "Player": {
@@ -181,16 +150,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "26": {
-              "Id": "Furniture_Temple_Light_Bench",
-              "Quantity": 4,
+            "23": {
+              "Id": "Rock_Basalt_Cobble",
+              "Quantity": 100,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "19": {
-              "Id": "Ingredient_Powder_Boom",
-              "Quantity": 3,
+            "26": {
+              "Id": "Furniture_Temple_Light_Bench",
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -209,9 +178,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "23": {
-              "Id": "Rock_Basalt_Cobble",
-              "Quantity": 100,
+            "19": {
+              "Id": "Ingredient_Powder_Boom",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -258,16 +227,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Rubble_Stone",
-              "Quantity": 14,
+            "6": {
+              "Id": "Ingredient_Fabric_Scrap_Linen",
+              "Quantity": 15,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Ingredient_Fabric_Scrap_Linen",
-              "Quantity": 15,
+            "27": {
+              "Id": "Rubble_Stone",
+              "Quantity": 14,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -286,6 +255,13 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "31": {
+              "Id": "Deco_Rope",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "11": {
               "Id": "Ore_Copper",
               "Quantity": 3,
@@ -296,13 +272,6 @@
             "10": {
               "Id": "Ingredient_Life_Essence",
               "Quantity": 10,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "31": {
-              "Id": "Deco_Rope",
-              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -426,7 +395,7 @@
             },
             "7": {
               "Id": "Rock_Slate_Cobble",
-              "Quantity": 23,
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -596,11 +565,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -4329.30859375,
-              "Y": 106.4500961303711,
-              "Z": -6643.3720703125,
-              "Pitch": -0.15829534828662872,
-              "Yaw": 2.461097478866577,
+              "X": -4610.09375,
+              "Y": 151.0,
+              "Z": -8438.630859375,
+              "Pitch": -0.26955005526542664,
+              "Yaw": -0.06424880027770996,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -649,21 +618,6 @@
               }
             ],
             "DeathPositions": []
-          },
-          "instance-Forgotten_Temple-f7d98f25-b8a5-4a3c-9838-b2e3c15bf812": {
-            "LastPosition": {
-              "X": 5098.4892578125,
-              "Y": 169.45010375976562,
-              "Z": 4983.3955078125,
-              "Pitch": -0.12499995529651642,
-              "Yaw": -1.5666996240615845,
-              "Roll": 0.0
-            },
-            "LastMovementStates": {
-              "Flying": false
-            },
-            "FirstSpawn": false,
-            "DeathPositions": []
           }
         },
         "DiscoveredZones": [
@@ -699,15 +653,11 @@
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
+            "$binary": "J2Y7N2Y/TiCls73H4+3fHw==",
             "$type": "04"
           },
           {
-            "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "99mPJbilSjyYOLLjwVv4Eg==",
+            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
             "$type": "04"
           },
           {
@@ -715,7 +665,11 @@
             "$type": "04"
           },
           {
-            "$binary": "J2Y7N2Y/TiCls73H4+3fHw==",
+            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "99mPJbilSjyYOLLjwVv4Eg==",
             "$type": "04"
           },
           {
@@ -723,11 +677,11 @@
             "$type": "04"
           },
           {
-            "$binary": "SdnmjXm1QrKR79rAPdaQUw==",
+            "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
             "$type": "04"
           },
           {
-            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
+            "$binary": "SdnmjXm1QrKR79rAPdaQUw==",
             "$type": "04"
           }
         ],
@@ -780,7 +734,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 109.9150161743164,
+          "Value": 161.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -803,14 +757,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 12.0,
-          "Modifiers": {
-            "Effect_MULTIPLICATIVE": {
-              "Id": "Static",
-              "CalculationType": "Multiplicative",
-              "Amount": 1.2000000476837158
-            }
-          }
+          "Value": 3.8999996185302734
         },
         "Ammo": {
           "Id": "Ammo",
@@ -840,8 +787,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.26955005526542664,
-        "Yaw": -0.06424880027770996,
+        "Pitch": 0.004193474538624287,
+        "Yaw": -1.6692488193511963,
         "Roll": 0.0
       }
     }
