@@ -1,5 +1,65 @@
 {
   "Markers": {
+    "1981583507612239341": {
+      "Position": {
+        "X": 1517,
+        "Y": 109,
+        "Z": -2447
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "9357b5a9-2b9e-4b79-9dd3-3bea874c151e"
+    },
+    "1999597743181393479": {
+      "Position": {
+        "X": -4537,
+        "Y": 110,
+        "Z": -3662
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "4e6323fe-b3d5-45e4-bad9-486280583940"
+    },
+    "1945554957956547500": {
+      "Position": {
+        "X": 940,
+        "Y": 107,
+        "Z": -604
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "9c98ac40-6e13-4b09-90ad-f5fc91fc81da"
+    },
+    "1873497579740724316": {
+      "Position": {
+        "X": -932,
+        "Y": 104,
+        "Z": 1003
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "89e32fa8-84c4-48ff-93de-e6d98e3c4139"
+    },
+    "2071655598541245918": {
+      "Position": {
+        "X": 3550,
+        "Y": 114,
+        "Z": -1714
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "fc81c1d2-b212-4f4c-9620-189620f4b169"
+    },
+    "1891509995317491196": {
+      "Position": {
+        "X": -2564,
+        "Y": 104,
+        "Z": -13771
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "166b2e7e-e834-403d-bd44-2c2ea9da46b3"
+    },
     "1927539749040418583": {
       "Position": {
         "X": -4329,
@@ -30,26 +90,6 @@
       "Icon": "Temple_Gateway.png",
       "MarkerId": "549fa3ed-a66d-40d4-be50-3439b490eb06"
     },
-    "1981583507612239341": {
-      "Position": {
-        "X": 1517,
-        "Y": 109,
-        "Z": -2447
-      },
-      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
-      "Icon": "Temple_Gateway.png",
-      "MarkerId": "9357b5a9-2b9e-4b79-9dd3-3bea874c151e"
-    },
-    "1999597743181393479": {
-      "Position": {
-        "X": -4537,
-        "Y": 110,
-        "Z": -3662
-      },
-      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
-      "Icon": "Temple_Gateway.png",
-      "MarkerId": "4e6323fe-b3d5-45e4-bad9-486280583940"
-    },
     "2089670019733516787": {
       "Position": {
         "X": -3597,
@@ -59,16 +99,6 @@
       "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
       "Icon": "Temple_Gateway.png",
       "MarkerId": "e90c580f-7b98-4968-a86c-d53043126333"
-    },
-    "1945554957956547500": {
-      "Position": {
-        "X": 940,
-        "Y": 107,
-        "Z": -604
-      },
-      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
-      "Icon": "Temple_Gateway.png",
-      "MarkerId": "9c98ac40-6e13-4b09-90ad-f5fc91fc81da"
     },
     "1999597909208732565": {
       "Position": {
@@ -88,27 +118,17 @@
       },
       "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
       "Icon": "Temple_Gateway.png",
-      "MarkerId": "33bbefc5-2d60-439b-8a0d-0da8add36b07"
+      "MarkerId": "44de4a8f-cd91-4b47-b015-e0c9c1fb8044"
     },
-    "1873497579740724316": {
+    "1945552928047625271": {
       "Position": {
-        "X": -932,
-        "Y": 104,
-        "Z": 1003
+        "X": -3017,
+        "Y": 107,
+        "Z": -15729
       },
       "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
       "Icon": "Temple_Gateway.png",
-      "MarkerId": "89e32fa8-84c4-48ff-93de-e6d98e3c4139"
-    },
-    "2071655598541245918": {
-      "Position": {
-        "X": 3550,
-        "Y": 114,
-        "Z": -1714
-      },
-      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
-      "Icon": "Temple_Gateway.png",
-      "MarkerId": "fc81c1d2-b212-4f4c-9620-189620f4b169"
+      "MarkerId": "d288a439-8bae-45ff-aeb9-58c056d7f175"
     }
   }
 }

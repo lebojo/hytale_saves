@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -715.615478515625,
-        "Y": 133.0,
-        "Z": -1006.4791259765625
+        "X": -729.7642211914062,
+        "Y": 134.875,
+        "Z": -988.3786010742188
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -22.71605110168457,
+        "Yaw": -6.597113609313965,
         "Roll": 0.0
       }
     },
@@ -75,49 +75,63 @@
           "Items": {
             "0": {
               "Id": "Weapon_Arrow_Crude",
-              "Quantity": 96,
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "29": {
+              "Id": "Wood_Redwood_Trunk",
+              "Quantity": 52,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "25": {
-              "Id": "Wood_Blackwood_Roof_Flat",
-              "Quantity": 2,
+              "Id": "Wood_Redwood_Planks",
+              "Quantity": 47,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 100,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "12": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 25,
+              "Id": "Ingredient_Tree_Sap",
+              "Quantity": 14,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "13": {
-              "Id": "Ingredient_Bone_Fragment",
-              "Quantity": 1,
+              "Id": "Ingredient_Void_Essence",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
-              "Id": "Plant_Moss_Green",
-              "Quantity": 7,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "9": {
               "Id": "Ingredient_Hide_Light",
               "Quantity": 13,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "9": {
+              "Id": "Ingredient_Life_Essence",
+              "Quantity": 30,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "28": {
-              "Id": "Wood_Blackwood_Roof_Shallow",
-              "Quantity": 2,
+              "Id": "Wood_Redwood_Trunk",
+              "Quantity": 100,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -130,99 +144,99 @@
               "OverrideDroppedItemAnimation": false
             },
             "18": {
-              "Id": "Plant_Crop_Mushroom_Shelve_Brown",
-              "Quantity": 44,
+              "Id": "Plant_Moss_Green",
+              "Quantity": 13,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "26": {
-              "Id": "Plant_Fruit_Berries_Red",
+              "Id": "Wood_Redwood_Roof",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "16": {
-              "Id": "Wood_Blackwood_Roof_Steep",
-              "Quantity": 4,
+              "Id": "Plant_Crop_Mushroom_Shelve_Brown",
+              "Quantity": 32,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "17": {
+              "Id": "Plant_Fruit_Berries_Red",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "19": {
               "Id": "Wood_Blackwood_Roof",
               "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "19": {
-              "Id": "Wood_Redwood_Trunk",
-              "Quantity": 52,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "23": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 25,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "22": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 69,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "20": {
-              "Id": "Wood_Redwood_Planks",
-              "Quantity": 47,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "2": {
-              "Id": "Furniture_Crude_Torch",
-              "Quantity": 100,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "27": {
               "Id": "Wood_Cedar_Trunk",
               "Quantity": 56,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 13,
+            "21": {
+              "Id": "Wood_Blackwood_Roof_Shallow",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "15": {
+            "22": {
+              "Id": "Wood_Blackwood_Roof_Steep",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "20": {
+              "Id": "Wood_Blackwood_Roof_Flat",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "27": {
               "Id": "Wood_Redwood_Roof_Steep",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "14": {
+            "6": {
               "Id": "Ingredient_Fabric_Scrap_Linen",
-              "Quantity": 1,
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "14": {
+              "Id": "Plant_Crop_Corn_Item",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "11": {
-              "Id": "Wood_Redwood_Roof",
-              "Quantity": 1,
+              "Id": "Ingredient_Stick",
+              "Quantity": 69,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -234,30 +248,30 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "32": {
-              "Id": "Bench_WorkBench",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "1": {
               "Id": "Weapon_Arrow_Crude",
-              "Quantity": 20,
+              "Quantity": 16,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Wood_Redwood_Trunk",
-              "Quantity": 100,
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 24,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 16,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
-              "Id": "Ingredient_Tree_Sap",
-              "Quantity": 14,
+              "Id": "Ingredient_Bone_Fragment",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -305,7 +319,7 @@
             "0": {
               "Id": "Weapon_Sword_Cobalt",
               "Quantity": 1,
-              "Durability": 104.55000000000044,
+              "Durability": 102.6600000000005,
               "MaxDurability": 135.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -317,15 +331,22 @@
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 1,
+              "Id": "Wood_Aspen_Trunk",
+              "Quantity": 11,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Plant_Crop_Wheat_Item",
+              "Quantity": 38,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
-              "Id": "Ingredient_Life_Essence",
-              "Quantity": 98,
+              "Id": "Ingredient_Bar_Adamantite",
+              "Quantity": 33,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -333,7 +354,7 @@
             "1": {
               "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
-              "Durability": 170.0,
+              "Durability": 169.5,
               "MaxDurability": 350.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -342,6 +363,13 @@
               "Quantity": 1,
               "Durability": 131.95999999999995,
               "MaxDurability": 180.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Food_Salad_Mushroom",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "5": {
@@ -359,7 +387,7 @@
           "Items": {
             "0": {
               "Id": "Furniture_Crude_Torch",
-              "Quantity": 48,
+              "Quantity": 12,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -387,13 +415,6 @@
             "2": {
               "Id": "Rock_Basalt_Cobble",
               "Quantity": 32,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "6": {
-              "Id": "Plant_Crop_Lettuce_Item",
-              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -619,29 +640,29 @@
           "Zone3_Shallow_Ocean_Tier3",
           "Zone3_Shallow_Ocean_Tier2",
           "Zone3_Shallow_Ocean_Tier1",
-          "Zone1_Tier1",
-          "Zone1_Tier3",
-          "Zone3_Tier2",
-          "Zone4_Shore_Tier4",
+          "Oceans",
+          "Zone1_Temple",
+          "Zone3_Tier1",
+          "Zone3_Tier3",
           "Zone4_Tier5",
           "Zone4_Tier4",
           "Zone4_Shore_Tier5",
-          "Zone3_Tier3",
-          "Zone3_Tier1",
-          "Zone1_Temple",
+          "Zone4_Shore_Tier4",
+          "Zone3_Tier2",
+          "Zone1_Tier3",
           "Zone1_Tier2",
-          "Oceans",
+          "Zone1_Tier1",
           "Zone1_Spawn",
           "Zone1_Shallow_Ocean",
-          "ForgottenTemple",
           "Zone3_Shore_Tier3",
+          "ForgottenTemple",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
           "Zone1_Shore"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "yUtYskETRfWlSwKer6QCrw==",
+            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
             "$type": "04"
           },
           {
@@ -649,7 +670,7 @@
             "$type": "04"
           },
           {
-            "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
+            "$binary": "yUtYskETRfWlSwKer6QCrw==",
             "$type": "04"
           },
           {
@@ -730,7 +751,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 97.79293060302734,
+          "Value": 148.3787841796875,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -783,8 +804,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.19267034530639648,
-        "Yaw": 2.195258617401123,
+        "Pitch": -0.4862692058086395,
+        "Yaw": -0.3263740539550781,
         "Roll": 0.0
       }
     }
