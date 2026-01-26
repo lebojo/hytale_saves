@@ -80,6 +80,16 @@
       "Icon": "Temple_Gateway.png",
       "MarkerId": "7d70e568-710c-4101-b164-5fc1a6937bf1"
     },
+    "2197754654148785127": {
+      "Position": {
+        "X": -3097,
+        "Y": 121,
+        "Z": -14634
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "33bbefc5-2d60-439b-8a0d-0da8add36b07"
+    },
     "1873497579740724316": {
       "Position": {
         "X": -932,
