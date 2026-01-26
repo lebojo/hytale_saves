@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -1205.9749755859375,
-        "Y": 123.1500015258789,
-        "Z": -681.5
+        "X": -791.76318359375,
+        "Y": 139.0,
+        "Z": -1009.7940673828125
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 0.0,
+        "Yaw": -3.3466947078704834,
         "Roll": 0.0
       }
     },
@@ -77,18 +77,18 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Rock_Basalt_Cobble",
-              "Quantity": 19,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "27": {
               "Id": "Tool_Pickaxe_Iron",
               "Quantity": 1,
               "Durability": 225.0,
               "MaxDurability": 250.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Rock_Basalt_Cobble",
+              "Quantity": 19,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
@@ -98,9 +98,65 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "14": {
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "12": {
+              "Id": "Plant_Crop_Turnip_Item",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "13": {
+              "Id": "Ingredient_Hide_Medium",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "8": {
               "Id": "Ore_Iron",
               "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "9": {
+              "Id": "Plant_Crop_Cauliflower_Item",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Plant_Crop_Wheat_Item",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "10": {
+              "Id": "Plant_Crop_Corn_Item",
+              "Quantity": 28,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Plant_Crop_Lettuce_Item",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Ingredient_Life_Essence",
+              "Quantity": 65,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -128,7 +184,7 @@
             "0": {
               "Id": "Armor_Cobalt_Head",
               "Quantity": 1,
-              "Durability": 97.5,
+              "Durability": 97.0,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -142,7 +198,7 @@
             "1": {
               "Id": "Armor_Cobalt_Chest",
               "Quantity": 1,
-              "Durability": 97.5,
+              "Durability": 97.0,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -162,7 +218,7 @@
             "0": {
               "Id": "Tool_Pickaxe_Iron",
               "Quantity": 1,
-              "Durability": 214.5,
+              "Durability": 212.0,
               "MaxDurability": 250.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -190,7 +246,7 @@
             "8": {
               "Id": "Weapon_Sword_Iron",
               "Quantity": 1,
-              "Durability": 65.16000000000128,
+              "Durability": 63.690000000001305,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -306,7 +362,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 1,
+        "ActiveHotbarSlot": 0,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -366,11 +422,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -1205.9749755859375,
-              "Y": 123.1500015258789,
-              "Z": -681.5,
-              "Pitch": -0.1679999828338623,
-              "Yaw": -0.30100011825561523,
+              "X": -791.76318359375,
+              "Y": 139.0,
+              "Z": -1009.7940673828125,
+              "Pitch": -0.2134917676448822,
+              "Yaw": -2.5612964630126953,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -409,29 +465,30 @@
           }
         },
         "DiscoveredZones": [
-          "Zone3_Shallow_Ocean_Tier2",
-          "ForgottenTemple",
-          "Zone1_Tier1",
-          "Zone1_Tier2",
-          "Zone1_Tier3",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone3_Tier2",
-          "Zone4_Shore_Tier5",
           "Oceans",
-          "Zone4_Tier5",
+          "Zone4_Shallow_Ocean_Tier5",
+          "ForgottenTemple",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone1_Tier3",
+          "Zone1_Tier2",
+          "Zone1_Tier1",
+          "Zone3_Tier2",
           "Zone1_Spawn",
           "Zone3_Shore_Tier2",
+          "Zone4_Tier5",
+          "Zone4_Shore_Tier5",
           "Zone3_Shore_Tier1",
-          "Zone3_Tier1",
-          "Zone1_Shore"
+          "Zone4_Tier4",
+          "Zone1_Shore",
+          "Zone3_Tier1"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
+            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
             "$type": "04"
           },
           {
-            "$binary": "m/QzA+ReQ3K+TYQhMr7CqA==",
+            "$binary": "0IsKWfKeRm66IbKxPiEU6A==",
             "$type": "04"
           }
         ],
@@ -484,7 +541,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 157.0,
+          "Value": 118.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -537,8 +594,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.1679999828338623,
-        "Yaw": -0.30100011825561523,
+        "Pitch": -0.2134917676448822,
+        "Yaw": -2.5612964630126953,
         "Roll": 0.0
       }
     }

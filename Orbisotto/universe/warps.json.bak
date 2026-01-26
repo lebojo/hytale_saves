@@ -31,54 +31,34 @@
       "Yaw": 7.853981971740723
     },
     {
-      "Id": "Yudel1",
-      "World": "default",
-      "Creator": "*Teleporter",
-      "CreationDate": "2026-01-18T16:51:27.782129361Z",
-      "X": -1202.5,
-      "Y": 123.0,
-      "Z": -694.0,
-      "Yaw": 6.2831854820251465
-    },
-    {
       "Id": "Yudel2",
       "World": "default",
       "Creator": "*Teleporter",
-      "CreationDate": "2026-01-18T16:51:05.291861049Z",
+      "CreationDate": "2026-01-26T15:44:43.051198137Z",
       "X": -1210.5,
-      "Y": 123.0,
-      "Z": -694.0,
+      "Y": 123.65,
+      "Z": -690.5,
       "Yaw": 6.2831854820251465
     },
     {
-      "Id": "Yudel3",
+      "Id": "BAD LOIN",
       "World": "default",
       "Creator": "*Teleporter",
-      "CreationDate": "2026-01-18T18:39:11.349729129Z",
-      "X": -1217.0,
-      "Y": 123.0,
-      "Z": -688.5,
+      "CreationDate": "2026-01-26T15:43:55.663499025Z",
+      "X": -3931.5,
+      "Y": 135.65,
+      "Z": -14260.5,
       "Yaw": 7.853981971740723
     },
     {
       "Id": "Bojo/Yame",
       "World": "default",
       "Creator": "*Teleporter",
-      "CreationDate": "2026-01-18T16:51:22.335527424Z",
-      "X": -791.0,
-      "Y": 139.0,
+      "CreationDate": "2026-01-26T15:44:10.463954653Z",
+      "X": -794.5,
+      "Y": 139.65,
       "Z": -1009.5,
       "Yaw": 4.71238899230957
-    },
-    {
-      "Id": "Yudel4",
-      "World": "default",
-      "Creator": "*Teleporter",
-      "CreationDate": "2026-01-18T20:58:38.550795202Z",
-      "X": -1217.0,
-      "Y": 123.0,
-      "Z": -680.5,
-      "Yaw": 7.853981971740723
     }
   ]
 }
