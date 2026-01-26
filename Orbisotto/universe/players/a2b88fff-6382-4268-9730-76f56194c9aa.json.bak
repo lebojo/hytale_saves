@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -4913.841796875,
-        "Y": 117.0,
-        "Z": -13442.2041015625
+        "X": -713.3772583007812,
+        "Y": 130.9435272216797,
+        "Z": -961.5784301757812
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 2.228184700012207,
+        "Yaw": 2.2975962162017822,
         "Roll": 0.0
       }
     },
@@ -112,9 +112,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 1.259765700087887,
-        "Y": 0.0,
-        "Z": -2.138672002474785
+        "X": 5.167236058632639,
+        "Y": 6.097411791370194,
+        "Z": -4.725951901959901
       }
     },
     "Player": {
@@ -136,13 +136,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "33": {
-              "Id": "Weapon_Spellbook_Rekindle_Embers",
-              "Quantity": 5,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "35": {
               "Id": "Food_Fish_Raw",
               "Quantity": 4,
@@ -150,107 +143,37 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "2": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 16,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+            "29": {
+              "Id": "Armor_Cobalt_Chest",
+              "Quantity": 1,
+              "Durability": 81.4,
+              "MaxDurability": 101.0,
               "OverrideDroppedItemAnimation": false
             },
             "25": {
-              "Id": "Rock_Stone_Cobble",
-              "Quantity": 32,
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 66,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Ingredient_Bar_Thorium",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "4": {
-              "Id": "Ingredient_Fabric_Scrap_Cindercloth",
-              "Quantity": 17,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "12": {
-              "Id": "Rubble_Slate",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "13": {
-              "Id": "Plant_Fruit_Coconut",
-              "Quantity": 10,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "8": {
-              "Id": "Ingredient_Hide_Medium",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "9": {
-              "Id": "Food_Pork_Raw",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "11": {
-              "Id": "Ingredient_Stick",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "10": {
-              "Id": "Wood_Burnt_Trunk",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "Ingredient_Charcoal",
+            "30": {
+              "Id": "Armor_Cobalt_Head",
               "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Durability": 80.4,
+              "MaxDurability": 101.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
-              "Id": "Food_Wildmeat_Raw",
-              "Quantity": 12,
+              "Id": "Ingredient_Leather_Heavy",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "34": {
-              "Id": "Rock_Shale_Cobble",
-              "Quantity": 46,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Weapon_Arrow_Crude",
-              "Quantity": 84,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Ingredient_Fire_Essence",
-              "Quantity": 22,
+              "Id": "Rock_Stone_Cobble",
+              "Quantity": 32,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -258,20 +181,6 @@
             "26": {
               "Id": "Food_Wildmeat_Raw",
               "Quantity": 25,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "16": {
-              "Id": "Weapon_Arrow_Crude",
-              "Quantity": 94,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "17": {
-              "Id": "Ingredient_Tree_Sap",
-              "Quantity": 26,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -283,10 +192,10 @@
           "Capacity": 4,
           "Items": {
             "0": {
-              "Id": "Armor_Cobalt_Head",
+              "Id": "Armor_Adamantite_Head",
               "Quantity": 1,
-              "Durability": 80.9,
-              "MaxDurability": 101.0,
+              "Durability": 150.0,
+              "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
@@ -297,16 +206,16 @@
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Armor_Cobalt_Chest",
+              "Id": "Armor_Adamantite_Chest",
               "Quantity": 1,
-              "Durability": 81.9,
-              "MaxDurability": 101.0,
+              "Durability": 150.0,
+              "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Armor_Cobalt_Legs",
               "Quantity": 1,
-              "Durability": 85.4,
+              "Durability": 84.9,
               "MaxDurability": 101.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -330,13 +239,6 @@
               "MaxDurability": 367.0,
               "OverrideDroppedItemAnimation": false
             },
-            "4": {
-              "Id": "Ingredient_Void_Essence",
-              "Quantity": 8,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "8": {
               "Id": "Rock_Shale_Cobble",
               "Quantity": 100,
@@ -347,7 +249,7 @@
             "1": {
               "Id": "Weapon_Crossbow_Ancient_Steel",
               "Quantity": 1,
-              "Durability": 119.3599999999999,
+              "Durability": 94.1599999999998,
               "MaxDurability": 180.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -359,8 +261,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "7": {
-              "Id": "Food_Kebab_Meat",
-              "Quantity": 2,
+              "Id": "Rock_Shale_Cobble",
+              "Quantity": 46,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -399,7 +301,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 1,
+        "ActiveHotbarSlot": 0,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -689,12 +591,12 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 119.0,
+          "Value": 144.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
-              "Amount": 61.0
+              "Amount": 65.0
             }
           }
         },
@@ -708,29 +610,15 @@
         },
         "SignatureCharges": {
           "Id": "SignatureCharges",
-          "Value": 0.0,
-          "Modifiers": {
-            "*Weapon_0": {
-              "Id": "Static",
-              "CalculationType": "Additive",
-              "Amount": 1.0
-            }
-          }
+          "Value": 0.0
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 0.30000001192092896
+          "Value": 0.3000001311302185
         },
         "Ammo": {
           "Id": "Ammo",
-          "Value": 6.0,
-          "Modifiers": {
-            "*Weapon_0": {
-              "Id": "Static",
-              "CalculationType": "Additive",
-              "Amount": 6.0
-            }
-          }
+          "Value": 0.0
         },
         "Unknown": {
           "Id": "Unknown",
@@ -738,12 +626,12 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 3.0,
+          "Value": 0.0,
           "Modifiers": {
             "*Weapon_0": {
               "Id": "Static",
               "CalculationType": "Additive",
-              "Amount": 5.0
+              "Amount": 20.0
             }
           }
         },
@@ -763,8 +651,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.009902571327984333,
-        "Yaw": 1.4514044523239136,
+        "Pitch": -0.1749998927116394,
+        "Yaw": 2.2975962162017822,
         "Roll": 0.0
       }
     }
