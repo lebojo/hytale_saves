@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": 36.0,
-        "Y": 54.60000002384186,
-        "Z": 13.0
+        "X": -696.4014282226562,
+        "Y": 130.45010375976562,
+        "Z": -981.4627685546875
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 1.9173343181610107,
+        "Yaw": 4.838309288024902,
         "Roll": 0.0
       }
     },
@@ -104,6 +104,22 @@
           "IsMemoriesNameOverridden": false,
           "CapturedTimestamp": 1769455305308,
           "FoundLocationNameKey": "server.map.region.Zone2_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Trilobite_Black",
+          "TranslationKey": "server.npcRoles.Trilobite_Black.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1769803244787,
+          "FoundLocationNameKey": "server.portals.oasis"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Skeleton_Frost_Mage",
+          "TranslationKey": "server.npcRoles.Skeleton_Frost_Mage.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1769804498330,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier3"
         }
       ]
     },
@@ -136,16 +152,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "35": {
-              "Id": "Rock_Shale_Cobble",
-              "Quantity": 46,
+            "33": {
+              "Id": "Food_Kebab_Meat",
+              "Quantity": 6,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "2": {
-              "Id": "Plant_Moss_Green",
-              "Quantity": 4,
+            "35": {
+              "Id": "Rock_Shale_Cobble",
+              "Quantity": 46,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -157,16 +173,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "8": {
-              "Id": "Weapon_Arrow_Crude",
-              "Quantity": 100,
+            "15": {
+              "Id": "Food_Kebab_Mushroom",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "1": {
-              "Id": "Rubble_Basalt",
-              "Quantity": 2,
+            "8": {
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 53,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -174,6 +190,13 @@
             "34": {
               "Id": "Weapon_Spellbook_Rekindle_Embers",
               "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "24": {
+              "Id": "Food_Kebab_Vegetable",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -208,28 +231,28 @@
             "0": {
               "Id": "Armor_Adamantite_Head",
               "Quantity": 1,
-              "Durability": 140.0,
+              "Durability": 138.0,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Armor_Adamantite_Hands",
               "Quantity": 1,
-              "Durability": 144.5,
+              "Durability": 142.0,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
               "Id": "Armor_Adamantite_Chest",
               "Quantity": 1,
-              "Durability": 138.0,
+              "Durability": 137.0,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Armor_Adamantite_Legs",
               "Quantity": 1,
-              "Durability": 145.5,
+              "Durability": 144.0,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -242,27 +265,27 @@
             "0": {
               "Id": "Weapon_Sword_Adamantite",
               "Quantity": 1,
-              "Durability": 167.94999999999996,
+              "Durability": 157.23999999999955,
               "MaxDurability": 169.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Tool_Pickaxe_Adamantite",
               "Quantity": 1,
-              "Durability": 250.05,
+              "Durability": 231.55,
               "MaxDurability": 367.0,
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Weapon_Bomb",
-              "Quantity": 3,
+              "Id": "Food_Vegetable_Cooked",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
               "Id": "Rock_Shale_Cobble",
-              "Quantity": 56,
+              "Quantity": 45,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -270,7 +293,7 @@
             "1": {
               "Id": "Weapon_Crossbow_Ancient_Steel",
               "Quantity": 1,
-              "Durability": 166.0,
+              "Durability": 147.51999999999992,
               "MaxDurability": 166.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -282,8 +305,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "7": {
-              "Id": "Food_Kebab_Mushroom",
-              "Quantity": 3,
+              "Id": "Food_Fish_Grilled",
+              "Quantity": 8,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -377,7 +400,7 @@
       },
       "PlayerData": {
         "BlockIdVersion": 11,
-        "World": "instance-Portals_Oasis-937cb272-eed7-4625-a9b8-9f2534d36692",
+        "World": "default",
         "KnownRecipes": [],
         "PerWorldData": {
           "default": {
@@ -498,6 +521,14 @@
             ]
           },
           "instance-Portals_Oasis-937cb272-eed7-4625-a9b8-9f2534d36692": {
+            "LastPosition": {
+              "X": 14.326383590698242,
+              "Y": 54.0,
+              "Z": -28.91626739501953,
+              "Pitch": -0.12454576790332794,
+              "Yaw": -2.7283437252044678,
+              "Roll": 0.0
+            },
             "LastMovementStates": {
               "Flying": false
             },
@@ -538,11 +569,11 @@
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "J2Y7N2Y/TiCls73H4+3fHw==",
+            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
             "$type": "04"
           },
           {
-            "$binary": "SdnmjXm1QrKR79rAPdaQUw==",
+            "$binary": "k3yycu7XRiWpuJ8lNNNmkg==",
             "$type": "04"
           },
           {
@@ -550,11 +581,11 @@
             "$type": "04"
           },
           {
-            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
+            "$binary": "99mPJbilSjyYOLLjwVv4Eg==",
             "$type": "04"
           },
           {
-            "$binary": "99mPJbilSjyYOLLjwVv4Eg==",
+            "$binary": "J2Y7N2Y/TiCls73H4+3fHw==",
             "$type": "04"
           },
           {
@@ -563,6 +594,10 @@
           },
           {
             "$binary": "uBRDw95tSFyUd/xugtEzxg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "SdnmjXm1QrKR79rAPdaQUw==",
             "$type": "04"
           },
           {
@@ -598,23 +633,6 @@
       "UniqueItemUsed": [
         "Upgrade_Backpack_1"
       ]
-    },
-    "Instance": {
-      "ReturnPoint": {
-        "World": {
-          "$binary": "VSIpwRimSsGXOTE/t3yBiw==",
-          "$type": "04"
-        },
-        "ReturnPoint": {
-          "X": -695.5,
-          "Y": 130.5,
-          "Z": -981.5,
-          "Pitch": 0.0,
-          "Yaw": 7.8539814949035645,
-          "Roll": 0.0
-        },
-        "ReturnOnReconnect": false
-      }
     },
     "UUID": {
       "UUID": {
@@ -688,8 +706,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.0,
-        "Yaw": 1.9173343181610107,
+        "Pitch": -0.3475039601325989,
+        "Yaw": -1.4436261653900146,
         "Roll": 0.0
       }
     }
