@@ -1,0 +1,98 @@
+{
+  "Version": 4,
+  "UUID": {
+    "$binary": "k3yycu7XRiWpuJ8lNNNmkg==",
+    "$type": "04"
+  },
+  "DisplayName": "Portals Oasis",
+  "Seed": 1769803176714,
+  "SpawnProvider": {
+    "Id": "Individual",
+    "SpawnPoints": [
+      {
+        "X": 36.0,
+        "Y": 55.5,
+        "Z": 13.0,
+        "Pitch": 0.0,
+        "Yaw": 1.9173343181610107,
+        "Roll": 0.0
+      }
+    ]
+  },
+  "WorldGen": {
+    "Type": "HytaleGenerator",
+    "WorldStructure": "Portals_Oasis"
+  },
+  "WorldMap": {
+    "Type": "SimpleClaims"
+  },
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "ChunkConfig": {},
+  "IsTicking": true,
+  "IsBlockTicking": true,
+  "IsPvpEnabled": false,
+  "IsFallDamageEnabled": true,
+  "IsGameTimePaused": true,
+  "GameTime": "0001-01-30T12:05:24Z",
+  "ClientEffects": {
+    "SunHeightPercent": 100.0,
+    "SunAngleDegrees": 0.0,
+    "BloomIntensity": 0.30000001192092896,
+    "BloomPower": 8.0,
+    "SunIntensity": 0.25,
+    "SunshaftIntensity": 0.30000001192092896,
+    "SunshaftScaleFactor": 4.0
+  },
+  "RequiredPlugins": {},
+  "GameMode": "Adventure",
+  "IsSpawningNPC": true,
+  "IsSpawnMarkersEnabled": true,
+  "IsAllNPCFrozen": false,
+  "GameplayConfig": "Portal",
+  "IsCompassUpdating": true,
+  "IsSavingPlayers": true,
+  "IsSavingChunks": true,
+  "SaveNewChunks": true,
+  "IsUnloadingChunks": true,
+  "IsObjectiveMarkersEnabled": true,
+  "DeleteOnUniverseStart": true,
+  "DeleteOnRemove": true,
+  "ResourceStorage": {
+    "Type": "Hytale"
+  },
+  "Plugin": {
+    "Instance": {
+      "RemovalConditions": [
+        {
+          "Type": "Portal",
+          "TimeoutSeconds": 360.0
+        }
+      ],
+      "ReturnPoint": {
+        "World": {
+          "$binary": "VSIpwRimSsGXOTE/t3yBiw==",
+          "$type": "04"
+        },
+        "ReturnPoint": {
+          "X": 8.5,
+          "Y": 131.0,
+          "Z": 10.5
+        },
+        "ReturnOnReconnect": false
+      },
+      "PreventReconnection": false,
+      "Discovery": {
+        "TitleKey": "server.portals.oasis",
+        "SubtitleKey": "server.portals.discoverySubtitle",
+        "Display": true,
+        "AlwaysDisplay": true,
+        "Major": false,
+        "Duration": 4.0,
+        "FadeInDuration": 1.5,
+        "FadeOutDuration": 1.5
+      }
+    }
+  }
+}
