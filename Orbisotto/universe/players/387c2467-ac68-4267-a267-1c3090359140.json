@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -761.6029052734375,
-        "Y": 143.0,
-        "Z": -1014.126220703125
+        "X": -757.8591918945312,
+        "Y": 139.0,
+        "Z": -1017.3839721679688
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -23.83664321899414,
+        "Yaw": -8.965616226196289,
         "Roll": 0.0
       }
     },
@@ -119,9 +119,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "7": {
-              "Id": "Ingredient_Fabric_Scrap_Cindercloth",
-              "Quantity": 11,
+            "24": {
+              "Id": "Plant_Moss_Blue",
+              "Quantity": 40,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -133,16 +133,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "24": {
-              "Id": "Plant_Moss_Blue",
-              "Quantity": 40,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Food_Wildmeat_Raw",
-              "Quantity": 7,
+            "7": {
+              "Id": "Ingredient_Fabric_Scrap_Cindercloth",
+              "Quantity": 11,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -150,6 +143,13 @@
             "26": {
               "Id": "Plant_Moss_Green",
               "Quantity": 46,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -368,11 +368,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -761.6029052734375,
-              "Y": 143.0,
-              "Z": -1014.126220703125,
-              "Pitch": 0.1524537205696106,
-              "Yaw": 1.2961018085479736,
+              "X": -757.8591918945312,
+              "Y": 139.0,
+              "Z": -1017.3839721679688,
+              "Pitch": 0.028306476771831512,
+              "Yaw": -1.982698678970337,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -490,22 +490,22 @@
           "Zone3_Shallow_Ocean_Tier3",
           "Zone3_Shallow_Ocean_Tier2",
           "Zone3_Shallow_Ocean_Tier1",
-          "Oceans",
-          "Zone1_Temple",
-          "Zone3_Tier1",
-          "Zone3_Tier3",
+          "Zone1_Tier1",
+          "Zone1_Tier3",
+          "Zone3_Tier2",
+          "Zone4_Shore_Tier4",
           "Zone4_Tier5",
           "Zone4_Tier4",
           "Zone4_Shore_Tier5",
-          "Zone4_Shore_Tier4",
-          "Zone3_Tier2",
-          "Zone1_Tier3",
+          "Zone3_Tier3",
+          "Zone3_Tier1",
+          "Zone1_Temple",
           "Zone1_Tier2",
-          "Zone1_Tier1",
+          "Oceans",
           "Zone1_Spawn",
           "Zone1_Shallow_Ocean",
-          "Zone3_Shore_Tier3",
           "ForgottenTemple",
+          "Zone3_Shore_Tier3",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
           "Zone1_Shore"
@@ -516,11 +516,11 @@
             "$type": "04"
           },
           {
-            "$binary": "s2M3PNvnQD+SHJqdMGSJFQ==",
+            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
             "$type": "04"
           },
           {
-            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
+            "$binary": "s2M3PNvnQD+SHJqdMGSJFQ==",
             "$type": "04"
           },
           {
@@ -658,8 +658,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.1524537205696106,
-        "Yaw": 1.2961018085479736,
+        "Pitch": 0.028306476771831512,
+        "Yaw": -1.982698678970337,
         "Roll": 0.0
       }
     }
