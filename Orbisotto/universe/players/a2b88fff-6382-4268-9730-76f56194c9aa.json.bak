@@ -3,7 +3,38 @@
     "Nameplate": {
       "Text": "yametersa"
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "Meat_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 7.115498065948486,
+          "SinceLastDamage": 0.0,
+          "HasBeenDamaged": true,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/AddHealth/Tiny.png",
+          "Invulnerable": false
+        },
+        {
+          "EntityEffectId": "HealthRegen_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 7.115498065948486,
+          "SinceLastDamage": 1.8847863674163818,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -20,13 +51,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -696.4014282226562,
-        "Y": 130.45010375976562,
-        "Z": -981.4627685546875
+        "X": 181.64608764648438,
+        "Y": 97.0,
+        "Z": 9.381567001342773
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 4.838309288024902,
+        "Yaw": -5.780949115753174,
         "Roll": 0.0
       }
     },
@@ -120,6 +151,14 @@
           "IsMemoriesNameOverridden": true,
           "CapturedTimestamp": 1769804498330,
           "FoundLocationNameKey": "server.map.region.Zone3_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Parrot",
+          "TranslationKey": "server.npcRoles.Parrot.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1769950769894,
+          "FoundLocationNameKey": "server.portals.oasis"
         }
       ]
     },
@@ -128,9 +167,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
+        "X": -0.34679249379971344,
         "Y": 0.0,
-        "Z": 0.0
+        "Z": 0.2666138862292652
       }
     },
     "Player": {
@@ -154,28 +193,42 @@
             },
             "33": {
               "Id": "Food_Kebab_Meat",
-              "Quantity": 6,
+              "Quantity": 10,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "35": {
-              "Id": "Rock_Shale_Cobble",
-              "Quantity": 46,
+              "Id": "Rock_Shale_Brick",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Ore_Thorium",
+              "Quantity": 9,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "25": {
-              "Id": "Rock_Volcanic_Cobble",
-              "Quantity": 74,
+              "Id": "Food_Kebab_Mushroom",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "15": {
-              "Id": "Food_Kebab_Mushroom",
-              "Quantity": 1,
+            "6": {
+              "Id": "Ingredient_Life_Essence",
+              "Quantity": 9,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Ore_Gold",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -183,6 +236,27 @@
             "8": {
               "Id": "Weapon_Arrow_Crude",
               "Quantity": 53,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Plant_Fruit_Apple",
+              "Quantity": 8,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Ingredient_Leather_Light",
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -196,14 +270,21 @@
             },
             "24": {
               "Id": "Food_Kebab_Vegetable",
-              "Quantity": 3,
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 6,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "26": {
-              "Id": "Rock_Shale_Brick",
-              "Quantity": 5,
+              "Id": "Rock_Volcanic_Cobble",
+              "Quantity": 74,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -238,7 +319,7 @@
             "2": {
               "Id": "Armor_Adamantite_Hands",
               "Quantity": 1,
-              "Durability": 142.0,
+              "Durability": 141.5,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -277,15 +358,22 @@
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Food_Vegetable_Cooked",
-              "Quantity": 1,
+              "Id": "Ingredient_Fabric_Scrap_Linen",
+              "Quantity": 12,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Ore_Iron",
+              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
               "Id": "Rock_Shale_Cobble",
-              "Quantity": 45,
+              "Quantity": 64,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -306,7 +394,14 @@
             },
             "7": {
               "Id": "Food_Fish_Grilled",
-              "Quantity": 8,
+              "Quantity": 7,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Ore_Silver",
+              "Quantity": 6,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -345,7 +440,7 @@
           "Capacity": 9,
           "Items": {}
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 7,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -400,16 +495,16 @@
       },
       "PlayerData": {
         "BlockIdVersion": 11,
-        "World": "default",
+        "World": "instance-Portals_Oasis-6b3d097f-b6b5-49b0-9d9d-9785d5afd17c",
         "KnownRecipes": [],
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -695.39306640625,
-              "Y": 130.45010375976562,
-              "Z": -981.67626953125,
-              "Pitch": 0.3700028359889984,
-              "Yaw": -0.1373964250087738,
+              "X": -695.5053100585938,
+              "Y": 130.4499969482422,
+              "Z": -981.14111328125,
+              "Pitch": -0.11125247180461884,
+              "Yaw": 0.07693689316511154,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -520,15 +615,7 @@
               }
             ]
           },
-          "instance-Portals_Oasis-937cb272-eed7-4625-a9b8-9f2534d36692": {
-            "LastPosition": {
-              "X": 14.326383590698242,
-              "Y": 54.0,
-              "Z": -28.91626739501953,
-              "Pitch": -0.12454576790332794,
-              "Yaw": -2.7283437252044678,
-              "Roll": 0.0
-            },
+          "instance-Portals_Oasis-6b3d097f-b6b5-49b0-9d9d-9785d5afd17c": {
             "LastMovementStates": {
               "Flying": false
             },
@@ -538,9 +625,9 @@
         },
         "DiscoveredZones": [
           "Oceans",
-          "Zone3_Shallow_Ocean_Tier2",
-          "Zone3_Shallow_Ocean_Tier3",
           "Zone2_Shore",
+          "Zone3_Shallow_Ocean_Tier3",
+          "Zone3_Shallow_Ocean_Tier2",
           "Zone3_Shallow_Ocean_Tier1",
           "Zone1_Shallow_Ocean",
           "Zone2_Tier3",
@@ -549,31 +636,31 @@
           "Zone3_Shore_Tier3",
           "Zone3_Shore_Tier2",
           "Zone3_Shore_Tier1",
-          "Zone3_Tier1",
+          "ForgottenTemple",
           "Zone2_Shallow_Ocean",
           "Zone3_Tier3",
           "Zone3_Tier2",
-          "ForgottenTemple",
+          "Zone3_Tier1",
           "Zone1_Shore",
           "Zone1_Spawn",
-          "Zone1_Temple",
-          "Zone4_Shore_Tier4",
+          "Zone1_Tier1",
+          "Zone1_Tier3",
           "Zone4_Shallow_Ocean_Tier5",
           "Zone4_Shallow_Ocean_Tier4",
           "Zone4_Shore_Tier5",
-          "Zone1_Tier3",
+          "Zone4_Shore_Tier4",
           "Zone1_Tier2",
-          "Zone1_Tier1",
-          "Zone4_Tier5",
-          "Zone4_Tier4"
+          "Zone1_Temple",
+          "Zone4_Tier4",
+          "Zone4_Tier5"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
+            "$binary": "k3yycu7XRiWpuJ8lNNNmkg==",
             "$type": "04"
           },
           {
-            "$binary": "k3yycu7XRiWpuJ8lNNNmkg==",
+            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
             "$type": "04"
           },
           {
@@ -598,6 +685,10 @@
           },
           {
             "$binary": "SdnmjXm1QrKR79rAPdaQUw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "az0Jf7a1SbCdnZeF1a/RfA==",
             "$type": "04"
           },
           {
@@ -634,6 +725,23 @@
         "Upgrade_Backpack_1"
       ]
     },
+    "Instance": {
+      "ReturnPoint": {
+        "World": {
+          "$binary": "VSIpwRimSsGXOTE/t3yBiw==",
+          "$type": "04"
+        },
+        "ReturnPoint": {
+          "X": -695.5,
+          "Y": 130.5,
+          "Z": -981.5,
+          "Pitch": 0.0,
+          "Yaw": 7.8539814949035645,
+          "Roll": 0.0
+        },
+        "ReturnOnReconnect": false
+      }
+    },
     "UUID": {
       "UUID": {
         "$binary": "oriP/2OCQmiXMHb1YZTJqg==",
@@ -653,12 +761,17 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 168.0,
+          "Value": 59.931846618652344,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
               "Amount": 68.0
+            },
+            "Effect_MULTIPLICATIVE": {
+              "Id": "Static",
+              "CalculationType": "Multiplicative",
+              "Amount": 1.0499999523162842
             }
           }
         },
@@ -706,8 +819,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.3475039601325989,
-        "Yaw": -1.4436261653900146,
+        "Pitch": -0.5520461797714233,
+        "Yaw": 1.0752050876617432,
         "Roll": 0.0
       }
     }
