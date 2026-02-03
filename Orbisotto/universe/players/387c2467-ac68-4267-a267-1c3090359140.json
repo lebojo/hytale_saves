@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -757.8591918945312,
-        "Y": 139.0,
-        "Z": -1017.3839721679688
+        "X": -715.3595581054688,
+        "Y": 133.0,
+        "Z": -1007.0247802734375
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -8.965616226196289,
+        "Yaw": -1.4560210704803467,
         "Roll": 0.0
       }
     },
@@ -63,16 +63,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "33": {
-              "Id": "Rubble_Stone",
-              "Quantity": 58,
+            "2": {
+              "Id": "Rock_Shale_Cobble",
+              "Quantity": 12,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "6": {
-              "Id": "Ingredient_Bone_Fragment",
-              "Quantity": 1,
+              "Id": "Ingredient_Bar_Iron",
+              "Quantity": 11,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -84,34 +84,6 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "12": {
-              "Id": "Furniture_Village_Ladder",
-              "Quantity": 12,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "8": {
-              "Id": "Ingredient_Fabric_Scrap_Linen",
-              "Quantity": 10,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "9": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 19,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "11": {
-              "Id": "Ingredient_Hide_Light",
-              "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "1": {
               "Id": "Weapon_Arrow_Crude",
               "Quantity": 2,
@@ -119,37 +91,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "24": {
-              "Id": "Plant_Moss_Blue",
-              "Quantity": 40,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "34": {
-              "Id": "Wood_Oak_Trunk",
-              "Quantity": 44,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Ingredient_Fabric_Scrap_Cindercloth",
-              "Quantity": 11,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "26": {
-              "Id": "Plant_Moss_Green",
-              "Quantity": 46,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "5": {
-              "Id": "Food_Wildmeat_Raw",
-              "Quantity": 7,
+              "Id": "Ingredient_Leather_Light",
+              "Quantity": 13,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -215,39 +159,11 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "8": {
-              "Id": "Ingredient_Powder_Boom",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "Rock_Shale_Cobble",
-              "Quantity": 17,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "3": {
               "Id": "Weapon_Crossbow_Ancient_Steel",
               "Quantity": 1,
               "Durability": 90.07999999999993,
               "MaxDurability": 180.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Ingredient_Life_Essence",
-              "Quantity": 3,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "Container_Bucket",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -306,7 +222,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 6,
+        "ActiveHotbarSlot": 7,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -485,36 +401,32 @@
           }
         },
         "DiscoveredZones": [
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone4_Shallow_Ocean_Tier4",
-          "Zone3_Shallow_Ocean_Tier3",
-          "Zone3_Shallow_Ocean_Tier2",
           "Zone3_Shallow_Ocean_Tier1",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Shallow_Ocean_Tier3",
+          "Zone4_Shallow_Ocean_Tier4",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Shore",
+          "Zone3_Shore_Tier1",
+          "Zone3_Shore_Tier2",
+          "ForgottenTemple",
+          "Zone3_Shore_Tier3",
+          "Zone1_Shallow_Ocean",
+          "Zone1_Spawn",
           "Zone1_Tier1",
+          "Zone1_Tier2",
           "Zone1_Tier3",
           "Zone3_Tier2",
           "Zone4_Shore_Tier4",
-          "Zone4_Tier5",
-          "Zone4_Tier4",
           "Zone4_Shore_Tier5",
+          "Zone4_Tier4",
+          "Zone4_Tier5",
           "Zone3_Tier3",
           "Zone3_Tier1",
           "Zone1_Temple",
-          "Zone1_Tier2",
-          "Oceans",
-          "Zone1_Spawn",
-          "Zone1_Shallow_Ocean",
-          "ForgottenTemple",
-          "Zone3_Shore_Tier3",
-          "Zone3_Shore_Tier2",
-          "Zone3_Shore_Tier1",
-          "Zone1_Shore"
+          "Oceans"
         ],
         "DiscoveredInstances": [
-          {
-            "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
-            "$type": "04"
-          },
           {
             "$binary": "M2Y6vGSzQna+dql1n88OPg==",
             "$type": "04"
@@ -524,27 +436,11 @@
             "$type": "04"
           },
           {
-            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
+            "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
             "$type": "04"
           },
           {
-            "$binary": "fCzLnoRQSSO5AhMLHp5PHg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "yUtYskETRfWlSwKer6QCrw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "/+BiIoEgSL6PeW8LQ0YL/g==",
-            "$type": "04"
-          },
-          {
-            "$binary": "pB7h/wkpTYO2bpdD2zsZ9w==",
-            "$type": "04"
-          },
-          {
-            "$binary": "PsbSp7V5SYGfiQULjjaeZg==",
+            "$binary": "bkvncEeKSMGhWek28c9zSw==",
             "$type": "04"
           },
           {
@@ -552,7 +448,27 @@
             "$type": "04"
           },
           {
-            "$binary": "bkvncEeKSMGhWek28c9zSw==",
+            "$binary": "PsbSp7V5SYGfiQULjjaeZg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "pB7h/wkpTYO2bpdD2zsZ9w==",
+            "$type": "04"
+          },
+          {
+            "$binary": "/+BiIoEgSL6PeW8LQ0YL/g==",
+            "$type": "04"
+          },
+          {
+            "$binary": "yUtYskETRfWlSwKer6QCrw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "fCzLnoRQSSO5AhMLHp5PHg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
             "$type": "04"
           }
         ],
@@ -605,7 +521,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 158.0,
+          "Value": 119.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -658,8 +574,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.028306476771831512,
-        "Yaw": -1.982698678970337,
+        "Pitch": -0.49272939562797546,
+        "Yaw": -2.2186191082000732,
         "Roll": 0.0
       }
     }
