@@ -3,7 +3,38 @@
     "Nameplate": {
       "Text": "yametersa"
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "Meat_Buff_T2",
+          "InitialDuration": 150.0,
+          "RemainingDuration": 142.55899047851562,
+          "SinceLastDamage": 0.0,
+          "HasBeenDamaged": true,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/AddHealth/Small.png",
+          "Invulnerable": false
+        },
+        {
+          "EntityEffectId": "HealthRegen_Buff_T2",
+          "InitialDuration": 150.0,
+          "RemainingDuration": 142.55899047851562,
+          "SinceLastDamage": 1.439442753791809,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -20,13 +51,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -707.0269775390625,
-        "Y": 132.9271240234375,
-        "Z": -971.9754638671875
+        "X": -810.6937866210938,
+        "Y": 138.0,
+        "Z": -995.1685791015625
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 2.8086836338043213,
+        "Yaw": -0.1904965490102768,
         "Roll": 0.0
       }
     },
@@ -39,9 +70,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.058593707653957286,
-        "Y": -1.0661308212973948,
-        "Z": 0.14099110904233472
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
       }
     },
     "Player": {
@@ -189,7 +220,7 @@
             },
             "7": {
               "Id": "Food_Kebab_Meat",
-              "Quantity": 8,
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -264,7 +295,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 5,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -324,11 +355,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -739.2460327148438,
-              "Y": 135.0,
-              "Z": -969.0748901367188,
-              "Pitch": -0.3049992322921753,
-              "Yaw": 1.405453085899353,
+              "X": -810.6937866210938,
+              "Y": 138.0,
+              "Z": -995.1685791015625,
+              "Pitch": -0.31579792499542236,
+              "Yaw": -0.19049464166164398,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -579,12 +610,17 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 115.0,
+          "Value": 141.79600524902344,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
               "Amount": 68.0
+            },
+            "Effect_MULTIPLICATIVE": {
+              "Id": "Static",
+              "CalculationType": "Multiplicative",
+              "Amount": 1.100000023841858
             }
           }
         },
@@ -602,7 +638,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 4.499997138977051
+          "Value": 3.6000020503997803
         },
         "Ammo": {
           "Id": "Ammo",
@@ -632,8 +668,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.21579745411872864,
-        "Yaw": 2.775754451751709,
+        "Pitch": -0.31579792499542236,
+        "Yaw": -0.19049464166164398,
         "Roll": 0.0
       }
     }

@@ -3,7 +3,38 @@
     "Nameplate": {
       "Text": "yametersa"
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "Meat_Buff_T2",
+          "InitialDuration": 150.0,
+          "RemainingDuration": 145.5929718017578,
+          "SinceLastDamage": 0.0,
+          "HasBeenDamaged": true,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/AddHealth/Small.png",
+          "Invulnerable": false
+        },
+        {
+          "EntityEffectId": "HealthRegen_Buff_T2",
+          "InitialDuration": 150.0,
+          "RemainingDuration": 145.5929718017578,
+          "SinceLastDamage": 0.406107634305954,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -20,13 +51,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -695.1522216796875,
-        "Y": 140.8673858642578,
-        "Z": -992.999755859375
+        "X": -813.08740234375,
+        "Y": 139.86366271972656,
+        "Z": -978.3790283203125
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 18.134057998657227,
+        "Yaw": -0.09175807237625122,
         "Roll": 0.0
       }
     },
@@ -39,9 +70,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.09887681536402947,
-        "Y": -1.0647568172996877,
-        "Z": 0.26550255977378284
+        "X": -0.05126949419721263,
+        "Y": -1.0665885846384413,
+        "Z": -0.0036621067283723304
       }
     },
     "Player": {
@@ -189,7 +220,7 @@
             },
             "7": {
               "Id": "Food_Kebab_Meat",
-              "Quantity": 8,
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -579,12 +610,17 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 115.0,
+          "Value": 139.0240020751953,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
               "Amount": 68.0
+            },
+            "Effect_MULTIPLICATIVE": {
+              "Id": "Static",
+              "CalculationType": "Multiplicative",
+              "Amount": 1.100000023841858
             }
           }
         },
@@ -602,7 +638,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 10.0
+          "Value": 5.5
         },
         "Ammo": {
           "Id": "Ammo",
@@ -632,8 +668,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -1.0045496225357056,
-        "Yaw": -0.7354956269264221,
+        "Pitch": -0.644547700881958,
+        "Yaw": -0.09174472093582153,
         "Roll": 0.0
       }
     }
