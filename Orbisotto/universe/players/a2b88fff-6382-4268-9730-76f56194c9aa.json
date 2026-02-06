@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -739.2460327148438,
-        "Y": 135.0,
-        "Z": -969.0748901367188
+        "X": -707.0269775390625,
+        "Y": 132.9271240234375,
+        "Z": -971.9754638671875
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 7.688560485839844,
+        "Yaw": 2.8086836338043213,
         "Roll": 0.0
       }
     },
@@ -39,9 +39,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
+        "X": -0.058593707653957286,
+        "Y": -1.0661308212973948,
+        "Z": 0.14099110904233472
       }
     },
     "Player": {
@@ -56,6 +56,20 @@
           "Id": "Simple",
           "Capacity": 36,
           "Items": {
+            "0": {
+              "Id": "Ingredient_Fabric_Scrap_Linen",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "8": {
               "Id": "Weapon_Arrow_Crude",
               "Quantity": 100,
@@ -63,9 +77,30 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "1": {
+              "Id": "Ingredient_Bone_Fragment",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Ingredient_Hide_Heavy",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "7": {
               "Id": "Weapon_Arrow_Crude",
-              "Quantity": 89,
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 7,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -86,7 +121,7 @@
             "2": {
               "Id": "Armor_Adamantite_Hands",
               "Quantity": 1,
-              "Durability": 123.0,
+              "Durability": 122.0,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -113,15 +148,22 @@
             "0": {
               "Id": "Weapon_Sword_Adamantite",
               "Quantity": 1,
-              "Durability": 106.94999999999857,
+              "Durability": 105.6899999999986,
               "MaxDurability": 169.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Tool_Pickaxe_Adamantite",
               "Quantity": 1,
-              "Durability": 190.10000000000002,
+              "Durability": 187.85000000000002,
               "MaxDurability": 367.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Plant_Crop_Mushroom_Shelve_Yellow",
+              "Quantity": 15,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
@@ -134,20 +176,20 @@
             "1": {
               "Id": "Weapon_Crossbow_Ancient_Steel",
               "Quantity": 1,
-              "Durability": 110.47999999999985,
+              "Durability": 107.95999999999984,
               "MaxDurability": 166.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Tool_Hatchet_Adamantite",
               "Quantity": 1,
-              "Durability": 304.9,
+              "Durability": 291.65,
               "MaxDurability": 383.0,
               "OverrideDroppedItemAnimation": false
             },
             "7": {
               "Id": "Food_Kebab_Meat",
-              "Quantity": 11,
+              "Quantity": 8,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -399,6 +441,9 @@
           }
         },
         "DiscoveredZones": [
+          "Zone3_Shore_Tier1",
+          "Zone3_Shore_Tier2",
+          "Zone3_Shore_Tier3",
           "Zone2_Tier1",
           "Zone2_Tier2",
           "Zone2_Tier3",
@@ -424,14 +469,19 @@
           "Zone3_Tier2",
           "Zone3_Tier3",
           "Zone2_Shallow_Ocean",
-          "ForgottenTemple",
-          "Zone3_Shore_Tier1",
-          "Zone3_Shore_Tier2",
-          "Zone3_Shore_Tier3"
+          "ForgottenTemple"
         ],
         "DiscoveredInstances": [
           {
+            "$binary": "J2Y7N2Y/TiCls73H4+3fHw==",
+            "$type": "04"
+          },
+          {
             "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "99mPJbilSjyYOLLjwVv4Eg==",
             "$type": "04"
           },
           {
@@ -476,14 +526,6 @@
           },
           {
             "$binary": "3U4U9RUHSfyZf/QwWN0nWQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "J2Y7N2Y/TiCls73H4+3fHw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "99mPJbilSjyYOLLjwVv4Eg==",
             "$type": "04"
           }
         ],
@@ -537,7 +579,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 152.0,
+          "Value": 115.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -560,7 +602,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 10.0
+          "Value": 4.499997138977051
         },
         "Ammo": {
           "Id": "Ammo",
@@ -590,8 +632,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.3049992322921753,
-        "Yaw": 1.405453085899353,
+        "Pitch": -0.21579745411872864,
+        "Yaw": 2.775754451751709,
         "Roll": 0.0
       }
     }
