@@ -399,39 +399,39 @@
           }
         },
         "DiscoveredZones": [
-          "Oceans",
+          "Zone2_Tier1",
+          "Zone2_Tier2",
+          "Zone2_Tier3",
+          "Zone1_Shallow_Ocean",
+          "Zone3_Shallow_Ocean_Tier1",
           "Zone3_Shallow_Ocean_Tier2",
           "Zone3_Shallow_Ocean_Tier3",
           "Zone2_Shore",
-          "Zone3_Shallow_Ocean_Tier1",
-          "Zone1_Shallow_Ocean",
-          "Zone2_Tier3",
-          "Zone2_Tier2",
-          "Zone2_Tier1",
-          "Zone3_Shore_Tier3",
-          "Zone3_Shore_Tier2",
-          "Zone3_Shore_Tier1",
-          "Zone3_Tier1",
-          "Zone2_Shallow_Ocean",
-          "Zone3_Tier3",
-          "Zone3_Tier2",
-          "ForgottenTemple",
-          "Zone1_Shore",
-          "Zone1_Spawn",
-          "Zone1_Temple",
-          "Zone4_Shore_Tier4",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone4_Shallow_Ocean_Tier4",
-          "Zone4_Shore_Tier5",
-          "Zone1_Tier3",
-          "Zone1_Tier2",
-          "Zone1_Tier1",
+          "Oceans",
           "Zone4_Tier5",
-          "Zone4_Tier4"
+          "Zone4_Tier4",
+          "Zone1_Temple",
+          "Zone1_Tier2",
+          "Zone4_Shore_Tier4",
+          "Zone4_Shore_Tier5",
+          "Zone4_Shallow_Ocean_Tier4",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Tier3",
+          "Zone1_Tier1",
+          "Zone1_Spawn",
+          "Zone1_Shore",
+          "Zone3_Tier1",
+          "Zone3_Tier2",
+          "Zone3_Tier3",
+          "Zone2_Shallow_Ocean",
+          "ForgottenTemple",
+          "Zone3_Shore_Tier1",
+          "Zone3_Shore_Tier2",
+          "Zone3_Shore_Tier3"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
+            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
             "$type": "04"
           },
           {
@@ -439,43 +439,7 @@
             "$type": "04"
           },
           {
-            "$binary": "99mPJbilSjyYOLLjwVv4Eg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "8Oyc+zWzRcegrbyOXFr4Gg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "J2Y7N2Y/TiCls73H4+3fHw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "3U4U9RUHSfyZf/QwWN0nWQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "Pk+rjTN/QgShOsO72dshvg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "az0Jf7a1SbCdnZeF1a/RfA==",
-            "$type": "04"
-          },
-          {
-            "$binary": "uBRDw95tSFyUd/xugtEzxg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "k3yycu7XRiWpuJ8lNNNmkg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "pykdmAOVRduBq3295kzQQQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "SdnmjXm1QrKR79rAPdaQUw==",
+            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
             "$type": "04"
           },
           {
@@ -483,7 +447,43 @@
             "$type": "04"
           },
           {
+            "$binary": "SdnmjXm1QrKR79rAPdaQUw==",
+            "$type": "04"
+          },
+          {
             "$binary": "aNCjO8wVS6K1mo+/llKtLQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "uBRDw95tSFyUd/xugtEzxg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "Pk+rjTN/QgShOsO72dshvg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "k3yycu7XRiWpuJ8lNNNmkg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "az0Jf7a1SbCdnZeF1a/RfA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "pykdmAOVRduBq3295kzQQQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "3U4U9RUHSfyZf/QwWN0nWQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "J2Y7N2Y/TiCls73H4+3fHw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "99mPJbilSjyYOLLjwVv4Eg==",
             "$type": "04"
           }
         ],
