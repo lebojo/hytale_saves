@@ -3,7 +3,38 @@
     "Nameplate": {
       "Text": "LeBojo"
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "Meat_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 42.59945297241211,
+          "SinceLastDamage": 0.0,
+          "HasBeenDamaged": true,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/AddHealth/Tiny.png",
+          "Invulnerable": false
+        },
+        {
+          "EntityEffectId": "HealthRegen_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 42.59945297241211,
+          "SinceLastDamage": 0.40058639645576477,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -20,13 +51,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -765.0079956054688,
-        "Y": 143.0,
-        "Z": -1021.8251342773438
+        "X": -746.3901977539062,
+        "Y": 138.0,
+        "Z": -985.5322875976562
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 9.676551818847656,
+        "Yaw": 5.266219615936279,
         "Roll": 0.0
       }
     },
@@ -56,9 +87,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
+        "X": 0.47973582057292374,
         "Y": 0.0,
-        "Z": 0.0
+        "Z": -0.08972158476363841
       }
     },
     "Player": {
@@ -87,6 +118,13 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "6": {
+              "Id": "Soil_Dirt_Cold",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "4": {
               "Id": "Food_Wildmeat_Cooked",
               "Quantity": 6,
@@ -108,6 +146,13 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "12": {
+              "Id": "Rubble_Stone",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "13": {
               "Id": "Ingredient_Fabric_Scrap_Cindercloth",
               "Quantity": 9,
@@ -115,9 +160,23 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "8": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "9": {
               "Id": "Ingredient_Bar_Thorium",
               "Quantity": 33,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Plant_Moss_Green",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -130,8 +189,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Deco_Treasure_Pile_Small",
-              "Quantity": 6,
+              "Id": "Rock_Gold_Brick",
+              "Quantity": 25,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -143,9 +202,23 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "7": {
+              "Id": "Rock_Basalt_Cobble",
+              "Quantity": 22,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "5": {
               "Id": "Ingredient_Leather_Heavy",
               "Quantity": 7,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "16": {
+              "Id": "Ingredient_Sac_Venom",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -194,7 +267,7 @@
             "2": {
               "Id": "Armor_Thorium_Hands",
               "Quantity": 1,
-              "Durability": 101.0,
+              "Durability": 100.5,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -221,14 +294,14 @@
             "0": {
               "Id": "Weapon_Sword_Cobalt",
               "Quantity": 1,
-              "Durability": 45.22000000000135,
+              "Durability": 44.590000000001346,
               "MaxDurability": 112.0,
               "OverrideDroppedItemAnimation": false
             },
             "2": {
               "Id": "Tool_Pickaxe_Iron",
               "Quantity": 1,
-              "Durability": 126.25,
+              "Durability": 114.0,
               "MaxDurability": 250.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -240,15 +313,15 @@
               "OverrideDroppedItemAnimation": false
             },
             "4": {
-              "Id": "Rock_Gold_Brick",
-              "Quantity": 24,
+              "Id": "Soil_Sand",
+              "Quantity": 6,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
-              "Id": "Soil_Sand",
-              "Quantity": 7,
+              "Id": "Deco_Treasure_Pile_Small",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -269,7 +342,7 @@
             },
             "7": {
               "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 22,
+              "Quantity": 21,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -316,7 +389,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 0,
+        "ActiveHotbarSlot": 7,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -618,12 +691,17 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 165.0,
+          "Value": 157.39500427246094,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
               "Amount": 65.0
+            },
+            "Effect_MULTIPLICATIVE": {
+              "Id": "Static",
+              "CalculationType": "Multiplicative",
+              "Amount": 1.0499999523162842
             }
           }
         },
@@ -641,7 +719,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 0.0
+          "Value": 10.0
         },
         "Ammo": {
           "Id": "Ammo",
@@ -653,14 +731,7 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 9.0,
-          "Modifiers": {
-            "*Weapon_0": {
-              "Id": "Static",
-              "CalculationType": "Additive",
-              "Amount": 20.0
-            }
-          }
+          "Value": 0.0
         },
         "DeployablePreview": {
           "Id": "DeployablePreview",
@@ -678,8 +749,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.028568275272846222,
-        "Yaw": -2.881227970123291,
+        "Pitch": -0.19893091917037964,
+        "Yaw": -1.3589248657226562,
         "Roll": 0.0
       }
     }
