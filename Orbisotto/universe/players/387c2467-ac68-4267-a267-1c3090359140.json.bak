@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -758.1892700195312,
-        "Y": 139.19667053222656,
-        "Z": -1024.8841552734375
+        "X": -772.4923095703125,
+        "Y": 146.0,
+        "Z": -1017.3228149414062
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -3.5615878105163574,
+        "Yaw": -0.20748965442180634,
         "Roll": 0.0
       }
     },
@@ -56,9 +56,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.6134026027902317,
-        "Y": 11.607042086827699,
-        "Z": -1.2011704699414687
+        "X": 1.071165858912826,
+        "Y": 0.0,
+        "Z": -5.115961384277667
       }
     },
     "Player": {
@@ -80,9 +80,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "25": {
-              "Id": "Ingredient_Leather_Heavy",
-              "Quantity": 3,
+            "27": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -94,16 +94,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Soil_Dirt",
-              "Quantity": 18,
+            "25": {
+              "Id": "Ingredient_Leather_Heavy",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Tool_Repair_Kit_Iron",
-              "Quantity": 2,
+            "6": {
+              "Id": "Soil_Dirt",
+              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -387,7 +387,7 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": -1,
+        "ActiveUtilitySlot": 0,
         "SortType": "Type"
       },
       "PlayerData": {
@@ -399,11 +399,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -738.8280029296875,
+              "X": -743.2640380859375,
               "Y": 139.0,
-              "Z": -1011.1878662109375,
-              "Pitch": -0.020431041717529297,
-              "Yaw": 0.4278257489204407,
+              "Z": -1010.9495239257812,
+              "Pitch": 0.044401708990335464,
+              "Yaw": 1.566859483718872,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -692,8 +692,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.163201704621315,
-        "Yaw": 1.936461091041565,
+        "Pitch": -0.22194218635559082,
+        "Yaw": -0.20604975521564484,
         "Roll": 0.0
       }
     }

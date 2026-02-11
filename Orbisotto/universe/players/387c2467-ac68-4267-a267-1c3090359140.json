@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -743.2640380859375,
+        "X": -755.6704711914062,
         "Y": 139.0,
-        "Z": -1010.9495239257812
+        "Z": -1015.1771850585938
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -4.925493240356445,
+        "Yaw": -1.7999507188796997,
         "Roll": 0.0
       }
     },
@@ -80,9 +80,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "25": {
-              "Id": "Ingredient_Leather_Heavy",
-              "Quantity": 3,
+            "27": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -94,16 +94,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Soil_Dirt",
-              "Quantity": 18,
+            "25": {
+              "Id": "Ingredient_Leather_Heavy",
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Tool_Repair_Kit_Iron",
-              "Quantity": 2,
+            "6": {
+              "Id": "Soil_Dirt",
+              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -310,7 +310,7 @@
           "Items": {
             "0": {
               "Id": "Furniture_Crude_Torch",
-              "Quantity": 40,
+              "Quantity": 39,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -399,11 +399,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -743.2640380859375,
+              "X": -755.6704711914062,
               "Y": 139.0,
-              "Z": -1010.9495239257812,
-              "Pitch": 0.044401708990335464,
-              "Yaw": 1.566859483718872,
+              "Z": -1015.1771850585938,
+              "Pitch": -0.3353419601917267,
+              "Yaw": -1.7999505996704102,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -692,8 +692,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.044401708990335464,
-        "Yaw": 1.566859483718872,
+        "Pitch": -0.3353419601917267,
+        "Yaw": -1.7999505996704102,
         "Roll": 0.0
       }
     }
