@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -755.6704711914062,
-        "Y": 139.0,
-        "Z": -1015.1771850585938
+        "X": -731.2219848632812,
+        "Y": 137.0,
+        "Z": -998.7628784179688
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -1.7999507188796997,
+        "Yaw": -7.248559951782227,
         "Roll": 0.0
       }
     },
@@ -80,9 +80,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Tool_Repair_Kit_Iron",
-              "Quantity": 2,
+            "6": {
+              "Id": "Soil_Dirt",
+              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -101,16 +101,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Soil_Dirt",
-              "Quantity": 18,
+            "27": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
-              "Id": "Glider",
-              "Quantity": 1,
+              "Id": "Ingredient_Life_Essence",
+              "Quantity": 37,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -146,6 +146,13 @@
             "9": {
               "Id": "Ingredient_Stick",
               "Quantity": 72,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Glider",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -201,7 +208,7 @@
             },
             "19": {
               "Id": "Ingredient_Void_Essence",
-              "Quantity": 1,
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -236,14 +243,14 @@
             "1": {
               "Id": "Armor_Adamantite_Chest",
               "Quantity": 1,
-              "Durability": 149.0,
+              "Durability": 148.5,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Armor_Adamantite_Legs",
               "Quantity": 1,
-              "Durability": 148.5,
+              "Durability": 148.0,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -256,7 +263,7 @@
             "0": {
               "Id": "Weapon_Sword_Cobalt",
               "Quantity": 1,
-              "Durability": 36.820000000001315,
+              "Durability": 35.77000000000131,
               "MaxDurability": 112.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -267,9 +274,16 @@
               "MaxDurability": 325.0,
               "OverrideDroppedItemAnimation": false
             },
+            "6": {
+              "Id": "Plant_Crop_Turnip_Item",
+              "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "4": {
               "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 18,
+              "Quantity": 17,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -399,11 +413,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -755.6704711914062,
-              "Y": 139.0,
-              "Z": -1015.1771850585938,
-              "Pitch": -0.3353419601917267,
-              "Yaw": -1.7999505996704102,
+              "X": -731.2219848632812,
+              "Y": 137.0,
+              "Z": -998.7628784179688,
+              "Pitch": -0.11197619140148163,
+              "Yaw": -1.6285483837127686,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -639,7 +653,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 165.0,
+          "Value": 119.77745819091797,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -692,8 +706,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.3353419601917267,
-        "Yaw": -1.7999505996704102,
+        "Pitch": -0.11197619140148163,
+        "Yaw": -1.6285483837127686,
         "Roll": 0.0
       }
     }

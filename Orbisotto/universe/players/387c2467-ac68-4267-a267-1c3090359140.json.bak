@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -772.4923095703125,
-        "Y": 146.0,
-        "Z": -1017.3228149414062
+        "X": -732.2499389648438,
+        "Y": 134.875,
+        "Z": -990.7269287109375
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -0.20748965442180634,
+        "Yaw": -2.7196881771087646,
         "Roll": 0.0
       }
     },
@@ -56,9 +56,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 1.071165858912826,
+        "X": 0.0,
         "Y": 0.0,
-        "Z": -5.115961384277667
+        "Z": 0.0
       }
     },
     "Player": {
@@ -80,9 +80,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Tool_Repair_Kit_Iron",
-              "Quantity": 2,
+            "6": {
+              "Id": "Soil_Dirt",
+              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -101,16 +101,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Soil_Dirt",
-              "Quantity": 18,
+            "27": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
-              "Id": "Glider",
-              "Quantity": 1,
+              "Id": "Ingredient_Life_Essence",
+              "Quantity": 37,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -146,6 +146,13 @@
             "9": {
               "Id": "Ingredient_Stick",
               "Quantity": 72,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Glider",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -201,7 +208,7 @@
             },
             "19": {
               "Id": "Ingredient_Void_Essence",
-              "Quantity": 1,
+              "Quantity": 3,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -236,14 +243,14 @@
             "1": {
               "Id": "Armor_Adamantite_Chest",
               "Quantity": 1,
-              "Durability": 149.0,
+              "Durability": 148.5,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "3": {
               "Id": "Armor_Adamantite_Legs",
               "Quantity": 1,
-              "Durability": 148.5,
+              "Durability": 148.0,
               "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -256,7 +263,7 @@
             "0": {
               "Id": "Weapon_Sword_Cobalt",
               "Quantity": 1,
-              "Durability": 36.820000000001315,
+              "Durability": 35.77000000000131,
               "MaxDurability": 112.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -267,9 +274,16 @@
               "MaxDurability": 325.0,
               "OverrideDroppedItemAnimation": false
             },
+            "6": {
+              "Id": "Plant_Crop_Turnip_Item",
+              "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "4": {
               "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 18,
+              "Quantity": 17,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -310,7 +324,7 @@
           "Items": {
             "0": {
               "Id": "Furniture_Crude_Torch",
-              "Quantity": 40,
+              "Quantity": 39,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -387,7 +401,7 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": 0,
+        "ActiveUtilitySlot": -1,
         "SortType": "Type"
       },
       "PlayerData": {
@@ -399,11 +413,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -743.2640380859375,
+              "X": -755.6704711914062,
               "Y": 139.0,
-              "Z": -1010.9495239257812,
-              "Pitch": 0.044401708990335464,
-              "Yaw": 1.566859483718872,
+              "Z": -1015.1771850585938,
+              "Pitch": -0.3353419601917267,
+              "Yaw": -1.7999505996704102,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -639,7 +653,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 165.0,
+          "Value": 119.77745819091797,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -692,8 +706,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.22194218635559082,
-        "Yaw": -0.20604975521564484,
+        "Pitch": -0.00549142062664032,
+        "Yaw": -2.235276699066162,
         "Roll": 0.0
       }
     }
