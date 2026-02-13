@@ -3,38 +3,7 @@
     "Nameplate": {
       "Text": "yametersa"
     },
-    "EffectController": {
-      "ActiveEntityEffects": [
-        {
-          "EntityEffectId": "Meat_Buff_T2",
-          "InitialDuration": 150.0,
-          "RemainingDuration": 145.5929718017578,
-          "SinceLastDamage": 0.0,
-          "HasBeenDamaged": true,
-          "SequentialHits": {
-            "Hits": 0
-          },
-          "Infinite": false,
-          "Debuff": false,
-          "StatusEffectIcon": "UI/StatusEffects/AddHealth/Small.png",
-          "Invulnerable": false
-        },
-        {
-          "EntityEffectId": "HealthRegen_Buff_T2",
-          "InitialDuration": 150.0,
-          "RemainingDuration": 145.5929718017578,
-          "SinceLastDamage": 0.406107634305954,
-          "HasBeenDamaged": false,
-          "SequentialHits": {
-            "Hits": 0
-          },
-          "Infinite": false,
-          "Debuff": false,
-          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
-          "Invulnerable": false
-        }
-      ]
-    },
+    "EffectController": {},
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -51,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -813.08740234375,
-        "Y": 139.86366271972656,
-        "Z": -978.3790283203125
+        "X": -765.4090576171875,
+        "Y": 168.0,
+        "Z": -955.963134765625
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -0.09175807237625122,
+        "Yaw": 5.887848377227783,
         "Roll": 0.0
       }
     },
@@ -70,9 +39,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -0.05126949419721263,
-        "Y": -1.0665885846384413,
-        "Z": -0.0036621067283723304
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
       }
     },
     "Player": {
@@ -89,16 +58,16 @@
           "Items": {
             "0": {
               "Id": "Ingredient_Fabric_Scrap_Linen",
-              "Quantity": 4,
+              "Quantity": 5,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "2": {
-              "Id": "Food_Wildmeat_Raw",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+            "6": {
+              "Id": "Weapon_Shortbow_Crude",
+              "Quantity": 1,
+              "Durability": 80.0,
+              "MaxDurability": 80.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
@@ -108,9 +77,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "9": {
+              "Id": "Plant_Crop_Mushroom_Shelve_Yellow",
+              "Quantity": 15,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "1": {
               "Id": "Ingredient_Bone_Fragment",
-              "Quantity": 4,
+              "Quantity": 6,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -131,7 +107,7 @@
             },
             "5": {
               "Id": "Weapon_Arrow_Crude",
-              "Quantity": 7,
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -191,15 +167,15 @@
               "OverrideDroppedItemAnimation": false
             },
             "4": {
-              "Id": "Plant_Crop_Mushroom_Shelve_Yellow",
-              "Quantity": 15,
+              "Id": "Ingredient_Fibre",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "8": {
               "Id": "Rock_Shale_Cobble",
-              "Quantity": 44,
+              "Quantity": 43,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -207,7 +183,7 @@
             "1": {
               "Id": "Weapon_Crossbow_Ancient_Steel",
               "Quantity": 1,
-              "Durability": 107.95999999999984,
+              "Durability": 107.11999999999983,
               "MaxDurability": 166.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -295,7 +271,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 5,
+        "ActiveHotbarSlot": 6,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -355,11 +331,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -739.2460327148438,
-              "Y": 135.0,
-              "Z": -969.0748901367188,
-              "Pitch": -0.3049992322921753,
-              "Yaw": 1.405453085899353,
+              "X": -810.6937866210938,
+              "Y": 138.0,
+              "Z": -995.1685791015625,
+              "Pitch": -0.31579792499542236,
+              "Yaw": -0.19049464166164398,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -610,17 +586,12 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 139.0240020751953,
+          "Value": 168.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
               "Amount": 68.0
-            },
-            "Effect_MULTIPLICATIVE": {
-              "Id": "Static",
-              "CalculationType": "Multiplicative",
-              "Amount": 1.100000023841858
             }
           }
         },
@@ -638,7 +609,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 5.5
+          "Value": 10.0
         },
         "Ammo": {
           "Id": "Ammo",
@@ -668,8 +639,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.644547700881958,
-        "Yaw": -0.09174472093582153,
+        "Pitch": -0.7020500302314758,
+        "Yaw": -0.7874387502670288,
         "Roll": 0.0
       }
     }
