@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -732.2499389648438,
-        "Y": 134.875,
-        "Z": -990.7269287109375
+        "X": -768.121826171875,
+        "Y": 148.1349334716797,
+        "Z": -1015.0364379882812
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -2.7196881771087646,
+        "Yaw": 3.7991392612457275,
         "Roll": 0.0
       }
     },
@@ -56,9 +56,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
+        "X": -0.8258045135032831,
+        "Y": -2.4343838153051327,
+        "Z": -3.5266064146503844
       }
     },
     "Player": {
@@ -80,9 +80,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Soil_Dirt",
-              "Quantity": 18,
+            "27": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -101,9 +101,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Tool_Repair_Kit_Iron",
-              "Quantity": 2,
+            "6": {
+              "Id": "Soil_Dirt",
+              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -413,11 +413,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -755.6704711914062,
-              "Y": 139.0,
-              "Z": -1015.1771850585938,
-              "Pitch": -0.3353419601917267,
-              "Yaw": -1.7999505996704102,
+              "X": -731.2219848632812,
+              "Y": 137.0,
+              "Z": -998.7628784179688,
+              "Pitch": -0.11197619140148163,
+              "Yaw": -1.6285483837127686,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -676,7 +676,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 10.0
+          "Value": 9.199996948242188
         },
         "Ammo": {
           "Id": "Ammo",
@@ -706,8 +706,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.00549142062664032,
-        "Yaw": -2.235276699066162,
+        "Pitch": -0.03772341459989548,
+        "Yaw": -2.5219857692718506,
         "Roll": 0.0
       }
     }

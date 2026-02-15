@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -731.2219848632812,
-        "Y": 137.0,
-        "Z": -998.7628784179688
+        "X": -762.6748657226562,
+        "Y": 149.0,
+        "Z": -1010.71044921875
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -7.248559951782227,
+        "Yaw": 3.3965675830841064,
         "Roll": 0.0
       }
     },
@@ -80,9 +80,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Soil_Dirt",
-              "Quantity": 18,
+            "27": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -101,9 +101,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Tool_Repair_Kit_Iron",
-              "Quantity": 2,
+            "6": {
+              "Id": "Soil_Dirt",
+              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -413,11 +413,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -731.2219848632812,
-              "Y": 137.0,
-              "Z": -998.7628784179688,
-              "Pitch": -0.11197619140148163,
-              "Yaw": -1.6285483837127686,
+              "X": -762.6748657226562,
+              "Y": 149.0,
+              "Z": -1010.71044921875,
+              "Pitch": -0.48022329807281494,
+              "Yaw": -2.215984582901001,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -706,8 +706,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.11197619140148163,
-        "Yaw": -1.6285483837127686,
+        "Pitch": -0.48022329807281494,
+        "Yaw": -2.215984582901001,
         "Roll": 0.0
       }
     }
