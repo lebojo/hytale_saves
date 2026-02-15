@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -762.6748657226562,
-        "Y": 149.0,
-        "Z": -1010.71044921875
+        "X": -764.6258544921875,
+        "Y": 139.0,
+        "Z": -1016.7203369140625
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 3.3965675830841064,
+        "Yaw": -5.1694793701171875,
         "Roll": 0.0
       }
     },
@@ -80,9 +80,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "27": {
-              "Id": "Tool_Repair_Kit_Iron",
-              "Quantity": 2,
+            "6": {
+              "Id": "Soil_Dirt",
+              "Quantity": 18,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -101,9 +101,9 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Soil_Dirt",
-              "Quantity": 18,
+            "27": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 2,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -173,7 +173,7 @@
             },
             "3": {
               "Id": "Ingredient_Bone_Fragment",
-              "Quantity": 2,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -187,7 +187,7 @@
             },
             "5": {
               "Id": "Ingredient_Fabric_Scrap_Linen",
-              "Quantity": 1,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -236,7 +236,7 @@
             "2": {
               "Id": "Armor_Thorium_Hands",
               "Quantity": 1,
-              "Durability": 100.0,
+              "Durability": 99.5,
               "MaxDurability": 120.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -263,7 +263,7 @@
             "0": {
               "Id": "Weapon_Sword_Cobalt",
               "Quantity": 1,
-              "Durability": 35.77000000000131,
+              "Durability": 34.93000000000131,
               "MaxDurability": 112.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -351,7 +351,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 5,
+        "ActiveHotbarSlot": 0,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -401,7 +401,7 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": -1,
+        "ActiveUtilitySlot": 3,
         "SortType": "Type"
       },
       "PlayerData": {
@@ -413,11 +413,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -762.6748657226562,
-              "Y": 149.0,
-              "Z": -1010.71044921875,
-              "Pitch": -0.48022329807281494,
-              "Yaw": -2.215984582901001,
+              "X": -764.6258544921875,
+              "Y": 139.0,
+              "Z": -1016.7203369140625,
+              "Pitch": -0.107472725212574,
+              "Yaw": 1.0567066669464111,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -653,7 +653,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 119.77745819091797,
+          "Value": 111.77745819091797,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -688,7 +688,14 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 0.0
+          "Value": 6.0,
+          "Modifiers": {
+            "*Weapon_0": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            }
+          }
         },
         "DeployablePreview": {
           "Id": "DeployablePreview",
@@ -706,8 +713,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.48022329807281494,
-        "Yaw": -2.215984582901001,
+        "Pitch": -0.107472725212574,
+        "Yaw": 1.0567066669464111,
         "Roll": 0.0
       }
     }
