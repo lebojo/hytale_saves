@@ -39,14 +39,14 @@
           }
         }
       },
-      "ActiveSlot": 3
+      "ActiveSlot": -1
     },
     "EffectController": {
       "ActiveEntityEffects": [
         {
           "EntityEffectId": "Meat_Buff_T1",
           "InitialDuration": 45.0,
-          "RemainingDuration": 8.329805374145508,
+          "RemainingDuration": 22.7335205078125,
           "SinceLastDamage": 0.0,
           "HasBeenDamaged": true,
           "SequentialHits": {
@@ -60,8 +60,8 @@
         {
           "EntityEffectId": "HealthRegen_Buff_T1",
           "InitialDuration": 45.0,
-          "RemainingDuration": 8.329805374145508,
-          "SinceLastDamage": 0.2373758852481842,
+          "RemainingDuration": 22.7335205078125,
+          "SinceLastDamage": 0.2668307423591614,
           "HasBeenDamaged": false,
           "SequentialHits": {
             "Hits": 0
@@ -146,20 +146,20 @@
           "0": {
             "Id": "Weapon_Sword_Cobalt",
             "Quantity": 1,
-            "Durability": 18.900000000001285,
+            "Durability": 18.270000000001282,
             "MaxDurability": 112.0,
             "OverrideDroppedItemAnimation": false
           },
           "2": {
             "Id": "Tool_Hatchet_Cobalt",
             "Quantity": 1,
-            "Durability": 292.0,
+            "Durability": 277.0,
             "MaxDurability": 325.0,
             "OverrideDroppedItemAnimation": false
           },
           "4": {
             "Id": "Food_Wildmeat_Cooked",
-            "Quantity": 11,
+            "Quantity": 8,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -184,20 +184,27 @@
             "Durability": 110.21999999999983,
             "MaxDurability": 171.0,
             "OverrideDroppedItemAnimation": false
+          },
+          "5": {
+            "Id": "Food_Wildmeat_Raw",
+            "Quantity": 2,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
           }
         }
       },
-      "ActiveSlot": 5
+      "ActiveSlot": 7
     },
     "Transform": {
       "Position": {
-        "X": -731.9015502929688,
-        "Y": 134.875,
-        "Z": -989.6663208007812
+        "X": -774.1309814453125,
+        "Y": 146.0,
+        "Z": -1020.02294921875
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 8.349695205688477,
+        "Yaw": 8.107094764709473,
         "Roll": 0.0
       }
     },
@@ -401,9 +408,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": -2.0379617110597867,
-        "Y": -2.4206517358679585,
-        "Z": 1.0528553314100426
+        "X": 0.32226506795364795,
+        "Y": 0.0,
+        "Z": -0.2691645738021946
       }
     },
     "Player": {
@@ -668,7 +675,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 98.29994201660156,
+          "Value": 173.24998474121094,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -732,7 +739,7 @@
           "0": {
             "Id": "Armor_Thorium_Head",
             "Quantity": 1,
-            "Durability": 86.1,
+            "Durability": 84.6,
             "MaxDurability": 109.0,
             "OverrideDroppedItemAnimation": false
           },
@@ -762,8 +769,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.1597510129213333,
-        "Yaw": 2.0718259811401367,
+        "Pitch": -0.3037510812282562,
+        "Yaw": 3.0393311977386475,
         "Roll": 0.0
       }
     }

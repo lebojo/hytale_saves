@@ -39,9 +39,40 @@
           }
         }
       },
-      "ActiveSlot": 3
+      "ActiveSlot": -1
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "Meat_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 17.36693572998047,
+          "SinceLastDamage": 0.0,
+          "HasBeenDamaged": true,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/AddHealth/Tiny.png",
+          "Invulnerable": false
+        },
+        {
+          "EntityEffectId": "HealthRegen_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 17.36693572998047,
+          "SinceLastDamage": 1.6335017681121826,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -115,20 +146,20 @@
           "0": {
             "Id": "Weapon_Sword_Cobalt",
             "Quantity": 1,
-            "Durability": 18.900000000001285,
+            "Durability": 18.270000000001282,
             "MaxDurability": 112.0,
             "OverrideDroppedItemAnimation": false
           },
           "2": {
             "Id": "Tool_Hatchet_Cobalt",
             "Quantity": 1,
-            "Durability": 292.0,
+            "Durability": 277.0,
             "MaxDurability": 325.0,
             "OverrideDroppedItemAnimation": false
           },
           "4": {
             "Id": "Food_Wildmeat_Cooked",
-            "Quantity": 11,
+            "Quantity": 8,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -153,20 +184,27 @@
             "Durability": 110.21999999999983,
             "MaxDurability": 171.0,
             "OverrideDroppedItemAnimation": false
+          },
+          "5": {
+            "Id": "Food_Wildmeat_Raw",
+            "Quantity": 2,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
           }
         }
       },
-      "ActiveSlot": 5
+      "ActiveSlot": 7
     },
     "Transform": {
       "Position": {
-        "X": -739.4955444335938,
-        "Y": 136.0,
-        "Z": -982.17529296875
+        "X": -766.3060913085938,
+        "Y": 147.0,
+        "Z": -1014.9459838867188
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 8.018393516540527,
+        "Yaw": 12.164127349853516,
         "Roll": 0.0
       }
     },
@@ -396,11 +434,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -767.501708984375,
-              "Y": 139.0,
-              "Z": -1018.8164672851562,
-              "Pitch": -0.14907363057136536,
-              "Yaw": -1.8178470134735107,
+              "X": -766.3060913085938,
+              "Y": 147.0,
+              "Z": -1014.9459838867188,
+              "Pitch": -0.37200114130973816,
+              "Yaw": -0.9683547019958496,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -637,12 +675,17 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 105.22993469238281,
+          "Value": 173.24998474121094,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
               "Amount": 65.0
+            },
+            "Effect_MULTIPLICATIVE": {
+              "Id": "Static",
+              "CalculationType": "Multiplicative",
+              "Amount": 1.0499999523162842
             }
           }
         },
@@ -696,7 +739,7 @@
           "0": {
             "Id": "Armor_Thorium_Head",
             "Quantity": 1,
-            "Durability": 86.1,
+            "Durability": 84.6,
             "MaxDurability": 109.0,
             "OverrideDroppedItemAnimation": false
           },
@@ -726,8 +769,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.4072505235671997,
-        "Yaw": 2.429574489593506,
+        "Pitch": -0.37200114130973816,
+        "Yaw": -0.9683547019958496,
         "Roll": 0.0
       }
     }
