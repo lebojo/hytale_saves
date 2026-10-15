@@ -1,0 +1,64 @@
+{
+  "Warps": [
+    {
+      "Id": "ForgottenTemple",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-18T16:55:45.710897157Z",
+      "X": 962.0,
+      "Y": 118.0,
+      "Z": -622.5,
+      "Yaw": 7.853981971740723
+    },
+    {
+      "Id": "Grotte Normale",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-18T21:00:04.637067607Z",
+      "X": -1164.0,
+      "Y": 63.0,
+      "Z": -781.5,
+      "Yaw": 7.853981971740723
+    },
+    {
+      "Id": "Volcan",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-18T18:52:40.683867135Z",
+      "X": -1467.0,
+      "Y": 32.0,
+      "Z": -1699.5,
+      "Yaw": 7.853981971740723
+    },
+    {
+      "Id": "Yudel2",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-10-15T21:34:31.149603964Z",
+      "X": -1210.5,
+      "Y": 123.65,
+      "Z": -690.5,
+      "Yaw": 6.2831854820251465
+    },
+    {
+      "Id": "BAD LOIN",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-26T15:43:55.663499025Z",
+      "X": -3931.5,
+      "Y": 135.65,
+      "Z": -14260.5,
+      "Yaw": 7.853981971740723
+    },
+    {
+      "Id": "Bojo/Yame",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-10-15T20:57:23.542986553Z",
+      "X": -794.5,
+      "Y": 139.65,
+      "Z": -1009.5,
+      "Yaw": 4.71238899230957
+    }
+  ]
+}

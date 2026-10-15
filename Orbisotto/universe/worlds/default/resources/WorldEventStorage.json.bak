@@ -1,0 +1,32 @@
+{
+  "Active": [
+    {
+      "UUID": "60fb3b60-0403-4475-8478-b71d817aca83",
+      "Asset": "Goblin_Breach_Perpetual_Event",
+      "Stage": {
+        "Id": 0,
+        "Forks": [
+          {
+            "Conditions": [
+              {
+                "Type": "IntervalCondition",
+                "RemainingSeconds": 1098.50048828125
+              }
+            ]
+          }
+        ]
+      },
+      "RepeatCount": -1,
+      "Transient": true,
+      "Context": [
+        {
+          "Key": "GoblinWorldBreachInterval",
+          "Context": {
+            "Type": "IntervalContext"
+          }
+        }
+      ]
+    }
+  ],
+  "Complete": []
+}

@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "Markers": {
+    "940,107,-604": {
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "6de44144-46c1-4b49-afda-4a0066755de9"
+    }
+  }
+}
