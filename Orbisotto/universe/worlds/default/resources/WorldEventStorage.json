@@ -10,7 +10,7 @@
             "Conditions": [
               {
                 "Type": "IntervalCondition",
-                "RemainingSeconds": 1096.4091796875
+                "RemainingSeconds": 705.3745727539062
               }
             ]
           }
