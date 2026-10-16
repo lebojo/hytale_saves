@@ -7,7 +7,7 @@
         "Items": {
           "0": {
             "Id": "Furniture_Crude_Torch",
-            "Quantity": 76,
+            "Quantity": 68,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -37,13 +37,13 @@
     },
     "Transform": {
       "Position": {
-        "X": -443.3468017578125,
-        "Y": 125.0,
-        "Z": -212.93309020996094
+        "X": 4971.15234375,
+        "Y": 162.00010681152344,
+        "Z": 5045.93408203125
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 2.079347848892212,
+        "Yaw": -11.672670364379883,
         "Roll": 0.0
       }
     },
@@ -54,7 +54,7 @@
         "Items": {
           "0": {
             "Id": "Weapon_Arrow_Crude",
-            "Quantity": 41,
+            "Quantity": 37,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -68,7 +68,7 @@
           },
           "29": {
             "Id": "Ore_Iron",
-            "Quantity": 3,
+            "Quantity": 5,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -82,14 +82,14 @@
           },
           "4": {
             "Id": "Ingredient_Bone_Fragment",
-            "Quantity": 8,
+            "Quantity": 15,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
           },
           "12": {
             "Id": "Food_Wildmeat_Raw",
-            "Quantity": 2,
+            "Quantity": 7,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -115,15 +115,22 @@
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
           },
-          "24": {
-            "Id": "Deco_Rope_Diagonal",
-            "Quantity": 1,
+          "30": {
+            "Id": "Plant_Crop_Corn_Item",
+            "Quantity": 46,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
           },
-          "18": {
-            "Id": "Food_Vegetable_Cooked",
+          "28": {
+            "Id": "Ingredient_Fibre",
+            "Quantity": 10,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "24": {
+            "Id": "Deco_Rope_Diagonal",
             "Quantity": 1,
             "Durability": 0.0,
             "MaxDurability": 0.0,
@@ -136,16 +143,23 @@
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
           },
+          "18": {
+            "Id": "Food_Vegetable_Cooked",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
           "16": {
             "Id": "Rock_Shale_Cobble",
-            "Quantity": 34,
+            "Quantity": 31,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
           },
           "17": {
-            "Id": "Plant_Fruit_Apple",
-            "Quantity": 1,
+            "Id": "Deco_Bone_Skulls",
+            "Quantity": 7,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -159,7 +173,7 @@
           },
           "23": {
             "Id": "Ingredient_Hide_Light",
-            "Quantity": 2,
+            "Quantity": 5,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -167,6 +181,20 @@
           "20": {
             "Id": "Plant_Moss_Blue",
             "Quantity": 2,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "22": {
+            "Id": "Weapon_Sword_Scrap",
+            "Quantity": 1,
+            "Durability": 50.0,
+            "MaxDurability": 50.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "21": {
+            "Id": "Wood_Maple_Trunk",
+            "Quantity": 4,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -207,8 +235,8 @@
             "OverrideDroppedItemAnimation": false
           },
           "31": {
-            "Id": "Food_Fish_Grilled",
-            "Quantity": 11,
+            "Id": "Wood_Birch_Trunk",
+            "Quantity": 8,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -227,6 +255,13 @@
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
           },
+          "32": {
+            "Id": "Ingredient_Sac_Venom",
+            "Quantity": 9,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
           "1": {
             "Id": "Ingredient_Crystal_Void",
             "Quantity": 3,
@@ -234,16 +269,9 @@
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
           },
-          "3": {
-            "Id": "Ingredient_Gadget_Assembly",
-            "Quantity": 3,
-            "Durability": 0.0,
-            "MaxDurability": 0.0,
-            "OverrideDroppedItemAnimation": false
-          },
           "7": {
             "Id": "Ingredient_Fabric_Scrap_Linen",
-            "Quantity": 8,
+            "Quantity": 13,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -263,6 +291,21 @@
       "HitboxCollisionConfigId": "SoftCollision"
     },
     "Instance": {
+      "ReturnPoint": {
+        "World": {
+          "$binary": "VSIpwRimSsGXOTE/t3yBiw==",
+          "$type": "04"
+        },
+        "ReturnPoint": {
+          "X": -1228.4515380859375,
+          "Y": 110.44999694824219,
+          "Z": 435.57391357421875,
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "ReturnOnReconnect": false
+      },
       "ReturnStack": []
     },
     "UUID": {
@@ -286,28 +329,28 @@
           "0": {
             "Id": "Armor_Thorium_Head",
             "Quantity": 1,
-            "Durability": 73.6,
+            "Durability": 72.6,
             "MaxDurability": 109.0,
             "OverrideDroppedItemAnimation": false
           },
           "2": {
             "Id": "Armor_Thorium_Hands",
             "Quantity": 1,
-            "Durability": 69.0,
+            "Durability": 66.0,
             "MaxDurability": 120.0,
             "OverrideDroppedItemAnimation": false
           },
           "1": {
             "Id": "Armor_Adamantite_Chest",
             "Quantity": 1,
-            "Durability": 121.5,
+            "Durability": 120.5,
             "MaxDurability": 150.0,
             "OverrideDroppedItemAnimation": false
           },
           "3": {
             "Id": "Armor_Adamantite_Legs",
             "Quantity": 1,
-            "Durability": 115.0,
+            "Durability": 112.0,
             "MaxDurability": 150.0,
             "OverrideDroppedItemAnimation": false
           }
@@ -325,6 +368,48 @@
           "0": {
             "Id": "Ingredient_Charcoal",
             "Quantity": 92,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "2": {
+            "Id": "Ingredient_Bar_Thorium",
+            "Quantity": 2,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "6": {
+            "Id": "Rock_Stone_Cobble",
+            "Quantity": 5,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "4": {
+            "Id": "Plant_Petals_Red",
+            "Quantity": 2,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "1": {
+            "Id": "Weapon_Spellbook_Rekindle_Embers",
+            "Quantity": 5,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "3": {
+            "Id": "Ingredient_Fire_Essence",
+            "Quantity": 4,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "5": {
+            "Id": "Wood_Redwood_Trunk",
+            "Quantity": 5,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -392,7 +477,7 @@
           "0": {
             "Id": "Weapon_Sword_Thorium",
             "Quantity": 1,
-            "Durability": 325.0400000000009,
+            "Durability": 312.8200000000013,
             "MaxDurability": 350.0,
             "OverrideDroppedItemAnimation": false
           },
@@ -403,16 +488,23 @@
             "MaxDurability": 325.0,
             "OverrideDroppedItemAnimation": false
           },
+          "6": {
+            "Id": "Plant_Fruit_Apple",
+            "Quantity": 4,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
           "4": {
-            "Id": "Ingredient_Sac_Venom",
-            "Quantity": 2,
+            "Id": "Food_Fish_Grilled",
+            "Quantity": 9,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
           },
           "8": {
             "Id": "Ingredient_Scraps",
-            "Quantity": 14,
+            "Quantity": 4,
             "Durability": 0.0,
             "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
@@ -420,34 +512,20 @@
           "1": {
             "Id": "Tool_Pickaxe_Adamantite",
             "Quantity": 1,
-            "Durability": 311.0,
+            "Durability": 307.75,
             "MaxDurability": 400.0,
             "OverrideDroppedItemAnimation": false
           },
           "3": {
             "Id": "Weapon_Crossbow_Ancient_Steel",
             "Quantity": 1,
-            "Durability": 105.96999999999979,
+            "Durability": 103.58999999999976,
             "MaxDurability": 171.0,
-            "OverrideDroppedItemAnimation": false
-          },
-          "7": {
-            "Id": "Ingredient_Fibre",
-            "Quantity": 8,
-            "Durability": 0.0,
-            "MaxDurability": 0.0,
-            "OverrideDroppedItemAnimation": false
-          },
-          "5": {
-            "Id": "Plant_Crop_Corn_Item",
-            "Quantity": 46,
-            "Durability": 0.0,
-            "MaxDurability": 0.0,
             "OverrideDroppedItemAnimation": false
           }
         }
       },
-      "ActiveSlot": 0
+      "ActiveSlot": 7
     },
     "PlayerMemories": {
       "Capacity": 48,
@@ -458,6 +536,13 @@
           "TranslationKey": "server.npcRoles.Void_Tentacle.name",
           "CapturedTimestamp": 1792103432902,
           "FoundLocationNameKey": "server.portals.goblinBreach"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Goat_Kid",
+          "TranslationKey": "server.npcRoles.Goat_Kid.name",
+          "CapturedTimestamp": 1792105763336,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
         }
       ]
     },
@@ -466,9 +551,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 2.3582187976538314,
-        "Y": -1.1343985834019537E-26,
-        "Z": 0.1333821248217387
+        "X": -1.1098271832927219E-17,
+        "Y": 4.127739653086647E-19,
+        "Z": -4.18432401156239E-18
       }
     },
     "Player": {
@@ -485,18 +570,18 @@
       },
       "PlayerData": {
         "BlockIdVersion": 11,
-        "World": "default",
+        "World": "instance-forgotten-temple-goblins",
         "KnownRecipes": [
           "Food_Salad_Caesar"
         ],
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": 940.4978637695312,
-              "Y": 107.44999694824219,
-              "Z": -602.8507080078125,
-              "Pitch": -0.599199652671814,
-              "Yaw": -0.2624180018901825,
+              "X": -1228.44873046875,
+              "Y": 110.44999694824219,
+              "Z": 435.5945739746094,
+              "Pitch": -0.21600861847400665,
+              "Yaw": -3.058009624481201,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -611,31 +696,7 @@
             ],
             "UserMarkers": []
           },
-          "instance-Portals-Portals_Goblins-cfa92252-10cc-4a6d-9f58-d97a22074672": {
-            "LastPosition": {
-              "X": 0.13707862794399261,
-              "Y": 148.4499969482422,
-              "Z": 294.3822021484375,
-              "Pitch": -0.27879971265792847,
-              "Yaw": 2.7119810581207275,
-              "Roll": 0.0
-            },
-            "LastMovementStates": {
-              "Flying": false
-            },
-            "FirstSpawn": false,
-            "DeathPositions": [],
-            "UserMarkers": []
-          },
           "instance-forgotten-temple-goblins": {
-            "LastPosition": {
-              "X": 5097.86328125,
-              "Y": 169.4499969482422,
-              "Z": 4983.474609375,
-              "Pitch": -0.15439938008785248,
-              "Yaw": -1.6527925729751587,
-              "Roll": 0.0
-            },
             "LastMovementStates": {
               "Flying": false
             },
@@ -651,27 +712,27 @@
           "Zone3_Tier1",
           "Zone4_Shallow_Ocean_Tier5",
           "Zone4_Shallow_Ocean_Tier4",
-          "Zone2_Tier2",
-          "Zone2_Tier3",
           "Zone1_Spawn",
+          "Zone2_Tier3",
+          "Zone2_Tier2",
           "Zone2_Tier1",
-          "Oceans",
           "Zone1_Shallow_Ocean",
+          "Oceans",
           "Zone4_Tier5",
           "Zone4_Tier4",
-          "Zone3_Shore_Tier1",
-          "Zone3_Shore_Tier3",
-          "Zone1_Tier1",
+          "Zone1_Temple",
+          "Zone4_Shore_Tier4",
+          "Zone1_Shore",
           "Zone1_Tier3",
           "Zone1_Tier2",
-          "Zone1_Shore",
+          "Zone1_Tier1",
           "Zone4_Shore_Tier5",
-          "Zone4_Shore_Tier4",
+          "Zone3_Shore_Tier3",
           "Zone3_Shore_Tier2",
-          "Zone1_Temple",
-          "ForgottenTemple",
+          "Zone3_Shore_Tier1",
+          "Zone3_Shallow_Ocean_Tier3",
           "Zone3_Tier3",
-          "Zone3_Shallow_Ocean_Tier3"
+          "ForgottenTemple"
         ],
         "DiscoveredInstances": [
           {
@@ -703,11 +764,11 @@
             "$type": "04"
           },
           {
-            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
+            "$binary": "z6kiUhDMSm2fWNl6IgdGcg==",
             "$type": "04"
           },
           {
-            "$binary": "z6kiUhDMSm2fWNl6IgdGcg==",
+            "$binary": "M2Y6vGSzQna+dql1n88OPg==",
             "$type": "04"
           },
           {
@@ -716,6 +777,10 @@
           },
           {
             "$binary": "ijQ7Zo67Rq+gSYs3w8DHbA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "arHFTu1uTsmoYCjXqOO2mQ==",
             "$type": "04"
           },
           {
@@ -785,7 +850,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 130.1998748779297,
+          "Value": 165.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -820,14 +885,7 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 12.600000381469727,
-          "Modifiers": {
-            "*Weapon_0": {
-              "Id": "Static",
-              "CalculationType": "Additive",
-              "Amount": 20.0
-            }
-          }
+          "Value": 0.0
         },
         "DeployablePreview": {
           "Id": "DeployablePreview",
@@ -845,8 +903,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.3028133809566498,
-        "Yaw": 2.0760600566864014,
+        "Pitch": -0.26839861273765564,
+        "Yaw": 0.13516578078269958,
         "Roll": 0.0
       }
     }

@@ -4,13 +4,20 @@
       "UUID": "60fb3b60-0403-4475-8478-b71d817aca83",
       "Asset": "Goblin_Breach_Perpetual_Event",
       "Stage": {
-        "Id": 0,
+        "Id": 2,
         "Forks": [
           {
             "Conditions": [
               {
+                "Type": "ProximityCondition"
+              }
+            ]
+          },
+          {
+            "Conditions": [
+              {
                 "Type": "IntervalCondition",
-                "RemainingSeconds": 705.3745727539062
+                "RemainingSeconds": 0.0
               }
             ]
           }
@@ -20,7 +27,78 @@
       "Transient": true,
       "Context": [
         {
-          "Key": "GoblinWorldBreachInterval",
+          "Key": "BreachSpark",
+          "Context": {
+            "Type": "PrefabRemoveContext",
+            "Snapshot": "972167ba-6647-4337-9409-92e05d3faff5",
+            "Key": "BreachSpark",
+            "Prefab": "Server/Prefabs/Orbis/WorldEvent/Goblins/Goblin_World_Event_Breach_Spark",
+            "Origin": {
+              "X": -1008,
+              "Y": 122,
+              "Z": 442
+            },
+            "Rotation": "Rotation90"
+          }
+        },
+        {
+          "Key": "BreachPortal",
+          "Context": {
+            "Type": "LocationContext",
+            "Location": {
+              "X": -1008,
+              "Y": 122,
+              "Z": 442
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -0.0,
+              "Roll": 0.0
+            }
+          }
+        },
+        {
+          "Key": "BreachSpark",
+          "Context": {
+            "Type": "LocationContext",
+            "Location": {
+              "X": -1008,
+              "Y": 122,
+              "Z": 442
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 1.5707963705062866,
+              "Roll": 0.0
+            }
+          }
+        },
+        {
+          "Key": "BreachLocation",
+          "Context": {
+            "Type": "LocationContext",
+            "Location": {
+              "X": -1008,
+              "Y": 122,
+              "Z": 442
+            }
+          }
+        },
+        {
+          "Key": "BreachPortal",
+          "Context": {
+            "Type": "PrefabPasteContext",
+            "Path": "Server/Prefabs/Orbis/WorldEvent/Goblins/Goblin_World_Event_Portal",
+            "Origin": {
+              "X": -1008,
+              "Y": 122,
+              "Z": 442
+            },
+            "Rotation": "Rotation0"
+          }
+        },
+        {
+          "Key": "GoblinEventTimeout",
           "Context": {
             "Type": "IntervalContext"
           }

@@ -1,10 +1,27 @@
 {
   "Version": 1,
   "Markers": {
+    "-1229,110,434": {
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "4dd50403-9e46-4f7d-8632-e865a2836699"
+    },
     "940,107,-604": {
       "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
       "Icon": "Temple_Gateway.png",
       "MarkerId": "6de44144-46c1-4b49-afda-4a0066755de9"
+    },
+    "-1008,122,442": {
+      "Name": "server.items.Goblin_Breach_Portal.name",
+      "Icon": "GoblinBreach.png",
+      "MarkerId": "18c0548f-09d9-4306-ae7c-d5031d8c343a",
+      "CompassIcon": "GoblinBreachCompass.png",
+      "Alert": {
+        "Icon": "GoblinBreachCompass.png",
+        "Duration": 15.0,
+        "Timeout": 25.0,
+        "Tint": "#ffed59"
+      }
     }
   }
 }
